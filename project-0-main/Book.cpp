@@ -21,7 +21,7 @@ void Book::setGenre(std::string genre) {
 void Book::setPages(std::string pages) {
     int numPages = 0;
     try {
-        numPages = stoi(pages);
+        numPages = stoi(pages); // changed numPages to pages
         if (numPages < 0) {
             throw std::invalid_argument("Invalid argument");
         }
