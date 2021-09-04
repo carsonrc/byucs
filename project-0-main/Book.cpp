@@ -16,6 +16,7 @@ Book::Book(std::string title, std::string author) {
 
 void Book::setGenre(std::string genre) {
     this->genre = genre;
+    genreSet = true; // BUG: Missing this line
 }
 
 void Book::setPages(std::string pages) {
