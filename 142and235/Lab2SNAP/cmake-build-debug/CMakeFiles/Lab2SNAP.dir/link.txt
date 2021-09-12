@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Lab2SNAP.dir/main.cpp.o -o Lab2SNAP 

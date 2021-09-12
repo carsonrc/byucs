@@ -1,0 +1,3 @@
+/mnt/backups/CLionProjects/Lab2SNAP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/backups/CLionProjects/Lab2SNAP/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/backups/CLionProjects/Lab2SNAP/cmake-build-debug/CMakeFiles/Lab2SNAP.dir

@@ -1,0 +1,3 @@
+C:/Users/carso/CLionProjects/PrepLab7/cmake-build-debug/CMakeFiles/PrepLab7.dir
+C:/Users/carso/CLionProjects/PrepLab7/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/carso/CLionProjects/PrepLab7/cmake-build-debug/CMakeFiles/rebuild_cache.dir

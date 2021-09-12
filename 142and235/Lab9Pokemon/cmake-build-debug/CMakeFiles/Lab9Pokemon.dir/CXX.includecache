@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/backups/CLionProjects/Lab9Pokemon/HashMap.h
+string
+-
+Pair.h
+/mnt/backups/CLionProjects/Lab9Pokemon/Pair.h
+cmath
+-
+
+/mnt/backups/CLionProjects/Lab9Pokemon/Pair.h
+Set.h
+/mnt/backups/CLionProjects/Lab9Pokemon/Set.h
+string
+/mnt/backups/CLionProjects/Lab9Pokemon/string
+
+/mnt/backups/CLionProjects/Lab9Pokemon/Set.h
+list
+-
+sstream
+-
+
+/mnt/backups/CLionProjects/Lab9Pokemon/main.cpp
+iostream
+-
+fstream
+-
+Pair.h
+/mnt/backups/CLionProjects/Lab9Pokemon/Pair.h
+Set.h
+/mnt/backups/CLionProjects/Lab9Pokemon/Set.h
+HashMap.h
+/mnt/backups/CLionProjects/Lab9Pokemon/HashMap.h
+

@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/backups/CLionProjects/Lab8BST/BST.h
+sstream
+-
+BSTInterface.h
+/mnt/backups/CLionProjects/Lab8BST/BSTInterface.h
+
+/mnt/backups/CLionProjects/Lab8BST/BSTInterface.h
+string
+-
+
+/mnt/backups/CLionProjects/Lab8BST/main.cpp
+iostream
+-
+fstream
+-
+BST.h
+/mnt/backups/CLionProjects/Lab8BST/BST.h
+
