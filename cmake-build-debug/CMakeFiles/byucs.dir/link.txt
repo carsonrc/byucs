@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/byucs.dir/project-0-main/Book.cpp.o CMakeFiles/byucs.dir/project-0-main/BookCreator.cpp.o CMakeFiles/byucs.dir/project-0-main/BookListCreator.cpp.o CMakeFiles/byucs.dir/project-0-main/Info.cpp.o CMakeFiles/byucs.dir/project-0-main/Library.cpp.o CMakeFiles/byucs.dir/project-0-main/main.cpp.o -o byucs 

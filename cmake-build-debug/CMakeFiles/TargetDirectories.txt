@@ -1,0 +1,3 @@
+/home/carsoncall/CLionProjects/byucs/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/carsoncall/CLionProjects/byucs/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/carsoncall/CLionProjects/byucs/cmake-build-debug/CMakeFiles/byucs.dir
