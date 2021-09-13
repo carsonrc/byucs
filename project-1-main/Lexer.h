@@ -2,6 +2,8 @@
 #define LEXER_H
 #include <vector>
 #include "Automaton.h"
+#include "ColonAutomaton.h"
+#include "ColonDashAutomaton.h"
 #include "Token.h"
 
 class Lexer

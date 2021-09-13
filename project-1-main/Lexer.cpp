@@ -1,7 +1,8 @@
+#include <iostream>
 #include "Lexer.h"
 #include "ColonAutomaton.h"
 #include "ColonDashAutomaton.h"
-
+#include "Token.h"
 Lexer::Lexer() {
     CreateAutomata();
 }
@@ -55,4 +56,43 @@ void Lexer::Run(std::string& input) {
     }
     add end of file token to all tokens
     */
+    int lineNumber = 0;
+    while (input.size() > 0) {
+        int maxRead = 0;
+        Automaton* maxAutomaton = nullptr;
+        //TODO: handle whitespace
+
+        //Parallel part of algorithm
+        for (auto &&automaton : automata) {
+            int inputRead = automaton->Start(input);
+            if (inputRead > maxRead) {
+                maxRead = inputRead;
+                maxAutomaton = automaton;
+                lineNumber = automaton->NewLinesRead();
+            }
+        }
+
+        //Max part of algorithm
+        if (maxRead > 0) {
+            Token* newToken = maxAutomaton->CreateToken(input.substr(0,maxRead),lineNumber);
+            tokens.push_back(newToken);
+        }
+
+        //If no automaton accepted input, create a single character undefined token
+        else {
+            maxRead = 1;
+                Token* newToken = new Token(TokenType::UNDEFINED,input.substr(0,1),lineNumber);
+                maxRead = 1;
+                tokens.push_back(newToken);
+        }
+
+        input = input.substr(maxRead,input.size()); //TODO: make sure there is no problem with maxRead
+    }
+
+    Token* eofToken = new Token(TokenType::END_OF_FILE,"",lineNumber);
+    tokens.push_back(eofToken);
+
+    for (auto& token : tokens) {
+        std::cout << token;
+    }
 }
