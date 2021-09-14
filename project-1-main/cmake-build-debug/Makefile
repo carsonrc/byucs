@@ -177,6 +177,30 @@ ColonDashAutomaton.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/ColonDashAutomaton.cpp.s
 .PHONY : ColonDashAutomaton.cpp.s
 
+CommaAutomaton.o: CommaAutomaton.cpp.o
+.PHONY : CommaAutomaton.o
+
+# target to build an object file
+CommaAutomaton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/CommaAutomaton.cpp.o
+.PHONY : CommaAutomaton.cpp.o
+
+CommaAutomaton.i: CommaAutomaton.cpp.i
+.PHONY : CommaAutomaton.i
+
+# target to preprocess a source file
+CommaAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/CommaAutomaton.cpp.i
+.PHONY : CommaAutomaton.cpp.i
+
+CommaAutomaton.s: CommaAutomaton.cpp.s
+.PHONY : CommaAutomaton.s
+
+# target to generate assembly for a file
+CommaAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/CommaAutomaton.cpp.s
+.PHONY : CommaAutomaton.cpp.s
+
 Lexer.o: Lexer.cpp.o
 .PHONY : Lexer.o
 
@@ -200,6 +224,54 @@ Lexer.s: Lexer.cpp.s
 Lexer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer.cpp.s
 .PHONY : Lexer.cpp.s
+
+PeriodAutomaton.o: PeriodAutomaton.cpp.o
+.PHONY : PeriodAutomaton.o
+
+# target to build an object file
+PeriodAutomaton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/PeriodAutomaton.cpp.o
+.PHONY : PeriodAutomaton.cpp.o
+
+PeriodAutomaton.i: PeriodAutomaton.cpp.i
+.PHONY : PeriodAutomaton.i
+
+# target to preprocess a source file
+PeriodAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/PeriodAutomaton.cpp.i
+.PHONY : PeriodAutomaton.cpp.i
+
+PeriodAutomaton.s: PeriodAutomaton.cpp.s
+.PHONY : PeriodAutomaton.s
+
+# target to generate assembly for a file
+PeriodAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/PeriodAutomaton.cpp.s
+.PHONY : PeriodAutomaton.cpp.s
+
+QuestionMarkAutomaton.o: QuestionMarkAutomaton.cpp.o
+.PHONY : QuestionMarkAutomaton.o
+
+# target to build an object file
+QuestionMarkAutomaton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/QuestionMarkAutomaton.cpp.o
+.PHONY : QuestionMarkAutomaton.cpp.o
+
+QuestionMarkAutomaton.i: QuestionMarkAutomaton.cpp.i
+.PHONY : QuestionMarkAutomaton.i
+
+# target to preprocess a source file
+QuestionMarkAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/QuestionMarkAutomaton.cpp.i
+.PHONY : QuestionMarkAutomaton.cpp.i
+
+QuestionMarkAutomaton.s: QuestionMarkAutomaton.cpp.s
+.PHONY : QuestionMarkAutomaton.s
+
+# target to generate assembly for a file
+QuestionMarkAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/QuestionMarkAutomaton.cpp.s
+.PHONY : QuestionMarkAutomaton.cpp.s
 
 Token.o: Token.cpp.o
 .PHONY : Token.o
@@ -264,9 +336,18 @@ help:
 	@echo "... ColonDashAutomaton.o"
 	@echo "... ColonDashAutomaton.i"
 	@echo "... ColonDashAutomaton.s"
+	@echo "... CommaAutomaton.o"
+	@echo "... CommaAutomaton.i"
+	@echo "... CommaAutomaton.s"
 	@echo "... Lexer.o"
 	@echo "... Lexer.i"
 	@echo "... Lexer.s"
+	@echo "... PeriodAutomaton.o"
+	@echo "... PeriodAutomaton.i"
+	@echo "... PeriodAutomaton.s"
+	@echo "... QuestionMarkAutomaton.o"
+	@echo "... QuestionMarkAutomaton.i"
+	@echo "... QuestionMarkAutomaton.s"
 	@echo "... Token.o"
 	@echo "... Token.i"
 	@echo "... Token.s"

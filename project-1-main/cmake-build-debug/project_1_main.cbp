@@ -92,10 +92,28 @@
 		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-1-main/ColonDashAutomaton.h">
 			<Option target="project_1_main"/>
 		</Unit>
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-1-main/CommaAutomaton.cpp">
+			<Option target="project_1_main"/>
+		</Unit>
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-1-main/CommaAutomaton.h">
+			<Option target="project_1_main"/>
+		</Unit>
 		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-1-main/Lexer.cpp">
 			<Option target="project_1_main"/>
 		</Unit>
 		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-1-main/Lexer.h">
+			<Option target="project_1_main"/>
+		</Unit>
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-1-main/PeriodAutomaton.cpp">
+			<Option target="project_1_main"/>
+		</Unit>
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-1-main/PeriodAutomaton.h">
+			<Option target="project_1_main"/>
+		</Unit>
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-1-main/QuestionMarkAutomaton.cpp">
+			<Option target="project_1_main"/>
+		</Unit>
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-1-main/QuestionMarkAutomaton.h">
 			<Option target="project_1_main"/>
 		</Unit>
 		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-1-main/Token.cpp">

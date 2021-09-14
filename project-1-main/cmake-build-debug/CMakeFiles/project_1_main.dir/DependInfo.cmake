@@ -10,7 +10,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/carsoncall/CLionProjects/byucs/project-1-main/ColonAutomaton.cpp" "/home/carsoncall/CLionProjects/byucs/project-1-main/cmake-build-debug/CMakeFiles/project_1_main.dir/ColonAutomaton.cpp.o"
   "/home/carsoncall/CLionProjects/byucs/project-1-main/ColonDashAutomaton.cpp" "/home/carsoncall/CLionProjects/byucs/project-1-main/cmake-build-debug/CMakeFiles/project_1_main.dir/ColonDashAutomaton.cpp.o"
+  "/home/carsoncall/CLionProjects/byucs/project-1-main/CommaAutomaton.cpp" "/home/carsoncall/CLionProjects/byucs/project-1-main/cmake-build-debug/CMakeFiles/project_1_main.dir/CommaAutomaton.cpp.o"
   "/home/carsoncall/CLionProjects/byucs/project-1-main/Lexer.cpp" "/home/carsoncall/CLionProjects/byucs/project-1-main/cmake-build-debug/CMakeFiles/project_1_main.dir/Lexer.cpp.o"
+  "/home/carsoncall/CLionProjects/byucs/project-1-main/PeriodAutomaton.cpp" "/home/carsoncall/CLionProjects/byucs/project-1-main/cmake-build-debug/CMakeFiles/project_1_main.dir/PeriodAutomaton.cpp.o"
+  "/home/carsoncall/CLionProjects/byucs/project-1-main/QuestionMarkAutomaton.cpp" "/home/carsoncall/CLionProjects/byucs/project-1-main/cmake-build-debug/CMakeFiles/project_1_main.dir/QuestionMarkAutomaton.cpp.o"
   "/home/carsoncall/CLionProjects/byucs/project-1-main/Token.cpp" "/home/carsoncall/CLionProjects/byucs/project-1-main/cmake-build-debug/CMakeFiles/project_1_main.dir/Token.cpp.o"
   "/home/carsoncall/CLionProjects/byucs/project-1-main/main.cpp" "/home/carsoncall/CLionProjects/byucs/project-1-main/cmake-build-debug/CMakeFiles/project_1_main.dir/main.cpp.o"
   )

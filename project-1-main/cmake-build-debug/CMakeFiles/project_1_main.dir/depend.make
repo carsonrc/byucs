@@ -11,12 +11,30 @@ CMakeFiles/project_1_main.dir/ColonDashAutomaton.cpp.o: \
  ../ColonDashAutomaton.cpp \
  ../ColonDashAutomaton.h \
  ../Token.h
+CMakeFiles/project_1_main.dir/CommaAutomaton.cpp.o: \
+ ../Automaton.h \
+ ../CommaAutomaton.cpp \
+ ../CommaAutomaton.h \
+ ../Token.h
 CMakeFiles/project_1_main.dir/Lexer.cpp.o: \
  ../Automaton.h \
  ../ColonAutomaton.h \
  ../ColonDashAutomaton.h \
+ ../CommaAutomaton.h \
  ../Lexer.cpp \
  ../Lexer.h \
+ ../PeriodAutomaton.h \
+ ../QuestionMarkAutomaton.h \
+ ../Token.h
+CMakeFiles/project_1_main.dir/PeriodAutomaton.cpp.o: \
+ ../Automaton.h \
+ ../PeriodAutomaton.cpp \
+ ../PeriodAutomaton.h \
+ ../Token.h
+CMakeFiles/project_1_main.dir/QuestionMarkAutomaton.cpp.o: \
+ ../Automaton.h \
+ ../QuestionMarkAutomaton.cpp \
+ ../QuestionMarkAutomaton.h \
  ../Token.h
 CMakeFiles/project_1_main.dir/Token.cpp.o: \
  ../Token.cpp \

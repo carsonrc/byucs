@@ -11,12 +11,30 @@ CMakeFiles/project_1_main.dir/ColonDashAutomaton.cpp.o
  /home/carsoncall/CLionProjects/byucs/project-1-main/ColonDashAutomaton.cpp
  /home/carsoncall/CLionProjects/byucs/project-1-main/ColonDashAutomaton.h
  /home/carsoncall/CLionProjects/byucs/project-1-main/Token.h
+CMakeFiles/project_1_main.dir/CommaAutomaton.cpp.o
+ /home/carsoncall/CLionProjects/byucs/project-1-main/Automaton.h
+ /home/carsoncall/CLionProjects/byucs/project-1-main/CommaAutomaton.cpp
+ /home/carsoncall/CLionProjects/byucs/project-1-main/CommaAutomaton.h
+ /home/carsoncall/CLionProjects/byucs/project-1-main/Token.h
 CMakeFiles/project_1_main.dir/Lexer.cpp.o
  /home/carsoncall/CLionProjects/byucs/project-1-main/Automaton.h
  /home/carsoncall/CLionProjects/byucs/project-1-main/ColonAutomaton.h
  /home/carsoncall/CLionProjects/byucs/project-1-main/ColonDashAutomaton.h
+ /home/carsoncall/CLionProjects/byucs/project-1-main/CommaAutomaton.h
  /home/carsoncall/CLionProjects/byucs/project-1-main/Lexer.cpp
  /home/carsoncall/CLionProjects/byucs/project-1-main/Lexer.h
+ /home/carsoncall/CLionProjects/byucs/project-1-main/PeriodAutomaton.h
+ /home/carsoncall/CLionProjects/byucs/project-1-main/QuestionMarkAutomaton.h
+ /home/carsoncall/CLionProjects/byucs/project-1-main/Token.h
+CMakeFiles/project_1_main.dir/PeriodAutomaton.cpp.o
+ /home/carsoncall/CLionProjects/byucs/project-1-main/Automaton.h
+ /home/carsoncall/CLionProjects/byucs/project-1-main/PeriodAutomaton.cpp
+ /home/carsoncall/CLionProjects/byucs/project-1-main/PeriodAutomaton.h
+ /home/carsoncall/CLionProjects/byucs/project-1-main/Token.h
+CMakeFiles/project_1_main.dir/QuestionMarkAutomaton.cpp.o
+ /home/carsoncall/CLionProjects/byucs/project-1-main/Automaton.h
+ /home/carsoncall/CLionProjects/byucs/project-1-main/QuestionMarkAutomaton.cpp
+ /home/carsoncall/CLionProjects/byucs/project-1-main/QuestionMarkAutomaton.h
  /home/carsoncall/CLionProjects/byucs/project-1-main/Token.h
 CMakeFiles/project_1_main.dir/Token.cpp.o
  /home/carsoncall/CLionProjects/byucs/project-1-main/Token.cpp

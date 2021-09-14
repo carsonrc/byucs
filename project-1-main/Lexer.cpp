@@ -1,7 +1,11 @@
 #include <iostream>
+#include <cctype>
 #include "Lexer.h"
 #include "ColonAutomaton.h"
 #include "ColonDashAutomaton.h"
+#include "CommaAutomaton.h"
+#include "PeriodAutomaton.h"
+#include "QuestionMarkAutomaton.h"
 #include "Token.h"
 Lexer::Lexer() {
     CreateAutomata();
@@ -14,6 +18,10 @@ Lexer::~Lexer() {
 void Lexer::CreateAutomata() {
     automata.push_back(new ColonAutomaton());
     automata.push_back(new ColonDashAutomaton());
+    automata.push_back(new CommaAutomaton());
+    automata.push_back(new PeriodAutomaton());
+    automata.push_back(new QuestionMarkAutomaton());
+
     // TODO: Add the other needed automata here
 }
 
@@ -60,7 +68,11 @@ void Lexer::Run(std::string& input) {
     while (input.size() > 0) {
         int maxRead = 0;
         Automaton* maxAutomaton = nullptr;
-        //TODO: handle whitespace
+
+        //handle whitespace
+        while (std::isspace(input.at(0))) {
+            input = input.substr(1,input.size());
+        }
 
         //Parallel part of algorithm
         for (auto &&automaton : automata) {
@@ -93,6 +105,6 @@ void Lexer::Run(std::string& input) {
     tokens.push_back(eofToken);
 
     for (auto& token : tokens) {
-        std::cout << token;
+        std::cout << *token;
     }
 }

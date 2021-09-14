@@ -131,13 +131,55 @@ CMakeFiles/project_1_main.dir/Token.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1_main.dir/Token.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carsoncall/CLionProjects/byucs/project-1-main/Token.cpp -o CMakeFiles/project_1_main.dir/Token.cpp.s
 
+CMakeFiles/project_1_main.dir/CommaAutomaton.cpp.o: CMakeFiles/project_1_main.dir/flags.make
+CMakeFiles/project_1_main.dir/CommaAutomaton.cpp.o: ../CommaAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carsoncall/CLionProjects/byucs/project-1-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/project_1_main.dir/CommaAutomaton.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1_main.dir/CommaAutomaton.cpp.o -c /home/carsoncall/CLionProjects/byucs/project-1-main/CommaAutomaton.cpp
+
+CMakeFiles/project_1_main.dir/CommaAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1_main.dir/CommaAutomaton.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carsoncall/CLionProjects/byucs/project-1-main/CommaAutomaton.cpp > CMakeFiles/project_1_main.dir/CommaAutomaton.cpp.i
+
+CMakeFiles/project_1_main.dir/CommaAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1_main.dir/CommaAutomaton.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carsoncall/CLionProjects/byucs/project-1-main/CommaAutomaton.cpp -o CMakeFiles/project_1_main.dir/CommaAutomaton.cpp.s
+
+CMakeFiles/project_1_main.dir/PeriodAutomaton.cpp.o: CMakeFiles/project_1_main.dir/flags.make
+CMakeFiles/project_1_main.dir/PeriodAutomaton.cpp.o: ../PeriodAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carsoncall/CLionProjects/byucs/project-1-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/project_1_main.dir/PeriodAutomaton.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1_main.dir/PeriodAutomaton.cpp.o -c /home/carsoncall/CLionProjects/byucs/project-1-main/PeriodAutomaton.cpp
+
+CMakeFiles/project_1_main.dir/PeriodAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1_main.dir/PeriodAutomaton.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carsoncall/CLionProjects/byucs/project-1-main/PeriodAutomaton.cpp > CMakeFiles/project_1_main.dir/PeriodAutomaton.cpp.i
+
+CMakeFiles/project_1_main.dir/PeriodAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1_main.dir/PeriodAutomaton.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carsoncall/CLionProjects/byucs/project-1-main/PeriodAutomaton.cpp -o CMakeFiles/project_1_main.dir/PeriodAutomaton.cpp.s
+
+CMakeFiles/project_1_main.dir/QuestionMarkAutomaton.cpp.o: CMakeFiles/project_1_main.dir/flags.make
+CMakeFiles/project_1_main.dir/QuestionMarkAutomaton.cpp.o: ../QuestionMarkAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carsoncall/CLionProjects/byucs/project-1-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/project_1_main.dir/QuestionMarkAutomaton.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1_main.dir/QuestionMarkAutomaton.cpp.o -c /home/carsoncall/CLionProjects/byucs/project-1-main/QuestionMarkAutomaton.cpp
+
+CMakeFiles/project_1_main.dir/QuestionMarkAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1_main.dir/QuestionMarkAutomaton.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carsoncall/CLionProjects/byucs/project-1-main/QuestionMarkAutomaton.cpp > CMakeFiles/project_1_main.dir/QuestionMarkAutomaton.cpp.i
+
+CMakeFiles/project_1_main.dir/QuestionMarkAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1_main.dir/QuestionMarkAutomaton.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carsoncall/CLionProjects/byucs/project-1-main/QuestionMarkAutomaton.cpp -o CMakeFiles/project_1_main.dir/QuestionMarkAutomaton.cpp.s
+
 # Object files for target project_1_main
 project_1_main_OBJECTS = \
 "CMakeFiles/project_1_main.dir/main.cpp.o" \
 "CMakeFiles/project_1_main.dir/ColonAutomaton.cpp.o" \
 "CMakeFiles/project_1_main.dir/ColonDashAutomaton.cpp.o" \
 "CMakeFiles/project_1_main.dir/Lexer.cpp.o" \
-"CMakeFiles/project_1_main.dir/Token.cpp.o"
+"CMakeFiles/project_1_main.dir/Token.cpp.o" \
+"CMakeFiles/project_1_main.dir/CommaAutomaton.cpp.o" \
+"CMakeFiles/project_1_main.dir/PeriodAutomaton.cpp.o" \
+"CMakeFiles/project_1_main.dir/QuestionMarkAutomaton.cpp.o"
 
 # External object files for target project_1_main
 project_1_main_EXTERNAL_OBJECTS =
@@ -147,9 +189,12 @@ project_1_main: CMakeFiles/project_1_main.dir/ColonAutomaton.cpp.o
 project_1_main: CMakeFiles/project_1_main.dir/ColonDashAutomaton.cpp.o
 project_1_main: CMakeFiles/project_1_main.dir/Lexer.cpp.o
 project_1_main: CMakeFiles/project_1_main.dir/Token.cpp.o
+project_1_main: CMakeFiles/project_1_main.dir/CommaAutomaton.cpp.o
+project_1_main: CMakeFiles/project_1_main.dir/PeriodAutomaton.cpp.o
+project_1_main: CMakeFiles/project_1_main.dir/QuestionMarkAutomaton.cpp.o
 project_1_main: CMakeFiles/project_1_main.dir/build.make
 project_1_main: CMakeFiles/project_1_main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/carsoncall/CLionProjects/byucs/project-1-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable project_1_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/carsoncall/CLionProjects/byucs/project-1-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable project_1_main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/project_1_main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

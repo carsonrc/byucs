@@ -1,6 +1,8 @@
 #include <iostream>
 #include <fstream>
 #include <sstream>
+#include <cctype>
+
 
 using namespace std;
 
@@ -21,9 +23,12 @@ int main(int argc, char* argv[]) {
     }
 
     auto lexer = new Lexer();
+
     stringstream buffer;
-    
-    lexer->Run()
+    buffer << in.rdbuf();
+    string input = buffer.str();
+
+    lexer->Run(input);
 
 
 
