@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/carso/CLionProjects/PrepLab7/ItemToPurchase.h
+string
+-
+
+C:/Users/carso/CLionProjects/PrepLab7/main.cpp
+iostream
+-
+iomanip
+-
+ItemToPurchase.h
+C:/Users/carso/CLionProjects/PrepLab7/ItemToPurchase.h
+

@@ -1,0 +1,111 @@
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /mnt/backups/CLionProjects/Lab8BST/cmake-build-test/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_52576/fast && /usr/bin/make  -f CMakeFiles/cmTC_52576.dir/build.make CMakeFiles/cmTC_52576.dir/build
+make[1]: Entering directory '/mnt/backups/CLionProjects/Lab8BST/cmake-build-test/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_52576.dir/CMakeCCompilerABI.c.o
+/bin/clang   -v -o CMakeFiles/cmTC_52576.dir/CMakeCCompilerABI.c.o -c /home/carson/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7628.27/bin/cmake/linux/share/cmake-3.19/Modules/CMakeCCompilerABI.c
+clang version 12.0.1
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /bin
+Found candidate GCC installation: /bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0
+Found candidate GCC installation: /bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0
+Found candidate GCC installation: /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0
+Found candidate GCC installation: /usr/lib64/gcc/x86_64-pc-linux-gnu/11.1.0
+Selected GCC installation: /bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0
+Candidate multilib: .;@m64
+Candidate multilib: 32;@m32
+Selected multilib: .;@m64
+ (in-process)
+ "/usr/bin/clang-12" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu x86-64 -tune-cpu generic -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /usr/lib/clang/12.0.1 -internal-isystem /usr/local/include -internal-isystem /usr/lib/clang/12.0.1/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /mnt/backups/CLionProjects/Lab8BST/cmake-build-test/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -faddrsig -o CMakeFiles/cmTC_52576.dir/CMakeCCompilerABI.c.o -x c /home/carson/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7628.27/bin/cmake/linux/share/cmake-3.19/Modules/CMakeCCompilerABI.c
+clang -cc1 version 12.0.1 based upon LLVM 12.0.1 default target x86_64-pc-linux-gnu
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/include
+ /usr/lib/clang/12.0.1/include
+ /usr/include
+End of search list.
+Linking C executable cmTC_52576
+/home/carson/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7628.27/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52576.dir/link.txt --verbose=1
+/bin/clang  -v CMakeFiles/cmTC_52576.dir/CMakeCCompilerABI.c.o -o cmTC_52576 
+clang version 12.0.1
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /bin
+Found candidate GCC installation: /bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0
+Found candidate GCC installation: /bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0
+Found candidate GCC installation: /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0
+Found candidate GCC installation: /usr/lib64/gcc/x86_64-pc-linux-gnu/11.1.0
+Selected GCC installation: /bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0
+Candidate multilib: .;@m64
+Candidate multilib: 32;@m32
+Selected multilib: .;@m64
+ "/bin/ld" -pie --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_52576 /bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib64/Scrt1.o /bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib64/crti.o /bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/crtbeginS.o -L/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0 -L/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib64 -L/usr/bin/../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/../../.. -L/usr/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_52576.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/crtendS.o /bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib64/crtn.o
+make[1]: Leaving directory '/mnt/backups/CLionProjects/Lab8BST/cmake-build-test/CMakeFiles/CMakeTmp'
+
+
+Cannot copy output executable
+  '/mnt/backups/CLionProjects/Lab8BST/cmake-build-test/CMakeFiles/CMakeTmp/cmTC_52576'
+to destination specified by COPY_FILE:
+  '/mnt/backups/CLionProjects/Lab8BST/cmake-build-test/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_C.bin'
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /mnt/backups/CLionProjects/Lab8BST/cmake-build-test/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b7307/fast && /usr/bin/make  -f CMakeFiles/cmTC_b7307.dir/build.make CMakeFiles/cmTC_b7307.dir/build
+make[1]: Entering directory '/mnt/backups/CLionProjects/Lab8BST/cmake-build-test/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b7307.dir/CMakeCXXCompilerABI.cpp.o
+/bin/clang++   -v -o CMakeFiles/cmTC_b7307.dir/CMakeCXXCompilerABI.cpp.o -c /home/carson/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7628.27/bin/cmake/linux/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp
+clang version 12.0.1
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /bin
+Found candidate GCC installation: /bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0
+Found candidate GCC installation: /bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0
+Found candidate GCC installation: /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0
+Found candidate GCC installation: /usr/lib64/gcc/x86_64-pc-linux-gnu/11.1.0
+Selected GCC installation: /bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0
+Candidate multilib: .;@m64
+Candidate multilib: 32;@m32
+Selected multilib: .;@m64
+ (in-process)
+ "/usr/bin/clang-12" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu x86-64 -tune-cpu generic -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /usr/lib/clang/12.0.1 -internal-isystem /bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0 -internal-isystem /bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu -internal-isystem /bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward -internal-isystem /usr/local/include -internal-isystem /usr/lib/clang/12.0.1/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /mnt/backups/CLionProjects/Lab8BST/cmake-build-test/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -o CMakeFiles/cmTC_b7307.dir/CMakeCXXCompilerABI.cpp.o -x c++ /home/carson/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7628.27/bin/cmake/linux/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 12.0.1 based upon LLVM 12.0.1 default target x86_64-pc-linux-gnu
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0
+ /bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu
+ /bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward
+ /usr/local/include
+ /usr/lib/clang/12.0.1/include
+ /usr/include
+End of search list.
+Linking CXX executable cmTC_b7307
+/home/carson/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7628.27/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7307.dir/link.txt --verbose=1
+/bin/clang++  -v CMakeFiles/cmTC_b7307.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b7307 
+clang version 12.0.1
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /bin
+Found candidate GCC installation: /bin/../lib/gcc/x86_64-pc-linux-gnu/11.1.0
+Found candidate GCC installation: /bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0
+Found candidate GCC installation: /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0
+Found candidate GCC installation: /usr/lib64/gcc/x86_64-pc-linux-gnu/11.1.0
+Selected GCC installation: /bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0
+Candidate multilib: .;@m64
+Candidate multilib: 32;@m32
+Selected multilib: .;@m64
+ "/bin/ld" -pie --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_b7307 /bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib64/Scrt1.o /bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib64/crti.o /bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/crtbeginS.o -L/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0 -L/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib64 -L/usr/bin/../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/../../.. -L/usr/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_b7307.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/crtendS.o /bin/../lib64/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib64/crtn.o
+make[1]: Leaving directory '/mnt/backups/CLionProjects/Lab8BST/cmake-build-test/CMakeFiles/CMakeTmp'
+
+
+Cannot copy output executable
+  '/mnt/backups/CLionProjects/Lab8BST/cmake-build-test/CMakeFiles/CMakeTmp/cmTC_b7307'
+to destination specified by COPY_FILE:
+  '/mnt/backups/CLionProjects/Lab8BST/cmake-build-test/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_CXX.bin'
+
+

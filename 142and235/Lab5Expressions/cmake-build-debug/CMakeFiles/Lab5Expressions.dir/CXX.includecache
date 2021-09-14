@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/carso/CLionProjects/Lab5Expressions/ExpressionManager.h
+iostream
+-
+string
+-
+stack
+-
+map
+-
+utility
+-
+bits/stdc++.h
+-
+iosfwd
+-
+ExpressionManagerInterface.h
+C:/Users/carso/CLionProjects/Lab5Expressions/ExpressionManagerInterface.h
+
+C:/Users/carso/CLionProjects/Lab5Expressions/ExpressionManagerInterface.h
+string
+-
+
+C:/Users/carso/CLionProjects/Lab5Expressions/main.cpp.cpp
+iostream
+-
+iosfwd
+-
+istream
+-
+sstream
+-
+limits
+-
+ExpressionManager.h
+C:/Users/carso/CLionProjects/Lab5Expressions/ExpressionManager.h
+

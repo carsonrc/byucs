@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/carso/CLionProjects/Lab1Grades/main.cpp.cpp
+iostream
+-
+iomanip
+-
+istream
+-
+fstream
+-
+string
+-
+limits
+-
+crtdbg.h
+-
+

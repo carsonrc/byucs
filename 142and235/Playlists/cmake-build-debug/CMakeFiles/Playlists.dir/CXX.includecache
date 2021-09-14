@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/carso/CLionProjects/Playlists/Playlist.h
+vector
+-
+Song.h
+C:/Users/carso/CLionProjects/Playlists/Song.h
+
+C:/Users/carso/CLionProjects/Playlists/Song.h
+string
+-
+
+C:/Users/carso/CLionProjects/Playlists/main.cpp
+iostream
+-
+string
+-
+vector
+-
+Song.h
+C:/Users/carso/CLionProjects/Playlists/Song.h
+Playlist.h
+C:/Users/carso/CLionProjects/Playlists/Playlist.h
+

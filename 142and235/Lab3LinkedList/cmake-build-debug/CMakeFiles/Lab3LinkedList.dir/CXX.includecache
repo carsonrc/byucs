@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/carso/CLionProjects/Lab3LinkedList/cmake-build-debug/CMakeFiles/LinkedList.h
+LinkedListInterface.h
+C:/Users/carso/CLionProjects/Lab3LinkedList/cmake-build-debug/CMakeFiles/LinkedListInterface.h
+
+C:/Users/carso/CLionProjects/Lab3LinkedList/cmake-build-debug/CMakeFiles/LinkedListInterface.h
+string
+-
+
+C:/Users/carso/CLionProjects/Lab3LinkedList/cmake-build-debug/main.cpp.cpp
+iostream
+-
+istream
+-
+iosfwd
+-
+fstream
+-
+sstream
+-
+limits
+-
+string
+-
+CMakeFiles/LinkedList.h
+C:/Users/carso/CLionProjects/Lab3LinkedList/cmake-build-debug/CMakeFiles/LinkedList.h
+
