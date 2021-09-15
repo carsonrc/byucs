@@ -1,12 +1,20 @@
 #include <iostream>
-#include <cctype>
 #include "Lexer.h"
+#include "AddAutomaton.h"
 #include "ColonAutomaton.h"
 #include "ColonDashAutomaton.h"
 #include "CommaAutomaton.h"
+#include "LeftParenAutomaton.h"
+#include "MultiplyAutomaton.h"
 #include "PeriodAutomaton.h"
+#include "QueriesAutomaton.h"
 #include "QuestionMarkAutomaton.h"
+#include "RightParenAutomaton.h"
+#include "RulesAutomaton.h"
+#include "SchemesAutomaton.h"
+#include "WhitespaceAutomaton.h"
 #include "Token.h"
+
 Lexer::Lexer() {
     CreateAutomata();
 }
@@ -16,11 +24,19 @@ Lexer::~Lexer() {
 }
 
 void Lexer::CreateAutomata() {
+    automata.push_back(new AddAutomaton());
     automata.push_back(new ColonAutomaton());
     automata.push_back(new ColonDashAutomaton());
     automata.push_back(new CommaAutomaton());
+    automata.push_back(new LeftParenAutomaton());
+    automata.push_back(new MultiplyAutomaton());
     automata.push_back(new PeriodAutomaton());
+    automata.push_back(new QueriesAutomaton());
     automata.push_back(new QuestionMarkAutomaton());
+    automata.push_back(new RightParenAutomaton());
+    automata.push_back(new RulesAutomaton());
+    automata.push_back(new SchemesAutomaton());
+    automata.push_back(new WhitespaceAutomaton());
 
     // TODO: Add the other needed automata here
 }
@@ -64,15 +80,12 @@ void Lexer::Run(std::string& input) {
     }
     add end of file token to all tokens
     */
-    int lineNumber = 0;
-    while (input.size() > 0) {
+    int lineNumber = 1;
+
+    while (!input.empty()) {
         int maxRead = 0;
         Automaton* maxAutomaton = nullptr;
-
         //handle whitespace
-        while (std::isspace(input.at(0))) {
-            input = input.substr(1,input.size());
-        }
 
         //Parallel part of algorithm
         for (auto &&automaton : automata) {
@@ -80,15 +93,18 @@ void Lexer::Run(std::string& input) {
             if (inputRead > maxRead) {
                 maxRead = inputRead;
                 maxAutomaton = automaton;
-                lineNumber = automaton->NewLinesRead();
+                lineNumber += automaton->NewLinesRead();
             }
         }
 
         //Max part of algorithm
-        if (maxRead > 0) {
-            Token* newToken = maxAutomaton->CreateToken(input.substr(0,maxRead),lineNumber);
-            tokens.push_back(newToken);
+        if (maxRead > 0){
+            if (maxAutomaton->GetType() != TokenType::WHITESPACE) {
+                Token* newToken = maxAutomaton->CreateToken(input.substr(0,maxRead),lineNumber);
+                tokens.push_back(newToken);
+            }
         }
+
 
         //If no automaton accepted input, create a single character undefined token
         else {
