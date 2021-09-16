@@ -18,7 +18,7 @@ private:
     void S6(const std::string& input);
 
 public:
-    QueriesAutomaton() : Automaton(TokenType::RULES) {}  // Call the base constructor
+    QueriesAutomaton() : Automaton(TokenType::QUERIES) {}  // Call the base constructor
 
     void S0(const std::string& input);
 };

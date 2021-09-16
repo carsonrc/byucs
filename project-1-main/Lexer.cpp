@@ -1,9 +1,14 @@
 #include <iostream>
+
 #include "Lexer.h"
+
 #include "AddAutomaton.h"
 #include "ColonAutomaton.h"
 #include "ColonDashAutomaton.h"
 #include "CommaAutomaton.h"
+#include "CommentAutomaton.h"
+#include "FactsAutomaton.h"
+#include "IDAutomaton.h"
 #include "LeftParenAutomaton.h"
 #include "MultiplyAutomaton.h"
 #include "PeriodAutomaton.h"
@@ -12,6 +17,7 @@
 #include "RightParenAutomaton.h"
 #include "RulesAutomaton.h"
 #include "SchemesAutomaton.h"
+#include "StringAutomaton.h"
 #include "WhitespaceAutomaton.h"
 #include "Token.h"
 
@@ -24,6 +30,14 @@ Lexer::~Lexer() {
 }
 
 void Lexer::CreateAutomata() {
+
+    //precedence 1
+    automata.push_back(new RulesAutomaton());
+    automata.push_back(new SchemesAutomaton());
+    automata.push_back(new QueriesAutomaton());
+    automata.push_back(new FactsAutomaton());
+    automata.push_back(new WhitespaceAutomaton());
+
     automata.push_back(new AddAutomaton());
     automata.push_back(new ColonAutomaton());
     automata.push_back(new ColonDashAutomaton());
@@ -31,12 +45,12 @@ void Lexer::CreateAutomata() {
     automata.push_back(new LeftParenAutomaton());
     automata.push_back(new MultiplyAutomaton());
     automata.push_back(new PeriodAutomaton());
-    automata.push_back(new QueriesAutomaton());
     automata.push_back(new QuestionMarkAutomaton());
     automata.push_back(new RightParenAutomaton());
-    automata.push_back(new RulesAutomaton());
-    automata.push_back(new SchemesAutomaton());
-    automata.push_back(new WhitespaceAutomaton());
+
+    automata.push_back(new StringAutomaton());
+    automata.push_back(new IDAutomaton());
+    automata.push_back(new CommentAutomaton());
 
     // TODO: Add the other needed automata here
 }
@@ -120,7 +134,9 @@ void Lexer::Run(std::string& input) {
     Token* eofToken = new Token(TokenType::END_OF_FILE,"",lineNumber);
     tokens.push_back(eofToken);
 
-    for (auto& token : tokens) {
-        std::cout << *token;
+    for (auto& token : tokens) { // outputs each token
+        std::cout << *token << std::endl;
     }
+
+    std::cout << "Total Tokens = " << tokens.size() << std::endl;
 }

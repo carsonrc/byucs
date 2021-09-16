@@ -10,7 +10,7 @@
 class WhitespaceAutomaton : public Automaton
 {
 public:
-    WhitespaceAutomaton() : Automaton(TokenType::WHITESPACE) {}  // Call the base constructor //type does not matter, will not be output
+    WhitespaceAutomaton() : Automaton(TokenType::WHITESPACE) {}  // Call the base constructor
 
     void S0(const std::string& input);
 };

@@ -30,8 +30,6 @@ int main(int argc, char* argv[]) {
 
     lexer->Run(input);
 
-
-
     delete lexer;
 
     return 0;

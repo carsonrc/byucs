@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 #makefile for lab 1 pass off cases
 NUM:=1
 buckets:=70 90 100

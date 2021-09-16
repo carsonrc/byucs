@@ -11,4 +11,34 @@ add_executable(project_1_main main.cpp
                 Lexer.cpp
                 Lexer.h
                 Token.cpp
-                Token.h CommaAutomaton.cpp CommaAutomaton.h PeriodAutomaton.cpp PeriodAutomaton.h QuestionMarkAutomaton.cpp QuestionMarkAutomaton.h WhitespaceAutomaton.cpp WhitespaceAutomaton.h LeftParenAutomaton.cpp LeftParenAutomaton.h RightParenAutomaton.cpp RightParenAutomaton.h MultiplyAutomaton.cpp MultiplyAutomaton.h AddAutomaton.cpp AddAutomaton.h SchemesAutomaton.cpp SchemesAutomaton.h RulesAutomaton.cpp RulesAutomaton.h QueriesAutomaton.cpp QueriesAutomaton.h)
+                Token.h
+                CommaAutomaton.cpp
+                CommaAutomaton.h
+                PeriodAutomaton.cpp
+                PeriodAutomaton.h
+                QuestionMarkAutomaton.cpp
+                QuestionMarkAutomaton.h
+                WhitespaceAutomaton.cpp
+                WhitespaceAutomaton.h
+                LeftParenAutomaton.cpp
+                LeftParenAutomaton.h
+                RightParenAutomaton.cpp
+                RightParenAutomaton.h
+                MultiplyAutomaton.cpp
+                MultiplyAutomaton.h
+                AddAutomaton.cpp
+                AddAutomaton.h
+                SchemesAutomaton.cpp
+                SchemesAutomaton.h
+                RulesAutomaton.cpp
+                RulesAutomaton.h
+                QueriesAutomaton.cpp
+                QueriesAutomaton.h
+                IDAutomaton.cpp
+                IDAutomaton.h
+                StringAutomaton.cpp
+                StringAutomaton.h
+                CommentAutomaton.cpp
+                CommentAutomaton.h
+                FactsAutomaton.cpp
+                FactsAutomaton.h)

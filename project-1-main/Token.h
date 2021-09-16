@@ -34,7 +34,6 @@ private:
     int lineNumber = 0;
 
 public:
-    std::string works = "kinda";
     Token(TokenType type, std::string description, int lineNumber) ;
 
     friend std::ostream& operator<<(std::ostream& os,const Token& token) {
@@ -52,15 +51,16 @@ public:
             case TokenType::MULTIPLY:      tokenType = "MULTIPLY";      break;
             case TokenType::PERIOD:        tokenType = "PERIOD";        break;
             case TokenType::QUERIES:       tokenType = "QUERIES";       break;
-            case TokenType::QUESTION_MARK: tokenType = "QUESTION_MARK"; break;
+            case TokenType::QUESTION_MARK: tokenType = "Q_MARK";        break;
             case TokenType::RIGHT_PAREN:   tokenType = "RIGHT_PAREN";   break;
             case TokenType::RULES:         tokenType = "RULES";         break;
             case TokenType::SCHEMES:       tokenType = "SCHEMES";       break;
             case TokenType::STRING:        tokenType = "STRING";        break;
             case TokenType::UNDEFINED:     tokenType = "UNDEFINED";     break;
+            case TokenType::WHITESPACE:     tokenType = "WHITESPACE";   break;
             // no whitespace case because there is never a whitespace token generated
         }
-        os << "(" << tokenType << ",\"" << token.description << "\"," << token.lineNumber << ")" << std::endl;
+        os << "(" << tokenType << ",\"" << token.description << "\"," << token.lineNumber << ")";
         return os;
     } ;
 
