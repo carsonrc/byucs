@@ -27,6 +27,10 @@ void StringAutomaton::S1(const std::string& input) {
         if (input[index] == EOF) {
             type = TokenType::UNDEFINED;
             //do not increment for EOF because that is accounted for in EOF token
+            break;
+        }
+        if (input[index] == '\n') {
+            newLines++;
         }
         inputRead++;
         index++;

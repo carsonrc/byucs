@@ -11,7 +11,7 @@ tests:=Lab$(NUM)PassOffCases
 .SILENT: all $(buckets)
 
 all: $(buckets)
-	@rm $(tests)/out.txt
+#	@rm $(tests)/out.txt
 
 $(buckets):
 	echo "Bucket $@"; \
