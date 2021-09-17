@@ -24,7 +24,7 @@ void StringAutomaton::S1(const std::string& input) {
             S2(input);
             break;
         }
-        if (input[index] == EOF) {
+        if (index == input.size()) {
             type = TokenType::UNDEFINED;
             //do not increment for EOF because that is accounted for in EOF token
             break;

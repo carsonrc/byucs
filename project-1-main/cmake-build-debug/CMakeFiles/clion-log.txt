@@ -1,6 +1,6 @@
-/home/carson/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7628.27/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/carson/Documents/Notes/CS236/byucs/project-1-main
--- The C compiler identification is GNU 11.1.0
--- The CXX compiler identification is GNU 11.1.0
+/home/carsoncall/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5080.54/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/carsoncall/CLionProjects/byucs/project-1-main
+-- The C compiler identification is GNU 11.2.1
+-- The CXX compiler identification is GNU 11.2.1
 -- Detecting C compiler ABI info
 -- Detecting C compiler ABI info - done
 -- Check for working C compiler: /usr/bin/cc - skipped
@@ -13,4 +13,4 @@
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/carson/Documents/Notes/CS236/byucs/project-1-main/cmake-build-debug
+-- Build files have been written to: /home/carsoncall/CLionProjects/byucs/project-1-main/cmake-build-debug
