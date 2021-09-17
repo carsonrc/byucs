@@ -34,7 +34,9 @@ void CommentAutomaton::S2(const std::string &input) { // read until |
             S4(input);
             break;
         }
-
+        if (input[index] == '\n') {
+            newLines++;
+        }
         inputRead++;
         index++;
 

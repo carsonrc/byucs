@@ -10,11 +10,11 @@
 Token.h
 /home/carsoncall/CLionProjects/byucs/project-1-main/Token.h
 
-/home/carsoncall/CLionProjects/byucs/project-1-main/StringAutomaton.cpp
-StringAutomaton.h
-/home/carsoncall/CLionProjects/byucs/project-1-main/StringAutomaton.h
+/home/carsoncall/CLionProjects/byucs/project-1-main/CommentAutomaton.cpp
+CommentAutomaton.h
+/home/carsoncall/CLionProjects/byucs/project-1-main/CommentAutomaton.h
 
-/home/carsoncall/CLionProjects/byucs/project-1-main/StringAutomaton.h
+/home/carsoncall/CLionProjects/byucs/project-1-main/CommentAutomaton.h
 Automaton.h
 /home/carsoncall/CLionProjects/byucs/project-1-main/Automaton.h
 
