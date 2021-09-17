@@ -36,6 +36,7 @@ void CommentAutomaton::S2(const std::string &input) { // read until |
         }
         if (static_cast<size_t>(index) == input.size()) {
             type = TokenType::UNDEFINED;
+            newLines++;
             break;
         }
         if (input[index] == '\n') {
