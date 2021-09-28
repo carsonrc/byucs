@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/carsoncall/CLionProjects/byucs/project-main/Lexer/Token.h
+string
+-
+ostream
+-
+
+/home/carsoncall/CLionProjects/byucs/project-main/Parser/Parser.cpp
+Parser.h
+/home/carsoncall/CLionProjects/byucs/project-main/Parser/Parser.h
+
+/home/carsoncall/CLionProjects/byucs/project-main/Parser/Parser.h
+vector
+-
+string
+-
+unordered_map
+-
+algorithm
+-
+../Lexer/Token.h
+/home/carsoncall/CLionProjects/byucs/project-main/Lexer/Token.h
+
