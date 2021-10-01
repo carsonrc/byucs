@@ -33,6 +33,30 @@ void Parser::SchemeParser(std::vector<Token *> tokens) {
     if (tokens[index]->GetType() == TokenType::RIGHT_PAREN){ index++;} else throw index;
 }
 
+void Parser::FactParser(std::vector<Token *> tokens) {
+    if (tokens[index]->GetType() == TokenType::ID)         { index++;} else throw index;
+    if (tokens[index]->GetType() == TokenType::LEFT_PAREN) { index++;} else throw index;
+    if (tokens[index]->GetType() == TokenType::STRING)     { index++;} else throw index;
+    //StringListParser(tokens);
+    if (tokens[index]->GetType() == TokenType::RIGHT_PAREN){ index++;} else throw index;
+    if (tokens[index]->GetType() == TokenType::PERIOD)     { index++;} else throw index;
+}
+
+void Parser::RuleParser(std::vector<Token *> tokens) {
+    //headPredicateParser(tokens);
+    if (tokens[index]->GetType() == TokenType::COLON_DASH) { index++;} else throw index;
+    //PredicateParser(tokens);
+    //PredicateListParser(tokens);
+    if (tokens[index]->GetType() == TokenType::PERIOD)     { index++;} else throw index;
+}
+
+void Parser::QueryParser(std::vector<Token *> tokens) {
+    //PredicateParser(tokens);
+if (tokens[index]->GetType() == TokenType::QUESTION_MARK)  { index++;} else throw index;
+
+}
+
+
 void Parser::SchemeListParser(std::vector<Token*> tokens) {
     if (tokens[index]->GetType() == TokenType::ID) {
         SchemeParser(tokens);
