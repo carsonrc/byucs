@@ -16,7 +16,7 @@ class Parser {
 private:
     //add all the data structures produced
     size_t index = 0;
-
+/*
     bool contains(std::vector<Token*> const& tokens, std::string nonterminal, size_t index);
 
     std::unordered_map<std::string,std::vector<TokenType>> firstSets = {
@@ -24,9 +24,10 @@ private:
                                TokenType::QUERIES,TokenType::ID,TokenType::LEFT_PAREN,TokenType::RIGHT_PAREN,
                                TokenType::PERIOD,TokenType::COLON_DASH,TokenType::QUESTION_MARK,TokenType::COMMA,
                                TokenType::STRING}},
-            {"scheme", {TokenType::ID,TokenType::LEFT_PAREN,TokenType::COMMA}}
+            {"scheme", {TokenType::ID,TokenType::LEFT_PAREN,TokenType::COMMA}},
+            {"schemeList",{TokenType::COMMA}}
     };
-
+*/
 
 
 public:
@@ -36,10 +37,12 @@ public:
 
     void DatalogParser(std::vector<Token*> tokens);
     void SchemeParser(std::vector<Token*> tokens);
+    void SchemeListParser(std::vector<Token *> tokens);
 
-
-
+    void IdListParser(std::vector<Token *> tokens);
 };
+
+
 
 
 #endif //PROJECT_2_MAIN_PARSER_H

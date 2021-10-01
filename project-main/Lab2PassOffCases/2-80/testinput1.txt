@@ -1,0 +1,8 @@
+# COPYRIGHT © BRIGHAM YOUNG UNIVERSITY CS 236
+# FOR USE ONLY DURING SPRING 2021 SEMESTER
+# passoffInput22     FAILURE Period,35
+# Tests for students checking punctuation
+  #Schemes:
+Schemes:
+
+%%%
