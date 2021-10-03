@@ -129,485 +129,509 @@ project_1_main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/build
 .PHONY : project_1_main/fast
 
-Lexer/AddAutomaton.o: Lexer/AddAutomaton.cpp.o
-.PHONY : Lexer/AddAutomaton.o
+AddAutomaton.o: AddAutomaton.cpp.o
+.PHONY : AddAutomaton.o
 
 # target to build an object file
-Lexer/AddAutomaton.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/AddAutomaton.cpp.o
-.PHONY : Lexer/AddAutomaton.cpp.o
+AddAutomaton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/AddAutomaton.cpp.o
+.PHONY : AddAutomaton.cpp.o
 
-Lexer/AddAutomaton.i: Lexer/AddAutomaton.cpp.i
-.PHONY : Lexer/AddAutomaton.i
+AddAutomaton.i: AddAutomaton.cpp.i
+.PHONY : AddAutomaton.i
 
 # target to preprocess a source file
-Lexer/AddAutomaton.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/AddAutomaton.cpp.i
-.PHONY : Lexer/AddAutomaton.cpp.i
+AddAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/AddAutomaton.cpp.i
+.PHONY : AddAutomaton.cpp.i
 
-Lexer/AddAutomaton.s: Lexer/AddAutomaton.cpp.s
-.PHONY : Lexer/AddAutomaton.s
+AddAutomaton.s: AddAutomaton.cpp.s
+.PHONY : AddAutomaton.s
 
 # target to generate assembly for a file
-Lexer/AddAutomaton.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/AddAutomaton.cpp.s
-.PHONY : Lexer/AddAutomaton.cpp.s
+AddAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/AddAutomaton.cpp.s
+.PHONY : AddAutomaton.cpp.s
 
-Lexer/ColonAutomaton.o: Lexer/ColonAutomaton.cpp.o
-.PHONY : Lexer/ColonAutomaton.o
+ColonAutomaton.o: ColonAutomaton.cpp.o
+.PHONY : ColonAutomaton.o
 
 # target to build an object file
-Lexer/ColonAutomaton.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/ColonAutomaton.cpp.o
-.PHONY : Lexer/ColonAutomaton.cpp.o
+ColonAutomaton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/ColonAutomaton.cpp.o
+.PHONY : ColonAutomaton.cpp.o
 
-Lexer/ColonAutomaton.i: Lexer/ColonAutomaton.cpp.i
-.PHONY : Lexer/ColonAutomaton.i
+ColonAutomaton.i: ColonAutomaton.cpp.i
+.PHONY : ColonAutomaton.i
 
 # target to preprocess a source file
-Lexer/ColonAutomaton.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/ColonAutomaton.cpp.i
-.PHONY : Lexer/ColonAutomaton.cpp.i
+ColonAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/ColonAutomaton.cpp.i
+.PHONY : ColonAutomaton.cpp.i
 
-Lexer/ColonAutomaton.s: Lexer/ColonAutomaton.cpp.s
-.PHONY : Lexer/ColonAutomaton.s
+ColonAutomaton.s: ColonAutomaton.cpp.s
+.PHONY : ColonAutomaton.s
 
 # target to generate assembly for a file
-Lexer/ColonAutomaton.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/ColonAutomaton.cpp.s
-.PHONY : Lexer/ColonAutomaton.cpp.s
+ColonAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/ColonAutomaton.cpp.s
+.PHONY : ColonAutomaton.cpp.s
 
-Lexer/ColonDashAutomaton.o: Lexer/ColonDashAutomaton.cpp.o
-.PHONY : Lexer/ColonDashAutomaton.o
+ColonDashAutomaton.o: ColonDashAutomaton.cpp.o
+.PHONY : ColonDashAutomaton.o
 
 # target to build an object file
-Lexer/ColonDashAutomaton.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/ColonDashAutomaton.cpp.o
-.PHONY : Lexer/ColonDashAutomaton.cpp.o
+ColonDashAutomaton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/ColonDashAutomaton.cpp.o
+.PHONY : ColonDashAutomaton.cpp.o
 
-Lexer/ColonDashAutomaton.i: Lexer/ColonDashAutomaton.cpp.i
-.PHONY : Lexer/ColonDashAutomaton.i
+ColonDashAutomaton.i: ColonDashAutomaton.cpp.i
+.PHONY : ColonDashAutomaton.i
 
 # target to preprocess a source file
-Lexer/ColonDashAutomaton.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/ColonDashAutomaton.cpp.i
-.PHONY : Lexer/ColonDashAutomaton.cpp.i
+ColonDashAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/ColonDashAutomaton.cpp.i
+.PHONY : ColonDashAutomaton.cpp.i
 
-Lexer/ColonDashAutomaton.s: Lexer/ColonDashAutomaton.cpp.s
-.PHONY : Lexer/ColonDashAutomaton.s
+ColonDashAutomaton.s: ColonDashAutomaton.cpp.s
+.PHONY : ColonDashAutomaton.s
 
 # target to generate assembly for a file
-Lexer/ColonDashAutomaton.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/ColonDashAutomaton.cpp.s
-.PHONY : Lexer/ColonDashAutomaton.cpp.s
+ColonDashAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/ColonDashAutomaton.cpp.s
+.PHONY : ColonDashAutomaton.cpp.s
 
-Lexer/CommaAutomaton.o: Lexer/CommaAutomaton.cpp.o
-.PHONY : Lexer/CommaAutomaton.o
+CommaAutomaton.o: CommaAutomaton.cpp.o
+.PHONY : CommaAutomaton.o
 
 # target to build an object file
-Lexer/CommaAutomaton.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/CommaAutomaton.cpp.o
-.PHONY : Lexer/CommaAutomaton.cpp.o
+CommaAutomaton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/CommaAutomaton.cpp.o
+.PHONY : CommaAutomaton.cpp.o
 
-Lexer/CommaAutomaton.i: Lexer/CommaAutomaton.cpp.i
-.PHONY : Lexer/CommaAutomaton.i
+CommaAutomaton.i: CommaAutomaton.cpp.i
+.PHONY : CommaAutomaton.i
 
 # target to preprocess a source file
-Lexer/CommaAutomaton.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/CommaAutomaton.cpp.i
-.PHONY : Lexer/CommaAutomaton.cpp.i
+CommaAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/CommaAutomaton.cpp.i
+.PHONY : CommaAutomaton.cpp.i
 
-Lexer/CommaAutomaton.s: Lexer/CommaAutomaton.cpp.s
-.PHONY : Lexer/CommaAutomaton.s
+CommaAutomaton.s: CommaAutomaton.cpp.s
+.PHONY : CommaAutomaton.s
 
 # target to generate assembly for a file
-Lexer/CommaAutomaton.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/CommaAutomaton.cpp.s
-.PHONY : Lexer/CommaAutomaton.cpp.s
+CommaAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/CommaAutomaton.cpp.s
+.PHONY : CommaAutomaton.cpp.s
 
-Lexer/CommentAutomaton.o: Lexer/CommentAutomaton.cpp.o
-.PHONY : Lexer/CommentAutomaton.o
+CommentAutomaton.o: CommentAutomaton.cpp.o
+.PHONY : CommentAutomaton.o
 
 # target to build an object file
-Lexer/CommentAutomaton.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/CommentAutomaton.cpp.o
-.PHONY : Lexer/CommentAutomaton.cpp.o
+CommentAutomaton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/CommentAutomaton.cpp.o
+.PHONY : CommentAutomaton.cpp.o
 
-Lexer/CommentAutomaton.i: Lexer/CommentAutomaton.cpp.i
-.PHONY : Lexer/CommentAutomaton.i
+CommentAutomaton.i: CommentAutomaton.cpp.i
+.PHONY : CommentAutomaton.i
 
 # target to preprocess a source file
-Lexer/CommentAutomaton.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/CommentAutomaton.cpp.i
-.PHONY : Lexer/CommentAutomaton.cpp.i
+CommentAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/CommentAutomaton.cpp.i
+.PHONY : CommentAutomaton.cpp.i
 
-Lexer/CommentAutomaton.s: Lexer/CommentAutomaton.cpp.s
-.PHONY : Lexer/CommentAutomaton.s
+CommentAutomaton.s: CommentAutomaton.cpp.s
+.PHONY : CommentAutomaton.s
 
 # target to generate assembly for a file
-Lexer/CommentAutomaton.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/CommentAutomaton.cpp.s
-.PHONY : Lexer/CommentAutomaton.cpp.s
+CommentAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/CommentAutomaton.cpp.s
+.PHONY : CommentAutomaton.cpp.s
 
-Lexer/FactsAutomaton.o: Lexer/FactsAutomaton.cpp.o
-.PHONY : Lexer/FactsAutomaton.o
+DatalogProgram.o: DatalogProgram.cpp.o
+.PHONY : DatalogProgram.o
 
 # target to build an object file
-Lexer/FactsAutomaton.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/FactsAutomaton.cpp.o
-.PHONY : Lexer/FactsAutomaton.cpp.o
+DatalogProgram.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/DatalogProgram.cpp.o
+.PHONY : DatalogProgram.cpp.o
 
-Lexer/FactsAutomaton.i: Lexer/FactsAutomaton.cpp.i
-.PHONY : Lexer/FactsAutomaton.i
+DatalogProgram.i: DatalogProgram.cpp.i
+.PHONY : DatalogProgram.i
 
 # target to preprocess a source file
-Lexer/FactsAutomaton.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/FactsAutomaton.cpp.i
-.PHONY : Lexer/FactsAutomaton.cpp.i
+DatalogProgram.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/DatalogProgram.cpp.i
+.PHONY : DatalogProgram.cpp.i
 
-Lexer/FactsAutomaton.s: Lexer/FactsAutomaton.cpp.s
-.PHONY : Lexer/FactsAutomaton.s
+DatalogProgram.s: DatalogProgram.cpp.s
+.PHONY : DatalogProgram.s
 
 # target to generate assembly for a file
-Lexer/FactsAutomaton.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/FactsAutomaton.cpp.s
-.PHONY : Lexer/FactsAutomaton.cpp.s
+DatalogProgram.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/DatalogProgram.cpp.s
+.PHONY : DatalogProgram.cpp.s
 
-Lexer/IDAutomaton.o: Lexer/IDAutomaton.cpp.o
-.PHONY : Lexer/IDAutomaton.o
+FactsAutomaton.o: FactsAutomaton.cpp.o
+.PHONY : FactsAutomaton.o
 
 # target to build an object file
-Lexer/IDAutomaton.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/IDAutomaton.cpp.o
-.PHONY : Lexer/IDAutomaton.cpp.o
+FactsAutomaton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/FactsAutomaton.cpp.o
+.PHONY : FactsAutomaton.cpp.o
 
-Lexer/IDAutomaton.i: Lexer/IDAutomaton.cpp.i
-.PHONY : Lexer/IDAutomaton.i
+FactsAutomaton.i: FactsAutomaton.cpp.i
+.PHONY : FactsAutomaton.i
 
 # target to preprocess a source file
-Lexer/IDAutomaton.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/IDAutomaton.cpp.i
-.PHONY : Lexer/IDAutomaton.cpp.i
+FactsAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/FactsAutomaton.cpp.i
+.PHONY : FactsAutomaton.cpp.i
 
-Lexer/IDAutomaton.s: Lexer/IDAutomaton.cpp.s
-.PHONY : Lexer/IDAutomaton.s
+FactsAutomaton.s: FactsAutomaton.cpp.s
+.PHONY : FactsAutomaton.s
 
 # target to generate assembly for a file
-Lexer/IDAutomaton.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/IDAutomaton.cpp.s
-.PHONY : Lexer/IDAutomaton.cpp.s
+FactsAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/FactsAutomaton.cpp.s
+.PHONY : FactsAutomaton.cpp.s
 
-Lexer/LeftParenAutomaton.o: Lexer/LeftParenAutomaton.cpp.o
-.PHONY : Lexer/LeftParenAutomaton.o
+IDAutomaton.o: IDAutomaton.cpp.o
+.PHONY : IDAutomaton.o
 
 # target to build an object file
-Lexer/LeftParenAutomaton.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/LeftParenAutomaton.cpp.o
-.PHONY : Lexer/LeftParenAutomaton.cpp.o
+IDAutomaton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/IDAutomaton.cpp.o
+.PHONY : IDAutomaton.cpp.o
 
-Lexer/LeftParenAutomaton.i: Lexer/LeftParenAutomaton.cpp.i
-.PHONY : Lexer/LeftParenAutomaton.i
+IDAutomaton.i: IDAutomaton.cpp.i
+.PHONY : IDAutomaton.i
 
 # target to preprocess a source file
-Lexer/LeftParenAutomaton.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/LeftParenAutomaton.cpp.i
-.PHONY : Lexer/LeftParenAutomaton.cpp.i
+IDAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/IDAutomaton.cpp.i
+.PHONY : IDAutomaton.cpp.i
 
-Lexer/LeftParenAutomaton.s: Lexer/LeftParenAutomaton.cpp.s
-.PHONY : Lexer/LeftParenAutomaton.s
+IDAutomaton.s: IDAutomaton.cpp.s
+.PHONY : IDAutomaton.s
 
 # target to generate assembly for a file
-Lexer/LeftParenAutomaton.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/LeftParenAutomaton.cpp.s
-.PHONY : Lexer/LeftParenAutomaton.cpp.s
+IDAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/IDAutomaton.cpp.s
+.PHONY : IDAutomaton.cpp.s
 
-Lexer/Lexer.o: Lexer/Lexer.cpp.o
-.PHONY : Lexer/Lexer.o
+LeftParenAutomaton.o: LeftParenAutomaton.cpp.o
+.PHONY : LeftParenAutomaton.o
 
 # target to build an object file
-Lexer/Lexer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/Lexer.cpp.o
-.PHONY : Lexer/Lexer.cpp.o
+LeftParenAutomaton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/LeftParenAutomaton.cpp.o
+.PHONY : LeftParenAutomaton.cpp.o
 
-Lexer/Lexer.i: Lexer/Lexer.cpp.i
-.PHONY : Lexer/Lexer.i
+LeftParenAutomaton.i: LeftParenAutomaton.cpp.i
+.PHONY : LeftParenAutomaton.i
 
 # target to preprocess a source file
-Lexer/Lexer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/Lexer.cpp.i
-.PHONY : Lexer/Lexer.cpp.i
+LeftParenAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/LeftParenAutomaton.cpp.i
+.PHONY : LeftParenAutomaton.cpp.i
 
-Lexer/Lexer.s: Lexer/Lexer.cpp.s
-.PHONY : Lexer/Lexer.s
+LeftParenAutomaton.s: LeftParenAutomaton.cpp.s
+.PHONY : LeftParenAutomaton.s
 
 # target to generate assembly for a file
-Lexer/Lexer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/Lexer.cpp.s
-.PHONY : Lexer/Lexer.cpp.s
+LeftParenAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/LeftParenAutomaton.cpp.s
+.PHONY : LeftParenAutomaton.cpp.s
 
-Lexer/MultiplyAutomaton.o: Lexer/MultiplyAutomaton.cpp.o
-.PHONY : Lexer/MultiplyAutomaton.o
+Lexer.o: Lexer.cpp.o
+.PHONY : Lexer.o
 
 # target to build an object file
-Lexer/MultiplyAutomaton.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/MultiplyAutomaton.cpp.o
-.PHONY : Lexer/MultiplyAutomaton.cpp.o
+Lexer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer.cpp.o
+.PHONY : Lexer.cpp.o
 
-Lexer/MultiplyAutomaton.i: Lexer/MultiplyAutomaton.cpp.i
-.PHONY : Lexer/MultiplyAutomaton.i
+Lexer.i: Lexer.cpp.i
+.PHONY : Lexer.i
 
 # target to preprocess a source file
-Lexer/MultiplyAutomaton.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/MultiplyAutomaton.cpp.i
-.PHONY : Lexer/MultiplyAutomaton.cpp.i
+Lexer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer.cpp.i
+.PHONY : Lexer.cpp.i
 
-Lexer/MultiplyAutomaton.s: Lexer/MultiplyAutomaton.cpp.s
-.PHONY : Lexer/MultiplyAutomaton.s
+Lexer.s: Lexer.cpp.s
+.PHONY : Lexer.s
 
 # target to generate assembly for a file
-Lexer/MultiplyAutomaton.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/MultiplyAutomaton.cpp.s
-.PHONY : Lexer/MultiplyAutomaton.cpp.s
+Lexer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer.cpp.s
+.PHONY : Lexer.cpp.s
 
-Lexer/PeriodAutomaton.o: Lexer/PeriodAutomaton.cpp.o
-.PHONY : Lexer/PeriodAutomaton.o
+MultiplyAutomaton.o: MultiplyAutomaton.cpp.o
+.PHONY : MultiplyAutomaton.o
 
 # target to build an object file
-Lexer/PeriodAutomaton.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/PeriodAutomaton.cpp.o
-.PHONY : Lexer/PeriodAutomaton.cpp.o
+MultiplyAutomaton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/MultiplyAutomaton.cpp.o
+.PHONY : MultiplyAutomaton.cpp.o
 
-Lexer/PeriodAutomaton.i: Lexer/PeriodAutomaton.cpp.i
-.PHONY : Lexer/PeriodAutomaton.i
+MultiplyAutomaton.i: MultiplyAutomaton.cpp.i
+.PHONY : MultiplyAutomaton.i
 
 # target to preprocess a source file
-Lexer/PeriodAutomaton.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/PeriodAutomaton.cpp.i
-.PHONY : Lexer/PeriodAutomaton.cpp.i
+MultiplyAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/MultiplyAutomaton.cpp.i
+.PHONY : MultiplyAutomaton.cpp.i
 
-Lexer/PeriodAutomaton.s: Lexer/PeriodAutomaton.cpp.s
-.PHONY : Lexer/PeriodAutomaton.s
+MultiplyAutomaton.s: MultiplyAutomaton.cpp.s
+.PHONY : MultiplyAutomaton.s
 
 # target to generate assembly for a file
-Lexer/PeriodAutomaton.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/PeriodAutomaton.cpp.s
-.PHONY : Lexer/PeriodAutomaton.cpp.s
+MultiplyAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/MultiplyAutomaton.cpp.s
+.PHONY : MultiplyAutomaton.cpp.s
 
-Lexer/QueriesAutomaton.o: Lexer/QueriesAutomaton.cpp.o
-.PHONY : Lexer/QueriesAutomaton.o
+Parser.o: Parser.cpp.o
+.PHONY : Parser.o
 
 # target to build an object file
-Lexer/QueriesAutomaton.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/QueriesAutomaton.cpp.o
-.PHONY : Lexer/QueriesAutomaton.cpp.o
+Parser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Parser.cpp.o
+.PHONY : Parser.cpp.o
 
-Lexer/QueriesAutomaton.i: Lexer/QueriesAutomaton.cpp.i
-.PHONY : Lexer/QueriesAutomaton.i
+Parser.i: Parser.cpp.i
+.PHONY : Parser.i
 
 # target to preprocess a source file
-Lexer/QueriesAutomaton.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/QueriesAutomaton.cpp.i
-.PHONY : Lexer/QueriesAutomaton.cpp.i
+Parser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Parser.cpp.i
+.PHONY : Parser.cpp.i
 
-Lexer/QueriesAutomaton.s: Lexer/QueriesAutomaton.cpp.s
-.PHONY : Lexer/QueriesAutomaton.s
+Parser.s: Parser.cpp.s
+.PHONY : Parser.s
 
 # target to generate assembly for a file
-Lexer/QueriesAutomaton.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/QueriesAutomaton.cpp.s
-.PHONY : Lexer/QueriesAutomaton.cpp.s
+Parser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Parser.cpp.s
+.PHONY : Parser.cpp.s
 
-Lexer/QuestionMarkAutomaton.o: Lexer/QuestionMarkAutomaton.cpp.o
-.PHONY : Lexer/QuestionMarkAutomaton.o
+PeriodAutomaton.o: PeriodAutomaton.cpp.o
+.PHONY : PeriodAutomaton.o
 
 # target to build an object file
-Lexer/QuestionMarkAutomaton.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/QuestionMarkAutomaton.cpp.o
-.PHONY : Lexer/QuestionMarkAutomaton.cpp.o
+PeriodAutomaton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/PeriodAutomaton.cpp.o
+.PHONY : PeriodAutomaton.cpp.o
 
-Lexer/QuestionMarkAutomaton.i: Lexer/QuestionMarkAutomaton.cpp.i
-.PHONY : Lexer/QuestionMarkAutomaton.i
+PeriodAutomaton.i: PeriodAutomaton.cpp.i
+.PHONY : PeriodAutomaton.i
 
 # target to preprocess a source file
-Lexer/QuestionMarkAutomaton.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/QuestionMarkAutomaton.cpp.i
-.PHONY : Lexer/QuestionMarkAutomaton.cpp.i
+PeriodAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/PeriodAutomaton.cpp.i
+.PHONY : PeriodAutomaton.cpp.i
 
-Lexer/QuestionMarkAutomaton.s: Lexer/QuestionMarkAutomaton.cpp.s
-.PHONY : Lexer/QuestionMarkAutomaton.s
+PeriodAutomaton.s: PeriodAutomaton.cpp.s
+.PHONY : PeriodAutomaton.s
 
 # target to generate assembly for a file
-Lexer/QuestionMarkAutomaton.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/QuestionMarkAutomaton.cpp.s
-.PHONY : Lexer/QuestionMarkAutomaton.cpp.s
+PeriodAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/PeriodAutomaton.cpp.s
+.PHONY : PeriodAutomaton.cpp.s
 
-Lexer/RightParenAutomaton.o: Lexer/RightParenAutomaton.cpp.o
-.PHONY : Lexer/RightParenAutomaton.o
+QueriesAutomaton.o: QueriesAutomaton.cpp.o
+.PHONY : QueriesAutomaton.o
 
 # target to build an object file
-Lexer/RightParenAutomaton.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/RightParenAutomaton.cpp.o
-.PHONY : Lexer/RightParenAutomaton.cpp.o
+QueriesAutomaton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/QueriesAutomaton.cpp.o
+.PHONY : QueriesAutomaton.cpp.o
 
-Lexer/RightParenAutomaton.i: Lexer/RightParenAutomaton.cpp.i
-.PHONY : Lexer/RightParenAutomaton.i
+QueriesAutomaton.i: QueriesAutomaton.cpp.i
+.PHONY : QueriesAutomaton.i
 
 # target to preprocess a source file
-Lexer/RightParenAutomaton.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/RightParenAutomaton.cpp.i
-.PHONY : Lexer/RightParenAutomaton.cpp.i
+QueriesAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/QueriesAutomaton.cpp.i
+.PHONY : QueriesAutomaton.cpp.i
 
-Lexer/RightParenAutomaton.s: Lexer/RightParenAutomaton.cpp.s
-.PHONY : Lexer/RightParenAutomaton.s
+QueriesAutomaton.s: QueriesAutomaton.cpp.s
+.PHONY : QueriesAutomaton.s
 
 # target to generate assembly for a file
-Lexer/RightParenAutomaton.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/RightParenAutomaton.cpp.s
-.PHONY : Lexer/RightParenAutomaton.cpp.s
+QueriesAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/QueriesAutomaton.cpp.s
+.PHONY : QueriesAutomaton.cpp.s
 
-Lexer/RulesAutomaton.o: Lexer/RulesAutomaton.cpp.o
-.PHONY : Lexer/RulesAutomaton.o
+QuestionMarkAutomaton.o: QuestionMarkAutomaton.cpp.o
+.PHONY : QuestionMarkAutomaton.o
 
 # target to build an object file
-Lexer/RulesAutomaton.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/RulesAutomaton.cpp.o
-.PHONY : Lexer/RulesAutomaton.cpp.o
+QuestionMarkAutomaton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/QuestionMarkAutomaton.cpp.o
+.PHONY : QuestionMarkAutomaton.cpp.o
 
-Lexer/RulesAutomaton.i: Lexer/RulesAutomaton.cpp.i
-.PHONY : Lexer/RulesAutomaton.i
+QuestionMarkAutomaton.i: QuestionMarkAutomaton.cpp.i
+.PHONY : QuestionMarkAutomaton.i
 
 # target to preprocess a source file
-Lexer/RulesAutomaton.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/RulesAutomaton.cpp.i
-.PHONY : Lexer/RulesAutomaton.cpp.i
+QuestionMarkAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/QuestionMarkAutomaton.cpp.i
+.PHONY : QuestionMarkAutomaton.cpp.i
 
-Lexer/RulesAutomaton.s: Lexer/RulesAutomaton.cpp.s
-.PHONY : Lexer/RulesAutomaton.s
+QuestionMarkAutomaton.s: QuestionMarkAutomaton.cpp.s
+.PHONY : QuestionMarkAutomaton.s
 
 # target to generate assembly for a file
-Lexer/RulesAutomaton.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/RulesAutomaton.cpp.s
-.PHONY : Lexer/RulesAutomaton.cpp.s
+QuestionMarkAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/QuestionMarkAutomaton.cpp.s
+.PHONY : QuestionMarkAutomaton.cpp.s
 
-Lexer/SchemesAutomaton.o: Lexer/SchemesAutomaton.cpp.o
-.PHONY : Lexer/SchemesAutomaton.o
+RightParenAutomaton.o: RightParenAutomaton.cpp.o
+.PHONY : RightParenAutomaton.o
 
 # target to build an object file
-Lexer/SchemesAutomaton.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/SchemesAutomaton.cpp.o
-.PHONY : Lexer/SchemesAutomaton.cpp.o
+RightParenAutomaton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/RightParenAutomaton.cpp.o
+.PHONY : RightParenAutomaton.cpp.o
 
-Lexer/SchemesAutomaton.i: Lexer/SchemesAutomaton.cpp.i
-.PHONY : Lexer/SchemesAutomaton.i
+RightParenAutomaton.i: RightParenAutomaton.cpp.i
+.PHONY : RightParenAutomaton.i
 
 # target to preprocess a source file
-Lexer/SchemesAutomaton.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/SchemesAutomaton.cpp.i
-.PHONY : Lexer/SchemesAutomaton.cpp.i
+RightParenAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/RightParenAutomaton.cpp.i
+.PHONY : RightParenAutomaton.cpp.i
 
-Lexer/SchemesAutomaton.s: Lexer/SchemesAutomaton.cpp.s
-.PHONY : Lexer/SchemesAutomaton.s
+RightParenAutomaton.s: RightParenAutomaton.cpp.s
+.PHONY : RightParenAutomaton.s
 
 # target to generate assembly for a file
-Lexer/SchemesAutomaton.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/SchemesAutomaton.cpp.s
-.PHONY : Lexer/SchemesAutomaton.cpp.s
+RightParenAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/RightParenAutomaton.cpp.s
+.PHONY : RightParenAutomaton.cpp.s
 
-Lexer/StringAutomaton.o: Lexer/StringAutomaton.cpp.o
-.PHONY : Lexer/StringAutomaton.o
+RulesAutomaton.o: RulesAutomaton.cpp.o
+.PHONY : RulesAutomaton.o
 
 # target to build an object file
-Lexer/StringAutomaton.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/StringAutomaton.cpp.o
-.PHONY : Lexer/StringAutomaton.cpp.o
+RulesAutomaton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/RulesAutomaton.cpp.o
+.PHONY : RulesAutomaton.cpp.o
 
-Lexer/StringAutomaton.i: Lexer/StringAutomaton.cpp.i
-.PHONY : Lexer/StringAutomaton.i
+RulesAutomaton.i: RulesAutomaton.cpp.i
+.PHONY : RulesAutomaton.i
 
 # target to preprocess a source file
-Lexer/StringAutomaton.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/StringAutomaton.cpp.i
-.PHONY : Lexer/StringAutomaton.cpp.i
+RulesAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/RulesAutomaton.cpp.i
+.PHONY : RulesAutomaton.cpp.i
 
-Lexer/StringAutomaton.s: Lexer/StringAutomaton.cpp.s
-.PHONY : Lexer/StringAutomaton.s
+RulesAutomaton.s: RulesAutomaton.cpp.s
+.PHONY : RulesAutomaton.s
 
 # target to generate assembly for a file
-Lexer/StringAutomaton.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/StringAutomaton.cpp.s
-.PHONY : Lexer/StringAutomaton.cpp.s
+RulesAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/RulesAutomaton.cpp.s
+.PHONY : RulesAutomaton.cpp.s
 
-Lexer/Token.o: Lexer/Token.cpp.o
-.PHONY : Lexer/Token.o
+SchemesAutomaton.o: SchemesAutomaton.cpp.o
+.PHONY : SchemesAutomaton.o
 
 # target to build an object file
-Lexer/Token.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/Token.cpp.o
-.PHONY : Lexer/Token.cpp.o
+SchemesAutomaton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/SchemesAutomaton.cpp.o
+.PHONY : SchemesAutomaton.cpp.o
 
-Lexer/Token.i: Lexer/Token.cpp.i
-.PHONY : Lexer/Token.i
+SchemesAutomaton.i: SchemesAutomaton.cpp.i
+.PHONY : SchemesAutomaton.i
 
 # target to preprocess a source file
-Lexer/Token.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/Token.cpp.i
-.PHONY : Lexer/Token.cpp.i
+SchemesAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/SchemesAutomaton.cpp.i
+.PHONY : SchemesAutomaton.cpp.i
 
-Lexer/Token.s: Lexer/Token.cpp.s
-.PHONY : Lexer/Token.s
+SchemesAutomaton.s: SchemesAutomaton.cpp.s
+.PHONY : SchemesAutomaton.s
 
 # target to generate assembly for a file
-Lexer/Token.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/Token.cpp.s
-.PHONY : Lexer/Token.cpp.s
+SchemesAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/SchemesAutomaton.cpp.s
+.PHONY : SchemesAutomaton.cpp.s
 
-Lexer/WhitespaceAutomaton.o: Lexer/WhitespaceAutomaton.cpp.o
-.PHONY : Lexer/WhitespaceAutomaton.o
+StringAutomaton.o: StringAutomaton.cpp.o
+.PHONY : StringAutomaton.o
 
 # target to build an object file
-Lexer/WhitespaceAutomaton.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/WhitespaceAutomaton.cpp.o
-.PHONY : Lexer/WhitespaceAutomaton.cpp.o
+StringAutomaton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/StringAutomaton.cpp.o
+.PHONY : StringAutomaton.cpp.o
 
-Lexer/WhitespaceAutomaton.i: Lexer/WhitespaceAutomaton.cpp.i
-.PHONY : Lexer/WhitespaceAutomaton.i
+StringAutomaton.i: StringAutomaton.cpp.i
+.PHONY : StringAutomaton.i
 
 # target to preprocess a source file
-Lexer/WhitespaceAutomaton.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/WhitespaceAutomaton.cpp.i
-.PHONY : Lexer/WhitespaceAutomaton.cpp.i
+StringAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/StringAutomaton.cpp.i
+.PHONY : StringAutomaton.cpp.i
 
-Lexer/WhitespaceAutomaton.s: Lexer/WhitespaceAutomaton.cpp.s
-.PHONY : Lexer/WhitespaceAutomaton.s
+StringAutomaton.s: StringAutomaton.cpp.s
+.PHONY : StringAutomaton.s
 
 # target to generate assembly for a file
-Lexer/WhitespaceAutomaton.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Lexer/WhitespaceAutomaton.cpp.s
-.PHONY : Lexer/WhitespaceAutomaton.cpp.s
+StringAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/StringAutomaton.cpp.s
+.PHONY : StringAutomaton.cpp.s
 
-Parser/Parser.o: Parser/Parser.cpp.o
-.PHONY : Parser/Parser.o
+Token.o: Token.cpp.o
+.PHONY : Token.o
 
 # target to build an object file
-Parser/Parser.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Parser/Parser.cpp.o
-.PHONY : Parser/Parser.cpp.o
+Token.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Token.cpp.o
+.PHONY : Token.cpp.o
 
-Parser/Parser.i: Parser/Parser.cpp.i
-.PHONY : Parser/Parser.i
+Token.i: Token.cpp.i
+.PHONY : Token.i
 
 # target to preprocess a source file
-Parser/Parser.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Parser/Parser.cpp.i
-.PHONY : Parser/Parser.cpp.i
+Token.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Token.cpp.i
+.PHONY : Token.cpp.i
 
-Parser/Parser.s: Parser/Parser.cpp.s
-.PHONY : Parser/Parser.s
+Token.s: Token.cpp.s
+.PHONY : Token.s
 
 # target to generate assembly for a file
-Parser/Parser.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Parser/Parser.cpp.s
-.PHONY : Parser/Parser.cpp.s
+Token.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Token.cpp.s
+.PHONY : Token.cpp.s
+
+WhitespaceAutomaton.o: WhitespaceAutomaton.cpp.o
+.PHONY : WhitespaceAutomaton.o
+
+# target to build an object file
+WhitespaceAutomaton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/WhitespaceAutomaton.cpp.o
+.PHONY : WhitespaceAutomaton.cpp.o
+
+WhitespaceAutomaton.i: WhitespaceAutomaton.cpp.i
+.PHONY : WhitespaceAutomaton.i
+
+# target to preprocess a source file
+WhitespaceAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/WhitespaceAutomaton.cpp.i
+.PHONY : WhitespaceAutomaton.cpp.i
+
+WhitespaceAutomaton.s: WhitespaceAutomaton.cpp.s
+.PHONY : WhitespaceAutomaton.s
+
+# target to generate assembly for a file
+WhitespaceAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/WhitespaceAutomaton.cpp.s
+.PHONY : WhitespaceAutomaton.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -642,66 +666,69 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... project_1_main"
-	@echo "... Lexer/AddAutomaton.o"
-	@echo "... Lexer/AddAutomaton.i"
-	@echo "... Lexer/AddAutomaton.s"
-	@echo "... Lexer/ColonAutomaton.o"
-	@echo "... Lexer/ColonAutomaton.i"
-	@echo "... Lexer/ColonAutomaton.s"
-	@echo "... Lexer/ColonDashAutomaton.o"
-	@echo "... Lexer/ColonDashAutomaton.i"
-	@echo "... Lexer/ColonDashAutomaton.s"
-	@echo "... Lexer/CommaAutomaton.o"
-	@echo "... Lexer/CommaAutomaton.i"
-	@echo "... Lexer/CommaAutomaton.s"
-	@echo "... Lexer/CommentAutomaton.o"
-	@echo "... Lexer/CommentAutomaton.i"
-	@echo "... Lexer/CommentAutomaton.s"
-	@echo "... Lexer/FactsAutomaton.o"
-	@echo "... Lexer/FactsAutomaton.i"
-	@echo "... Lexer/FactsAutomaton.s"
-	@echo "... Lexer/IDAutomaton.o"
-	@echo "... Lexer/IDAutomaton.i"
-	@echo "... Lexer/IDAutomaton.s"
-	@echo "... Lexer/LeftParenAutomaton.o"
-	@echo "... Lexer/LeftParenAutomaton.i"
-	@echo "... Lexer/LeftParenAutomaton.s"
-	@echo "... Lexer/Lexer.o"
-	@echo "... Lexer/Lexer.i"
-	@echo "... Lexer/Lexer.s"
-	@echo "... Lexer/MultiplyAutomaton.o"
-	@echo "... Lexer/MultiplyAutomaton.i"
-	@echo "... Lexer/MultiplyAutomaton.s"
-	@echo "... Lexer/PeriodAutomaton.o"
-	@echo "... Lexer/PeriodAutomaton.i"
-	@echo "... Lexer/PeriodAutomaton.s"
-	@echo "... Lexer/QueriesAutomaton.o"
-	@echo "... Lexer/QueriesAutomaton.i"
-	@echo "... Lexer/QueriesAutomaton.s"
-	@echo "... Lexer/QuestionMarkAutomaton.o"
-	@echo "... Lexer/QuestionMarkAutomaton.i"
-	@echo "... Lexer/QuestionMarkAutomaton.s"
-	@echo "... Lexer/RightParenAutomaton.o"
-	@echo "... Lexer/RightParenAutomaton.i"
-	@echo "... Lexer/RightParenAutomaton.s"
-	@echo "... Lexer/RulesAutomaton.o"
-	@echo "... Lexer/RulesAutomaton.i"
-	@echo "... Lexer/RulesAutomaton.s"
-	@echo "... Lexer/SchemesAutomaton.o"
-	@echo "... Lexer/SchemesAutomaton.i"
-	@echo "... Lexer/SchemesAutomaton.s"
-	@echo "... Lexer/StringAutomaton.o"
-	@echo "... Lexer/StringAutomaton.i"
-	@echo "... Lexer/StringAutomaton.s"
-	@echo "... Lexer/Token.o"
-	@echo "... Lexer/Token.i"
-	@echo "... Lexer/Token.s"
-	@echo "... Lexer/WhitespaceAutomaton.o"
-	@echo "... Lexer/WhitespaceAutomaton.i"
-	@echo "... Lexer/WhitespaceAutomaton.s"
-	@echo "... Parser/Parser.o"
-	@echo "... Parser/Parser.i"
-	@echo "... Parser/Parser.s"
+	@echo "... AddAutomaton.o"
+	@echo "... AddAutomaton.i"
+	@echo "... AddAutomaton.s"
+	@echo "... ColonAutomaton.o"
+	@echo "... ColonAutomaton.i"
+	@echo "... ColonAutomaton.s"
+	@echo "... ColonDashAutomaton.o"
+	@echo "... ColonDashAutomaton.i"
+	@echo "... ColonDashAutomaton.s"
+	@echo "... CommaAutomaton.o"
+	@echo "... CommaAutomaton.i"
+	@echo "... CommaAutomaton.s"
+	@echo "... CommentAutomaton.o"
+	@echo "... CommentAutomaton.i"
+	@echo "... CommentAutomaton.s"
+	@echo "... DatalogProgram.o"
+	@echo "... DatalogProgram.i"
+	@echo "... DatalogProgram.s"
+	@echo "... FactsAutomaton.o"
+	@echo "... FactsAutomaton.i"
+	@echo "... FactsAutomaton.s"
+	@echo "... IDAutomaton.o"
+	@echo "... IDAutomaton.i"
+	@echo "... IDAutomaton.s"
+	@echo "... LeftParenAutomaton.o"
+	@echo "... LeftParenAutomaton.i"
+	@echo "... LeftParenAutomaton.s"
+	@echo "... Lexer.o"
+	@echo "... Lexer.i"
+	@echo "... Lexer.s"
+	@echo "... MultiplyAutomaton.o"
+	@echo "... MultiplyAutomaton.i"
+	@echo "... MultiplyAutomaton.s"
+	@echo "... Parser.o"
+	@echo "... Parser.i"
+	@echo "... Parser.s"
+	@echo "... PeriodAutomaton.o"
+	@echo "... PeriodAutomaton.i"
+	@echo "... PeriodAutomaton.s"
+	@echo "... QueriesAutomaton.o"
+	@echo "... QueriesAutomaton.i"
+	@echo "... QueriesAutomaton.s"
+	@echo "... QuestionMarkAutomaton.o"
+	@echo "... QuestionMarkAutomaton.i"
+	@echo "... QuestionMarkAutomaton.s"
+	@echo "... RightParenAutomaton.o"
+	@echo "... RightParenAutomaton.i"
+	@echo "... RightParenAutomaton.s"
+	@echo "... RulesAutomaton.o"
+	@echo "... RulesAutomaton.i"
+	@echo "... RulesAutomaton.s"
+	@echo "... SchemesAutomaton.o"
+	@echo "... SchemesAutomaton.i"
+	@echo "... SchemesAutomaton.s"
+	@echo "... StringAutomaton.o"
+	@echo "... StringAutomaton.i"
+	@echo "... StringAutomaton.s"
+	@echo "... Token.o"
+	@echo "... Token.i"
+	@echo "... Token.s"
+	@echo "... WhitespaceAutomaton.o"
+	@echo "... WhitespaceAutomaton.i"
+	@echo "... WhitespaceAutomaton.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

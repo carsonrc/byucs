@@ -80,124 +80,139 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Lexer/AddAutomaton.cpp">
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/AddAutomaton.cpp">
 			<Option target="project_1_main"/>
 		</Unit>
-		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Lexer/AddAutomaton.h">
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/AddAutomaton.h">
 			<Option target="project_1_main"/>
 		</Unit>
-		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Lexer/ColonAutomaton.cpp">
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/ColonAutomaton.cpp">
 			<Option target="project_1_main"/>
 		</Unit>
-		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Lexer/ColonAutomaton.h">
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/ColonAutomaton.h">
 			<Option target="project_1_main"/>
 		</Unit>
-		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Lexer/ColonDashAutomaton.cpp">
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/ColonDashAutomaton.cpp">
 			<Option target="project_1_main"/>
 		</Unit>
-		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Lexer/ColonDashAutomaton.h">
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/ColonDashAutomaton.h">
 			<Option target="project_1_main"/>
 		</Unit>
-		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Lexer/CommaAutomaton.cpp">
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/CommaAutomaton.cpp">
 			<Option target="project_1_main"/>
 		</Unit>
-		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Lexer/CommaAutomaton.h">
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/CommaAutomaton.h">
 			<Option target="project_1_main"/>
 		</Unit>
-		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Lexer/CommentAutomaton.cpp">
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/CommentAutomaton.cpp">
 			<Option target="project_1_main"/>
 		</Unit>
-		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Lexer/CommentAutomaton.h">
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/CommentAutomaton.h">
 			<Option target="project_1_main"/>
 		</Unit>
-		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Lexer/FactsAutomaton.cpp">
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/DatalogProgram.cpp">
 			<Option target="project_1_main"/>
 		</Unit>
-		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Lexer/FactsAutomaton.h">
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/DatalogProgram.h">
 			<Option target="project_1_main"/>
 		</Unit>
-		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Lexer/IDAutomaton.cpp">
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/FactsAutomaton.cpp">
 			<Option target="project_1_main"/>
 		</Unit>
-		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Lexer/IDAutomaton.h">
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/FactsAutomaton.h">
 			<Option target="project_1_main"/>
 		</Unit>
-		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Lexer/LeftParenAutomaton.cpp">
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/IDAutomaton.cpp">
 			<Option target="project_1_main"/>
 		</Unit>
-		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Lexer/LeftParenAutomaton.h">
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/IDAutomaton.h">
 			<Option target="project_1_main"/>
 		</Unit>
-		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Lexer/Lexer.cpp">
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/LeftParenAutomaton.cpp">
 			<Option target="project_1_main"/>
 		</Unit>
-		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Lexer/Lexer.h">
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/LeftParenAutomaton.h">
 			<Option target="project_1_main"/>
 		</Unit>
-		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Lexer/MultiplyAutomaton.cpp">
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Lexer.cpp">
 			<Option target="project_1_main"/>
 		</Unit>
-		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Lexer/MultiplyAutomaton.h">
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Lexer.h">
 			<Option target="project_1_main"/>
 		</Unit>
-		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Lexer/PeriodAutomaton.cpp">
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/MultiplyAutomaton.cpp">
 			<Option target="project_1_main"/>
 		</Unit>
-		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Lexer/PeriodAutomaton.h">
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/MultiplyAutomaton.h">
 			<Option target="project_1_main"/>
 		</Unit>
-		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Lexer/QueriesAutomaton.cpp">
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Parameter.h">
 			<Option target="project_1_main"/>
 		</Unit>
-		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Lexer/QueriesAutomaton.h">
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Parser.cpp">
 			<Option target="project_1_main"/>
 		</Unit>
-		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Lexer/QuestionMarkAutomaton.cpp">
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Parser.h">
 			<Option target="project_1_main"/>
 		</Unit>
-		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Lexer/QuestionMarkAutomaton.h">
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/PeriodAutomaton.cpp">
 			<Option target="project_1_main"/>
 		</Unit>
-		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Lexer/RightParenAutomaton.cpp">
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/PeriodAutomaton.h">
 			<Option target="project_1_main"/>
 		</Unit>
-		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Lexer/RightParenAutomaton.h">
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Predicate.h">
 			<Option target="project_1_main"/>
 		</Unit>
-		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Lexer/RulesAutomaton.cpp">
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/QueriesAutomaton.cpp">
 			<Option target="project_1_main"/>
 		</Unit>
-		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Lexer/RulesAutomaton.h">
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/QueriesAutomaton.h">
 			<Option target="project_1_main"/>
 		</Unit>
-		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Lexer/SchemesAutomaton.cpp">
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/QuestionMarkAutomaton.cpp">
 			<Option target="project_1_main"/>
 		</Unit>
-		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Lexer/SchemesAutomaton.h">
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/QuestionMarkAutomaton.h">
 			<Option target="project_1_main"/>
 		</Unit>
-		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Lexer/StringAutomaton.cpp">
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/RightParenAutomaton.cpp">
 			<Option target="project_1_main"/>
 		</Unit>
-		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Lexer/StringAutomaton.h">
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/RightParenAutomaton.h">
 			<Option target="project_1_main"/>
 		</Unit>
-		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Lexer/Token.cpp">
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Rule.h">
 			<Option target="project_1_main"/>
 		</Unit>
-		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Lexer/Token.h">
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/RulesAutomaton.cpp">
 			<Option target="project_1_main"/>
 		</Unit>
-		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Lexer/WhitespaceAutomaton.cpp">
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/RulesAutomaton.h">
 			<Option target="project_1_main"/>
 		</Unit>
-		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Lexer/WhitespaceAutomaton.h">
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/SchemesAutomaton.cpp">
 			<Option target="project_1_main"/>
 		</Unit>
-		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Parser/Parser.cpp">
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/SchemesAutomaton.h">
 			<Option target="project_1_main"/>
 		</Unit>
-		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Parser/Parser.h">
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/StringAutomaton.cpp">
+			<Option target="project_1_main"/>
+		</Unit>
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/StringAutomaton.h">
+			<Option target="project_1_main"/>
+		</Unit>
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Token.cpp">
+			<Option target="project_1_main"/>
+		</Unit>
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Token.h">
+			<Option target="project_1_main"/>
+		</Unit>
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/WhitespaceAutomaton.cpp">
+			<Option target="project_1_main"/>
+		</Unit>
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/WhitespaceAutomaton.h">
 			<Option target="project_1_main"/>
 		</Unit>
 		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/main.cpp">

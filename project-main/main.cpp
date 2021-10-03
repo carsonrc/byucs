@@ -6,8 +6,8 @@
 
 using namespace std;
 
-#include "Lexer/Lexer.h"
-#include "Parser/Parser.h"
+#include "Lexer.h"
+#include "Parser.h"
 
 int main(int argc, char* argv[]) {
 
@@ -36,9 +36,18 @@ int main(int argc, char* argv[]) {
     try {
         parser->DatalogParser(tokens);
     } catch (const size_t& e) {
-        cout << "Failure!\n" << *tokens[e];
-    }
+/*
+          cout << "AntePenPrevious Token: " << *tokens[e-3] << endl;
+          cout << "AntePrevious Token: " << *tokens[e-2] << endl;
+          cout << "Previous Token: " << *tokens[e-1] << endl;
+          cout << "Failure!\n" << *tokens[e] << endl;
+          cout << "Next Token: " << *tokens[e+1] << endl;
+*/
 
+         cout << "Failure!\n" << *tokens[e] << endl;
+         return 0;
+    }
+    cout << "Success!" << endl;
 
 
     delete lexer;

@@ -79,317 +79,332 @@ CMakeFiles/project_1_main.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1_main.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carsoncall/CLionProjects/byucs/project-main/main.cpp -o CMakeFiles/project_1_main.dir/main.cpp.s
 
-CMakeFiles/project_1_main.dir/Lexer/ColonAutomaton.cpp.o: CMakeFiles/project_1_main.dir/flags.make
-CMakeFiles/project_1_main.dir/Lexer/ColonAutomaton.cpp.o: ../Lexer/ColonAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carsoncall/CLionProjects/byucs/project-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/project_1_main.dir/Lexer/ColonAutomaton.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1_main.dir/Lexer/ColonAutomaton.cpp.o -c /home/carsoncall/CLionProjects/byucs/project-main/Lexer/ColonAutomaton.cpp
+CMakeFiles/project_1_main.dir/ColonAutomaton.cpp.o: CMakeFiles/project_1_main.dir/flags.make
+CMakeFiles/project_1_main.dir/ColonAutomaton.cpp.o: ../ColonAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carsoncall/CLionProjects/byucs/project-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/project_1_main.dir/ColonAutomaton.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1_main.dir/ColonAutomaton.cpp.o -c /home/carsoncall/CLionProjects/byucs/project-main/ColonAutomaton.cpp
 
-CMakeFiles/project_1_main.dir/Lexer/ColonAutomaton.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1_main.dir/Lexer/ColonAutomaton.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carsoncall/CLionProjects/byucs/project-main/Lexer/ColonAutomaton.cpp > CMakeFiles/project_1_main.dir/Lexer/ColonAutomaton.cpp.i
+CMakeFiles/project_1_main.dir/ColonAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1_main.dir/ColonAutomaton.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carsoncall/CLionProjects/byucs/project-main/ColonAutomaton.cpp > CMakeFiles/project_1_main.dir/ColonAutomaton.cpp.i
 
-CMakeFiles/project_1_main.dir/Lexer/ColonAutomaton.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1_main.dir/Lexer/ColonAutomaton.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carsoncall/CLionProjects/byucs/project-main/Lexer/ColonAutomaton.cpp -o CMakeFiles/project_1_main.dir/Lexer/ColonAutomaton.cpp.s
+CMakeFiles/project_1_main.dir/ColonAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1_main.dir/ColonAutomaton.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carsoncall/CLionProjects/byucs/project-main/ColonAutomaton.cpp -o CMakeFiles/project_1_main.dir/ColonAutomaton.cpp.s
 
-CMakeFiles/project_1_main.dir/Lexer/ColonDashAutomaton.cpp.o: CMakeFiles/project_1_main.dir/flags.make
-CMakeFiles/project_1_main.dir/Lexer/ColonDashAutomaton.cpp.o: ../Lexer/ColonDashAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carsoncall/CLionProjects/byucs/project-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/project_1_main.dir/Lexer/ColonDashAutomaton.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1_main.dir/Lexer/ColonDashAutomaton.cpp.o -c /home/carsoncall/CLionProjects/byucs/project-main/Lexer/ColonDashAutomaton.cpp
+CMakeFiles/project_1_main.dir/ColonDashAutomaton.cpp.o: CMakeFiles/project_1_main.dir/flags.make
+CMakeFiles/project_1_main.dir/ColonDashAutomaton.cpp.o: ../ColonDashAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carsoncall/CLionProjects/byucs/project-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/project_1_main.dir/ColonDashAutomaton.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1_main.dir/ColonDashAutomaton.cpp.o -c /home/carsoncall/CLionProjects/byucs/project-main/ColonDashAutomaton.cpp
 
-CMakeFiles/project_1_main.dir/Lexer/ColonDashAutomaton.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1_main.dir/Lexer/ColonDashAutomaton.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carsoncall/CLionProjects/byucs/project-main/Lexer/ColonDashAutomaton.cpp > CMakeFiles/project_1_main.dir/Lexer/ColonDashAutomaton.cpp.i
+CMakeFiles/project_1_main.dir/ColonDashAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1_main.dir/ColonDashAutomaton.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carsoncall/CLionProjects/byucs/project-main/ColonDashAutomaton.cpp > CMakeFiles/project_1_main.dir/ColonDashAutomaton.cpp.i
 
-CMakeFiles/project_1_main.dir/Lexer/ColonDashAutomaton.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1_main.dir/Lexer/ColonDashAutomaton.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carsoncall/CLionProjects/byucs/project-main/Lexer/ColonDashAutomaton.cpp -o CMakeFiles/project_1_main.dir/Lexer/ColonDashAutomaton.cpp.s
+CMakeFiles/project_1_main.dir/ColonDashAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1_main.dir/ColonDashAutomaton.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carsoncall/CLionProjects/byucs/project-main/ColonDashAutomaton.cpp -o CMakeFiles/project_1_main.dir/ColonDashAutomaton.cpp.s
 
-CMakeFiles/project_1_main.dir/Lexer/Lexer.cpp.o: CMakeFiles/project_1_main.dir/flags.make
-CMakeFiles/project_1_main.dir/Lexer/Lexer.cpp.o: ../Lexer/Lexer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carsoncall/CLionProjects/byucs/project-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/project_1_main.dir/Lexer/Lexer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1_main.dir/Lexer/Lexer.cpp.o -c /home/carsoncall/CLionProjects/byucs/project-main/Lexer/Lexer.cpp
+CMakeFiles/project_1_main.dir/Lexer.cpp.o: CMakeFiles/project_1_main.dir/flags.make
+CMakeFiles/project_1_main.dir/Lexer.cpp.o: ../Lexer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carsoncall/CLionProjects/byucs/project-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/project_1_main.dir/Lexer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1_main.dir/Lexer.cpp.o -c /home/carsoncall/CLionProjects/byucs/project-main/Lexer.cpp
 
-CMakeFiles/project_1_main.dir/Lexer/Lexer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1_main.dir/Lexer/Lexer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carsoncall/CLionProjects/byucs/project-main/Lexer/Lexer.cpp > CMakeFiles/project_1_main.dir/Lexer/Lexer.cpp.i
+CMakeFiles/project_1_main.dir/Lexer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1_main.dir/Lexer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carsoncall/CLionProjects/byucs/project-main/Lexer.cpp > CMakeFiles/project_1_main.dir/Lexer.cpp.i
 
-CMakeFiles/project_1_main.dir/Lexer/Lexer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1_main.dir/Lexer/Lexer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carsoncall/CLionProjects/byucs/project-main/Lexer/Lexer.cpp -o CMakeFiles/project_1_main.dir/Lexer/Lexer.cpp.s
+CMakeFiles/project_1_main.dir/Lexer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1_main.dir/Lexer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carsoncall/CLionProjects/byucs/project-main/Lexer.cpp -o CMakeFiles/project_1_main.dir/Lexer.cpp.s
 
-CMakeFiles/project_1_main.dir/Lexer/Token.cpp.o: CMakeFiles/project_1_main.dir/flags.make
-CMakeFiles/project_1_main.dir/Lexer/Token.cpp.o: ../Lexer/Token.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carsoncall/CLionProjects/byucs/project-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/project_1_main.dir/Lexer/Token.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1_main.dir/Lexer/Token.cpp.o -c /home/carsoncall/CLionProjects/byucs/project-main/Lexer/Token.cpp
+CMakeFiles/project_1_main.dir/Token.cpp.o: CMakeFiles/project_1_main.dir/flags.make
+CMakeFiles/project_1_main.dir/Token.cpp.o: ../Token.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carsoncall/CLionProjects/byucs/project-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/project_1_main.dir/Token.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1_main.dir/Token.cpp.o -c /home/carsoncall/CLionProjects/byucs/project-main/Token.cpp
 
-CMakeFiles/project_1_main.dir/Lexer/Token.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1_main.dir/Lexer/Token.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carsoncall/CLionProjects/byucs/project-main/Lexer/Token.cpp > CMakeFiles/project_1_main.dir/Lexer/Token.cpp.i
+CMakeFiles/project_1_main.dir/Token.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1_main.dir/Token.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carsoncall/CLionProjects/byucs/project-main/Token.cpp > CMakeFiles/project_1_main.dir/Token.cpp.i
 
-CMakeFiles/project_1_main.dir/Lexer/Token.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1_main.dir/Lexer/Token.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carsoncall/CLionProjects/byucs/project-main/Lexer/Token.cpp -o CMakeFiles/project_1_main.dir/Lexer/Token.cpp.s
+CMakeFiles/project_1_main.dir/Token.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1_main.dir/Token.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carsoncall/CLionProjects/byucs/project-main/Token.cpp -o CMakeFiles/project_1_main.dir/Token.cpp.s
 
-CMakeFiles/project_1_main.dir/Lexer/CommaAutomaton.cpp.o: CMakeFiles/project_1_main.dir/flags.make
-CMakeFiles/project_1_main.dir/Lexer/CommaAutomaton.cpp.o: ../Lexer/CommaAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carsoncall/CLionProjects/byucs/project-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/project_1_main.dir/Lexer/CommaAutomaton.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1_main.dir/Lexer/CommaAutomaton.cpp.o -c /home/carsoncall/CLionProjects/byucs/project-main/Lexer/CommaAutomaton.cpp
+CMakeFiles/project_1_main.dir/CommaAutomaton.cpp.o: CMakeFiles/project_1_main.dir/flags.make
+CMakeFiles/project_1_main.dir/CommaAutomaton.cpp.o: ../CommaAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carsoncall/CLionProjects/byucs/project-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/project_1_main.dir/CommaAutomaton.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1_main.dir/CommaAutomaton.cpp.o -c /home/carsoncall/CLionProjects/byucs/project-main/CommaAutomaton.cpp
 
-CMakeFiles/project_1_main.dir/Lexer/CommaAutomaton.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1_main.dir/Lexer/CommaAutomaton.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carsoncall/CLionProjects/byucs/project-main/Lexer/CommaAutomaton.cpp > CMakeFiles/project_1_main.dir/Lexer/CommaAutomaton.cpp.i
+CMakeFiles/project_1_main.dir/CommaAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1_main.dir/CommaAutomaton.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carsoncall/CLionProjects/byucs/project-main/CommaAutomaton.cpp > CMakeFiles/project_1_main.dir/CommaAutomaton.cpp.i
 
-CMakeFiles/project_1_main.dir/Lexer/CommaAutomaton.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1_main.dir/Lexer/CommaAutomaton.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carsoncall/CLionProjects/byucs/project-main/Lexer/CommaAutomaton.cpp -o CMakeFiles/project_1_main.dir/Lexer/CommaAutomaton.cpp.s
+CMakeFiles/project_1_main.dir/CommaAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1_main.dir/CommaAutomaton.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carsoncall/CLionProjects/byucs/project-main/CommaAutomaton.cpp -o CMakeFiles/project_1_main.dir/CommaAutomaton.cpp.s
 
-CMakeFiles/project_1_main.dir/Lexer/PeriodAutomaton.cpp.o: CMakeFiles/project_1_main.dir/flags.make
-CMakeFiles/project_1_main.dir/Lexer/PeriodAutomaton.cpp.o: ../Lexer/PeriodAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carsoncall/CLionProjects/byucs/project-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/project_1_main.dir/Lexer/PeriodAutomaton.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1_main.dir/Lexer/PeriodAutomaton.cpp.o -c /home/carsoncall/CLionProjects/byucs/project-main/Lexer/PeriodAutomaton.cpp
+CMakeFiles/project_1_main.dir/PeriodAutomaton.cpp.o: CMakeFiles/project_1_main.dir/flags.make
+CMakeFiles/project_1_main.dir/PeriodAutomaton.cpp.o: ../PeriodAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carsoncall/CLionProjects/byucs/project-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/project_1_main.dir/PeriodAutomaton.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1_main.dir/PeriodAutomaton.cpp.o -c /home/carsoncall/CLionProjects/byucs/project-main/PeriodAutomaton.cpp
 
-CMakeFiles/project_1_main.dir/Lexer/PeriodAutomaton.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1_main.dir/Lexer/PeriodAutomaton.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carsoncall/CLionProjects/byucs/project-main/Lexer/PeriodAutomaton.cpp > CMakeFiles/project_1_main.dir/Lexer/PeriodAutomaton.cpp.i
+CMakeFiles/project_1_main.dir/PeriodAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1_main.dir/PeriodAutomaton.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carsoncall/CLionProjects/byucs/project-main/PeriodAutomaton.cpp > CMakeFiles/project_1_main.dir/PeriodAutomaton.cpp.i
 
-CMakeFiles/project_1_main.dir/Lexer/PeriodAutomaton.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1_main.dir/Lexer/PeriodAutomaton.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carsoncall/CLionProjects/byucs/project-main/Lexer/PeriodAutomaton.cpp -o CMakeFiles/project_1_main.dir/Lexer/PeriodAutomaton.cpp.s
+CMakeFiles/project_1_main.dir/PeriodAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1_main.dir/PeriodAutomaton.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carsoncall/CLionProjects/byucs/project-main/PeriodAutomaton.cpp -o CMakeFiles/project_1_main.dir/PeriodAutomaton.cpp.s
 
-CMakeFiles/project_1_main.dir/Lexer/QuestionMarkAutomaton.cpp.o: CMakeFiles/project_1_main.dir/flags.make
-CMakeFiles/project_1_main.dir/Lexer/QuestionMarkAutomaton.cpp.o: ../Lexer/QuestionMarkAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carsoncall/CLionProjects/byucs/project-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/project_1_main.dir/Lexer/QuestionMarkAutomaton.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1_main.dir/Lexer/QuestionMarkAutomaton.cpp.o -c /home/carsoncall/CLionProjects/byucs/project-main/Lexer/QuestionMarkAutomaton.cpp
+CMakeFiles/project_1_main.dir/QuestionMarkAutomaton.cpp.o: CMakeFiles/project_1_main.dir/flags.make
+CMakeFiles/project_1_main.dir/QuestionMarkAutomaton.cpp.o: ../QuestionMarkAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carsoncall/CLionProjects/byucs/project-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/project_1_main.dir/QuestionMarkAutomaton.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1_main.dir/QuestionMarkAutomaton.cpp.o -c /home/carsoncall/CLionProjects/byucs/project-main/QuestionMarkAutomaton.cpp
 
-CMakeFiles/project_1_main.dir/Lexer/QuestionMarkAutomaton.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1_main.dir/Lexer/QuestionMarkAutomaton.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carsoncall/CLionProjects/byucs/project-main/Lexer/QuestionMarkAutomaton.cpp > CMakeFiles/project_1_main.dir/Lexer/QuestionMarkAutomaton.cpp.i
+CMakeFiles/project_1_main.dir/QuestionMarkAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1_main.dir/QuestionMarkAutomaton.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carsoncall/CLionProjects/byucs/project-main/QuestionMarkAutomaton.cpp > CMakeFiles/project_1_main.dir/QuestionMarkAutomaton.cpp.i
 
-CMakeFiles/project_1_main.dir/Lexer/QuestionMarkAutomaton.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1_main.dir/Lexer/QuestionMarkAutomaton.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carsoncall/CLionProjects/byucs/project-main/Lexer/QuestionMarkAutomaton.cpp -o CMakeFiles/project_1_main.dir/Lexer/QuestionMarkAutomaton.cpp.s
+CMakeFiles/project_1_main.dir/QuestionMarkAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1_main.dir/QuestionMarkAutomaton.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carsoncall/CLionProjects/byucs/project-main/QuestionMarkAutomaton.cpp -o CMakeFiles/project_1_main.dir/QuestionMarkAutomaton.cpp.s
 
-CMakeFiles/project_1_main.dir/Lexer/WhitespaceAutomaton.cpp.o: CMakeFiles/project_1_main.dir/flags.make
-CMakeFiles/project_1_main.dir/Lexer/WhitespaceAutomaton.cpp.o: ../Lexer/WhitespaceAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carsoncall/CLionProjects/byucs/project-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/project_1_main.dir/Lexer/WhitespaceAutomaton.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1_main.dir/Lexer/WhitespaceAutomaton.cpp.o -c /home/carsoncall/CLionProjects/byucs/project-main/Lexer/WhitespaceAutomaton.cpp
+CMakeFiles/project_1_main.dir/WhitespaceAutomaton.cpp.o: CMakeFiles/project_1_main.dir/flags.make
+CMakeFiles/project_1_main.dir/WhitespaceAutomaton.cpp.o: ../WhitespaceAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carsoncall/CLionProjects/byucs/project-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/project_1_main.dir/WhitespaceAutomaton.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1_main.dir/WhitespaceAutomaton.cpp.o -c /home/carsoncall/CLionProjects/byucs/project-main/WhitespaceAutomaton.cpp
 
-CMakeFiles/project_1_main.dir/Lexer/WhitespaceAutomaton.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1_main.dir/Lexer/WhitespaceAutomaton.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carsoncall/CLionProjects/byucs/project-main/Lexer/WhitespaceAutomaton.cpp > CMakeFiles/project_1_main.dir/Lexer/WhitespaceAutomaton.cpp.i
+CMakeFiles/project_1_main.dir/WhitespaceAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1_main.dir/WhitespaceAutomaton.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carsoncall/CLionProjects/byucs/project-main/WhitespaceAutomaton.cpp > CMakeFiles/project_1_main.dir/WhitespaceAutomaton.cpp.i
 
-CMakeFiles/project_1_main.dir/Lexer/WhitespaceAutomaton.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1_main.dir/Lexer/WhitespaceAutomaton.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carsoncall/CLionProjects/byucs/project-main/Lexer/WhitespaceAutomaton.cpp -o CMakeFiles/project_1_main.dir/Lexer/WhitespaceAutomaton.cpp.s
+CMakeFiles/project_1_main.dir/WhitespaceAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1_main.dir/WhitespaceAutomaton.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carsoncall/CLionProjects/byucs/project-main/WhitespaceAutomaton.cpp -o CMakeFiles/project_1_main.dir/WhitespaceAutomaton.cpp.s
 
-CMakeFiles/project_1_main.dir/Lexer/LeftParenAutomaton.cpp.o: CMakeFiles/project_1_main.dir/flags.make
-CMakeFiles/project_1_main.dir/Lexer/LeftParenAutomaton.cpp.o: ../Lexer/LeftParenAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carsoncall/CLionProjects/byucs/project-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/project_1_main.dir/Lexer/LeftParenAutomaton.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1_main.dir/Lexer/LeftParenAutomaton.cpp.o -c /home/carsoncall/CLionProjects/byucs/project-main/Lexer/LeftParenAutomaton.cpp
+CMakeFiles/project_1_main.dir/LeftParenAutomaton.cpp.o: CMakeFiles/project_1_main.dir/flags.make
+CMakeFiles/project_1_main.dir/LeftParenAutomaton.cpp.o: ../LeftParenAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carsoncall/CLionProjects/byucs/project-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/project_1_main.dir/LeftParenAutomaton.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1_main.dir/LeftParenAutomaton.cpp.o -c /home/carsoncall/CLionProjects/byucs/project-main/LeftParenAutomaton.cpp
 
-CMakeFiles/project_1_main.dir/Lexer/LeftParenAutomaton.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1_main.dir/Lexer/LeftParenAutomaton.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carsoncall/CLionProjects/byucs/project-main/Lexer/LeftParenAutomaton.cpp > CMakeFiles/project_1_main.dir/Lexer/LeftParenAutomaton.cpp.i
+CMakeFiles/project_1_main.dir/LeftParenAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1_main.dir/LeftParenAutomaton.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carsoncall/CLionProjects/byucs/project-main/LeftParenAutomaton.cpp > CMakeFiles/project_1_main.dir/LeftParenAutomaton.cpp.i
 
-CMakeFiles/project_1_main.dir/Lexer/LeftParenAutomaton.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1_main.dir/Lexer/LeftParenAutomaton.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carsoncall/CLionProjects/byucs/project-main/Lexer/LeftParenAutomaton.cpp -o CMakeFiles/project_1_main.dir/Lexer/LeftParenAutomaton.cpp.s
+CMakeFiles/project_1_main.dir/LeftParenAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1_main.dir/LeftParenAutomaton.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carsoncall/CLionProjects/byucs/project-main/LeftParenAutomaton.cpp -o CMakeFiles/project_1_main.dir/LeftParenAutomaton.cpp.s
 
-CMakeFiles/project_1_main.dir/Lexer/RightParenAutomaton.cpp.o: CMakeFiles/project_1_main.dir/flags.make
-CMakeFiles/project_1_main.dir/Lexer/RightParenAutomaton.cpp.o: ../Lexer/RightParenAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carsoncall/CLionProjects/byucs/project-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/project_1_main.dir/Lexer/RightParenAutomaton.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1_main.dir/Lexer/RightParenAutomaton.cpp.o -c /home/carsoncall/CLionProjects/byucs/project-main/Lexer/RightParenAutomaton.cpp
+CMakeFiles/project_1_main.dir/RightParenAutomaton.cpp.o: CMakeFiles/project_1_main.dir/flags.make
+CMakeFiles/project_1_main.dir/RightParenAutomaton.cpp.o: ../RightParenAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carsoncall/CLionProjects/byucs/project-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/project_1_main.dir/RightParenAutomaton.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1_main.dir/RightParenAutomaton.cpp.o -c /home/carsoncall/CLionProjects/byucs/project-main/RightParenAutomaton.cpp
 
-CMakeFiles/project_1_main.dir/Lexer/RightParenAutomaton.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1_main.dir/Lexer/RightParenAutomaton.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carsoncall/CLionProjects/byucs/project-main/Lexer/RightParenAutomaton.cpp > CMakeFiles/project_1_main.dir/Lexer/RightParenAutomaton.cpp.i
+CMakeFiles/project_1_main.dir/RightParenAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1_main.dir/RightParenAutomaton.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carsoncall/CLionProjects/byucs/project-main/RightParenAutomaton.cpp > CMakeFiles/project_1_main.dir/RightParenAutomaton.cpp.i
 
-CMakeFiles/project_1_main.dir/Lexer/RightParenAutomaton.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1_main.dir/Lexer/RightParenAutomaton.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carsoncall/CLionProjects/byucs/project-main/Lexer/RightParenAutomaton.cpp -o CMakeFiles/project_1_main.dir/Lexer/RightParenAutomaton.cpp.s
+CMakeFiles/project_1_main.dir/RightParenAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1_main.dir/RightParenAutomaton.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carsoncall/CLionProjects/byucs/project-main/RightParenAutomaton.cpp -o CMakeFiles/project_1_main.dir/RightParenAutomaton.cpp.s
 
-CMakeFiles/project_1_main.dir/Lexer/MultiplyAutomaton.cpp.o: CMakeFiles/project_1_main.dir/flags.make
-CMakeFiles/project_1_main.dir/Lexer/MultiplyAutomaton.cpp.o: ../Lexer/MultiplyAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carsoncall/CLionProjects/byucs/project-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/project_1_main.dir/Lexer/MultiplyAutomaton.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1_main.dir/Lexer/MultiplyAutomaton.cpp.o -c /home/carsoncall/CLionProjects/byucs/project-main/Lexer/MultiplyAutomaton.cpp
+CMakeFiles/project_1_main.dir/MultiplyAutomaton.cpp.o: CMakeFiles/project_1_main.dir/flags.make
+CMakeFiles/project_1_main.dir/MultiplyAutomaton.cpp.o: ../MultiplyAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carsoncall/CLionProjects/byucs/project-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/project_1_main.dir/MultiplyAutomaton.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1_main.dir/MultiplyAutomaton.cpp.o -c /home/carsoncall/CLionProjects/byucs/project-main/MultiplyAutomaton.cpp
 
-CMakeFiles/project_1_main.dir/Lexer/MultiplyAutomaton.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1_main.dir/Lexer/MultiplyAutomaton.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carsoncall/CLionProjects/byucs/project-main/Lexer/MultiplyAutomaton.cpp > CMakeFiles/project_1_main.dir/Lexer/MultiplyAutomaton.cpp.i
+CMakeFiles/project_1_main.dir/MultiplyAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1_main.dir/MultiplyAutomaton.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carsoncall/CLionProjects/byucs/project-main/MultiplyAutomaton.cpp > CMakeFiles/project_1_main.dir/MultiplyAutomaton.cpp.i
 
-CMakeFiles/project_1_main.dir/Lexer/MultiplyAutomaton.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1_main.dir/Lexer/MultiplyAutomaton.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carsoncall/CLionProjects/byucs/project-main/Lexer/MultiplyAutomaton.cpp -o CMakeFiles/project_1_main.dir/Lexer/MultiplyAutomaton.cpp.s
+CMakeFiles/project_1_main.dir/MultiplyAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1_main.dir/MultiplyAutomaton.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carsoncall/CLionProjects/byucs/project-main/MultiplyAutomaton.cpp -o CMakeFiles/project_1_main.dir/MultiplyAutomaton.cpp.s
 
-CMakeFiles/project_1_main.dir/Lexer/AddAutomaton.cpp.o: CMakeFiles/project_1_main.dir/flags.make
-CMakeFiles/project_1_main.dir/Lexer/AddAutomaton.cpp.o: ../Lexer/AddAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carsoncall/CLionProjects/byucs/project-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/project_1_main.dir/Lexer/AddAutomaton.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1_main.dir/Lexer/AddAutomaton.cpp.o -c /home/carsoncall/CLionProjects/byucs/project-main/Lexer/AddAutomaton.cpp
+CMakeFiles/project_1_main.dir/AddAutomaton.cpp.o: CMakeFiles/project_1_main.dir/flags.make
+CMakeFiles/project_1_main.dir/AddAutomaton.cpp.o: ../AddAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carsoncall/CLionProjects/byucs/project-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/project_1_main.dir/AddAutomaton.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1_main.dir/AddAutomaton.cpp.o -c /home/carsoncall/CLionProjects/byucs/project-main/AddAutomaton.cpp
 
-CMakeFiles/project_1_main.dir/Lexer/AddAutomaton.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1_main.dir/Lexer/AddAutomaton.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carsoncall/CLionProjects/byucs/project-main/Lexer/AddAutomaton.cpp > CMakeFiles/project_1_main.dir/Lexer/AddAutomaton.cpp.i
+CMakeFiles/project_1_main.dir/AddAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1_main.dir/AddAutomaton.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carsoncall/CLionProjects/byucs/project-main/AddAutomaton.cpp > CMakeFiles/project_1_main.dir/AddAutomaton.cpp.i
 
-CMakeFiles/project_1_main.dir/Lexer/AddAutomaton.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1_main.dir/Lexer/AddAutomaton.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carsoncall/CLionProjects/byucs/project-main/Lexer/AddAutomaton.cpp -o CMakeFiles/project_1_main.dir/Lexer/AddAutomaton.cpp.s
+CMakeFiles/project_1_main.dir/AddAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1_main.dir/AddAutomaton.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carsoncall/CLionProjects/byucs/project-main/AddAutomaton.cpp -o CMakeFiles/project_1_main.dir/AddAutomaton.cpp.s
 
-CMakeFiles/project_1_main.dir/Lexer/SchemesAutomaton.cpp.o: CMakeFiles/project_1_main.dir/flags.make
-CMakeFiles/project_1_main.dir/Lexer/SchemesAutomaton.cpp.o: ../Lexer/SchemesAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carsoncall/CLionProjects/byucs/project-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/project_1_main.dir/Lexer/SchemesAutomaton.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1_main.dir/Lexer/SchemesAutomaton.cpp.o -c /home/carsoncall/CLionProjects/byucs/project-main/Lexer/SchemesAutomaton.cpp
+CMakeFiles/project_1_main.dir/SchemesAutomaton.cpp.o: CMakeFiles/project_1_main.dir/flags.make
+CMakeFiles/project_1_main.dir/SchemesAutomaton.cpp.o: ../SchemesAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carsoncall/CLionProjects/byucs/project-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/project_1_main.dir/SchemesAutomaton.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1_main.dir/SchemesAutomaton.cpp.o -c /home/carsoncall/CLionProjects/byucs/project-main/SchemesAutomaton.cpp
 
-CMakeFiles/project_1_main.dir/Lexer/SchemesAutomaton.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1_main.dir/Lexer/SchemesAutomaton.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carsoncall/CLionProjects/byucs/project-main/Lexer/SchemesAutomaton.cpp > CMakeFiles/project_1_main.dir/Lexer/SchemesAutomaton.cpp.i
+CMakeFiles/project_1_main.dir/SchemesAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1_main.dir/SchemesAutomaton.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carsoncall/CLionProjects/byucs/project-main/SchemesAutomaton.cpp > CMakeFiles/project_1_main.dir/SchemesAutomaton.cpp.i
 
-CMakeFiles/project_1_main.dir/Lexer/SchemesAutomaton.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1_main.dir/Lexer/SchemesAutomaton.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carsoncall/CLionProjects/byucs/project-main/Lexer/SchemesAutomaton.cpp -o CMakeFiles/project_1_main.dir/Lexer/SchemesAutomaton.cpp.s
+CMakeFiles/project_1_main.dir/SchemesAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1_main.dir/SchemesAutomaton.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carsoncall/CLionProjects/byucs/project-main/SchemesAutomaton.cpp -o CMakeFiles/project_1_main.dir/SchemesAutomaton.cpp.s
 
-CMakeFiles/project_1_main.dir/Lexer/RulesAutomaton.cpp.o: CMakeFiles/project_1_main.dir/flags.make
-CMakeFiles/project_1_main.dir/Lexer/RulesAutomaton.cpp.o: ../Lexer/RulesAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carsoncall/CLionProjects/byucs/project-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/project_1_main.dir/Lexer/RulesAutomaton.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1_main.dir/Lexer/RulesAutomaton.cpp.o -c /home/carsoncall/CLionProjects/byucs/project-main/Lexer/RulesAutomaton.cpp
+CMakeFiles/project_1_main.dir/RulesAutomaton.cpp.o: CMakeFiles/project_1_main.dir/flags.make
+CMakeFiles/project_1_main.dir/RulesAutomaton.cpp.o: ../RulesAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carsoncall/CLionProjects/byucs/project-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/project_1_main.dir/RulesAutomaton.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1_main.dir/RulesAutomaton.cpp.o -c /home/carsoncall/CLionProjects/byucs/project-main/RulesAutomaton.cpp
 
-CMakeFiles/project_1_main.dir/Lexer/RulesAutomaton.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1_main.dir/Lexer/RulesAutomaton.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carsoncall/CLionProjects/byucs/project-main/Lexer/RulesAutomaton.cpp > CMakeFiles/project_1_main.dir/Lexer/RulesAutomaton.cpp.i
+CMakeFiles/project_1_main.dir/RulesAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1_main.dir/RulesAutomaton.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carsoncall/CLionProjects/byucs/project-main/RulesAutomaton.cpp > CMakeFiles/project_1_main.dir/RulesAutomaton.cpp.i
 
-CMakeFiles/project_1_main.dir/Lexer/RulesAutomaton.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1_main.dir/Lexer/RulesAutomaton.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carsoncall/CLionProjects/byucs/project-main/Lexer/RulesAutomaton.cpp -o CMakeFiles/project_1_main.dir/Lexer/RulesAutomaton.cpp.s
+CMakeFiles/project_1_main.dir/RulesAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1_main.dir/RulesAutomaton.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carsoncall/CLionProjects/byucs/project-main/RulesAutomaton.cpp -o CMakeFiles/project_1_main.dir/RulesAutomaton.cpp.s
 
-CMakeFiles/project_1_main.dir/Lexer/QueriesAutomaton.cpp.o: CMakeFiles/project_1_main.dir/flags.make
-CMakeFiles/project_1_main.dir/Lexer/QueriesAutomaton.cpp.o: ../Lexer/QueriesAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carsoncall/CLionProjects/byucs/project-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/project_1_main.dir/Lexer/QueriesAutomaton.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1_main.dir/Lexer/QueriesAutomaton.cpp.o -c /home/carsoncall/CLionProjects/byucs/project-main/Lexer/QueriesAutomaton.cpp
+CMakeFiles/project_1_main.dir/QueriesAutomaton.cpp.o: CMakeFiles/project_1_main.dir/flags.make
+CMakeFiles/project_1_main.dir/QueriesAutomaton.cpp.o: ../QueriesAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carsoncall/CLionProjects/byucs/project-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/project_1_main.dir/QueriesAutomaton.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1_main.dir/QueriesAutomaton.cpp.o -c /home/carsoncall/CLionProjects/byucs/project-main/QueriesAutomaton.cpp
 
-CMakeFiles/project_1_main.dir/Lexer/QueriesAutomaton.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1_main.dir/Lexer/QueriesAutomaton.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carsoncall/CLionProjects/byucs/project-main/Lexer/QueriesAutomaton.cpp > CMakeFiles/project_1_main.dir/Lexer/QueriesAutomaton.cpp.i
+CMakeFiles/project_1_main.dir/QueriesAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1_main.dir/QueriesAutomaton.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carsoncall/CLionProjects/byucs/project-main/QueriesAutomaton.cpp > CMakeFiles/project_1_main.dir/QueriesAutomaton.cpp.i
 
-CMakeFiles/project_1_main.dir/Lexer/QueriesAutomaton.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1_main.dir/Lexer/QueriesAutomaton.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carsoncall/CLionProjects/byucs/project-main/Lexer/QueriesAutomaton.cpp -o CMakeFiles/project_1_main.dir/Lexer/QueriesAutomaton.cpp.s
+CMakeFiles/project_1_main.dir/QueriesAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1_main.dir/QueriesAutomaton.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carsoncall/CLionProjects/byucs/project-main/QueriesAutomaton.cpp -o CMakeFiles/project_1_main.dir/QueriesAutomaton.cpp.s
 
-CMakeFiles/project_1_main.dir/Lexer/IDAutomaton.cpp.o: CMakeFiles/project_1_main.dir/flags.make
-CMakeFiles/project_1_main.dir/Lexer/IDAutomaton.cpp.o: ../Lexer/IDAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carsoncall/CLionProjects/byucs/project-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/project_1_main.dir/Lexer/IDAutomaton.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1_main.dir/Lexer/IDAutomaton.cpp.o -c /home/carsoncall/CLionProjects/byucs/project-main/Lexer/IDAutomaton.cpp
+CMakeFiles/project_1_main.dir/IDAutomaton.cpp.o: CMakeFiles/project_1_main.dir/flags.make
+CMakeFiles/project_1_main.dir/IDAutomaton.cpp.o: ../IDAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carsoncall/CLionProjects/byucs/project-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/project_1_main.dir/IDAutomaton.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1_main.dir/IDAutomaton.cpp.o -c /home/carsoncall/CLionProjects/byucs/project-main/IDAutomaton.cpp
 
-CMakeFiles/project_1_main.dir/Lexer/IDAutomaton.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1_main.dir/Lexer/IDAutomaton.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carsoncall/CLionProjects/byucs/project-main/Lexer/IDAutomaton.cpp > CMakeFiles/project_1_main.dir/Lexer/IDAutomaton.cpp.i
+CMakeFiles/project_1_main.dir/IDAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1_main.dir/IDAutomaton.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carsoncall/CLionProjects/byucs/project-main/IDAutomaton.cpp > CMakeFiles/project_1_main.dir/IDAutomaton.cpp.i
 
-CMakeFiles/project_1_main.dir/Lexer/IDAutomaton.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1_main.dir/Lexer/IDAutomaton.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carsoncall/CLionProjects/byucs/project-main/Lexer/IDAutomaton.cpp -o CMakeFiles/project_1_main.dir/Lexer/IDAutomaton.cpp.s
+CMakeFiles/project_1_main.dir/IDAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1_main.dir/IDAutomaton.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carsoncall/CLionProjects/byucs/project-main/IDAutomaton.cpp -o CMakeFiles/project_1_main.dir/IDAutomaton.cpp.s
 
-CMakeFiles/project_1_main.dir/Lexer/StringAutomaton.cpp.o: CMakeFiles/project_1_main.dir/flags.make
-CMakeFiles/project_1_main.dir/Lexer/StringAutomaton.cpp.o: ../Lexer/StringAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carsoncall/CLionProjects/byucs/project-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/project_1_main.dir/Lexer/StringAutomaton.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1_main.dir/Lexer/StringAutomaton.cpp.o -c /home/carsoncall/CLionProjects/byucs/project-main/Lexer/StringAutomaton.cpp
+CMakeFiles/project_1_main.dir/StringAutomaton.cpp.o: CMakeFiles/project_1_main.dir/flags.make
+CMakeFiles/project_1_main.dir/StringAutomaton.cpp.o: ../StringAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carsoncall/CLionProjects/byucs/project-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/project_1_main.dir/StringAutomaton.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1_main.dir/StringAutomaton.cpp.o -c /home/carsoncall/CLionProjects/byucs/project-main/StringAutomaton.cpp
 
-CMakeFiles/project_1_main.dir/Lexer/StringAutomaton.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1_main.dir/Lexer/StringAutomaton.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carsoncall/CLionProjects/byucs/project-main/Lexer/StringAutomaton.cpp > CMakeFiles/project_1_main.dir/Lexer/StringAutomaton.cpp.i
+CMakeFiles/project_1_main.dir/StringAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1_main.dir/StringAutomaton.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carsoncall/CLionProjects/byucs/project-main/StringAutomaton.cpp > CMakeFiles/project_1_main.dir/StringAutomaton.cpp.i
 
-CMakeFiles/project_1_main.dir/Lexer/StringAutomaton.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1_main.dir/Lexer/StringAutomaton.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carsoncall/CLionProjects/byucs/project-main/Lexer/StringAutomaton.cpp -o CMakeFiles/project_1_main.dir/Lexer/StringAutomaton.cpp.s
+CMakeFiles/project_1_main.dir/StringAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1_main.dir/StringAutomaton.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carsoncall/CLionProjects/byucs/project-main/StringAutomaton.cpp -o CMakeFiles/project_1_main.dir/StringAutomaton.cpp.s
 
-CMakeFiles/project_1_main.dir/Lexer/CommentAutomaton.cpp.o: CMakeFiles/project_1_main.dir/flags.make
-CMakeFiles/project_1_main.dir/Lexer/CommentAutomaton.cpp.o: ../Lexer/CommentAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carsoncall/CLionProjects/byucs/project-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/project_1_main.dir/Lexer/CommentAutomaton.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1_main.dir/Lexer/CommentAutomaton.cpp.o -c /home/carsoncall/CLionProjects/byucs/project-main/Lexer/CommentAutomaton.cpp
+CMakeFiles/project_1_main.dir/CommentAutomaton.cpp.o: CMakeFiles/project_1_main.dir/flags.make
+CMakeFiles/project_1_main.dir/CommentAutomaton.cpp.o: ../CommentAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carsoncall/CLionProjects/byucs/project-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/project_1_main.dir/CommentAutomaton.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1_main.dir/CommentAutomaton.cpp.o -c /home/carsoncall/CLionProjects/byucs/project-main/CommentAutomaton.cpp
 
-CMakeFiles/project_1_main.dir/Lexer/CommentAutomaton.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1_main.dir/Lexer/CommentAutomaton.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carsoncall/CLionProjects/byucs/project-main/Lexer/CommentAutomaton.cpp > CMakeFiles/project_1_main.dir/Lexer/CommentAutomaton.cpp.i
+CMakeFiles/project_1_main.dir/CommentAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1_main.dir/CommentAutomaton.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carsoncall/CLionProjects/byucs/project-main/CommentAutomaton.cpp > CMakeFiles/project_1_main.dir/CommentAutomaton.cpp.i
 
-CMakeFiles/project_1_main.dir/Lexer/CommentAutomaton.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1_main.dir/Lexer/CommentAutomaton.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carsoncall/CLionProjects/byucs/project-main/Lexer/CommentAutomaton.cpp -o CMakeFiles/project_1_main.dir/Lexer/CommentAutomaton.cpp.s
+CMakeFiles/project_1_main.dir/CommentAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1_main.dir/CommentAutomaton.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carsoncall/CLionProjects/byucs/project-main/CommentAutomaton.cpp -o CMakeFiles/project_1_main.dir/CommentAutomaton.cpp.s
 
-CMakeFiles/project_1_main.dir/Lexer/FactsAutomaton.cpp.o: CMakeFiles/project_1_main.dir/flags.make
-CMakeFiles/project_1_main.dir/Lexer/FactsAutomaton.cpp.o: ../Lexer/FactsAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carsoncall/CLionProjects/byucs/project-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/project_1_main.dir/Lexer/FactsAutomaton.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1_main.dir/Lexer/FactsAutomaton.cpp.o -c /home/carsoncall/CLionProjects/byucs/project-main/Lexer/FactsAutomaton.cpp
+CMakeFiles/project_1_main.dir/FactsAutomaton.cpp.o: CMakeFiles/project_1_main.dir/flags.make
+CMakeFiles/project_1_main.dir/FactsAutomaton.cpp.o: ../FactsAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carsoncall/CLionProjects/byucs/project-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/project_1_main.dir/FactsAutomaton.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1_main.dir/FactsAutomaton.cpp.o -c /home/carsoncall/CLionProjects/byucs/project-main/FactsAutomaton.cpp
 
-CMakeFiles/project_1_main.dir/Lexer/FactsAutomaton.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1_main.dir/Lexer/FactsAutomaton.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carsoncall/CLionProjects/byucs/project-main/Lexer/FactsAutomaton.cpp > CMakeFiles/project_1_main.dir/Lexer/FactsAutomaton.cpp.i
+CMakeFiles/project_1_main.dir/FactsAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1_main.dir/FactsAutomaton.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carsoncall/CLionProjects/byucs/project-main/FactsAutomaton.cpp > CMakeFiles/project_1_main.dir/FactsAutomaton.cpp.i
 
-CMakeFiles/project_1_main.dir/Lexer/FactsAutomaton.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1_main.dir/Lexer/FactsAutomaton.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carsoncall/CLionProjects/byucs/project-main/Lexer/FactsAutomaton.cpp -o CMakeFiles/project_1_main.dir/Lexer/FactsAutomaton.cpp.s
+CMakeFiles/project_1_main.dir/FactsAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1_main.dir/FactsAutomaton.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carsoncall/CLionProjects/byucs/project-main/FactsAutomaton.cpp -o CMakeFiles/project_1_main.dir/FactsAutomaton.cpp.s
 
-CMakeFiles/project_1_main.dir/Parser/Parser.cpp.o: CMakeFiles/project_1_main.dir/flags.make
-CMakeFiles/project_1_main.dir/Parser/Parser.cpp.o: ../Parser/Parser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carsoncall/CLionProjects/byucs/project-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/project_1_main.dir/Parser/Parser.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1_main.dir/Parser/Parser.cpp.o -c /home/carsoncall/CLionProjects/byucs/project-main/Parser/Parser.cpp
+CMakeFiles/project_1_main.dir/Parser.cpp.o: CMakeFiles/project_1_main.dir/flags.make
+CMakeFiles/project_1_main.dir/Parser.cpp.o: ../Parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carsoncall/CLionProjects/byucs/project-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/project_1_main.dir/Parser.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1_main.dir/Parser.cpp.o -c /home/carsoncall/CLionProjects/byucs/project-main/Parser.cpp
 
-CMakeFiles/project_1_main.dir/Parser/Parser.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1_main.dir/Parser/Parser.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carsoncall/CLionProjects/byucs/project-main/Parser/Parser.cpp > CMakeFiles/project_1_main.dir/Parser/Parser.cpp.i
+CMakeFiles/project_1_main.dir/Parser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1_main.dir/Parser.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carsoncall/CLionProjects/byucs/project-main/Parser.cpp > CMakeFiles/project_1_main.dir/Parser.cpp.i
 
-CMakeFiles/project_1_main.dir/Parser/Parser.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1_main.dir/Parser/Parser.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carsoncall/CLionProjects/byucs/project-main/Parser/Parser.cpp -o CMakeFiles/project_1_main.dir/Parser/Parser.cpp.s
+CMakeFiles/project_1_main.dir/Parser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1_main.dir/Parser.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carsoncall/CLionProjects/byucs/project-main/Parser.cpp -o CMakeFiles/project_1_main.dir/Parser.cpp.s
+
+CMakeFiles/project_1_main.dir/DatalogProgram.cpp.o: CMakeFiles/project_1_main.dir/flags.make
+CMakeFiles/project_1_main.dir/DatalogProgram.cpp.o: ../DatalogProgram.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carsoncall/CLionProjects/byucs/project-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/project_1_main.dir/DatalogProgram.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1_main.dir/DatalogProgram.cpp.o -c /home/carsoncall/CLionProjects/byucs/project-main/DatalogProgram.cpp
+
+CMakeFiles/project_1_main.dir/DatalogProgram.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1_main.dir/DatalogProgram.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carsoncall/CLionProjects/byucs/project-main/DatalogProgram.cpp > CMakeFiles/project_1_main.dir/DatalogProgram.cpp.i
+
+CMakeFiles/project_1_main.dir/DatalogProgram.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1_main.dir/DatalogProgram.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carsoncall/CLionProjects/byucs/project-main/DatalogProgram.cpp -o CMakeFiles/project_1_main.dir/DatalogProgram.cpp.s
 
 # Object files for target project_1_main
 project_1_main_OBJECTS = \
 "CMakeFiles/project_1_main.dir/main.cpp.o" \
-"CMakeFiles/project_1_main.dir/Lexer/ColonAutomaton.cpp.o" \
-"CMakeFiles/project_1_main.dir/Lexer/ColonDashAutomaton.cpp.o" \
-"CMakeFiles/project_1_main.dir/Lexer/Lexer.cpp.o" \
-"CMakeFiles/project_1_main.dir/Lexer/Token.cpp.o" \
-"CMakeFiles/project_1_main.dir/Lexer/CommaAutomaton.cpp.o" \
-"CMakeFiles/project_1_main.dir/Lexer/PeriodAutomaton.cpp.o" \
-"CMakeFiles/project_1_main.dir/Lexer/QuestionMarkAutomaton.cpp.o" \
-"CMakeFiles/project_1_main.dir/Lexer/WhitespaceAutomaton.cpp.o" \
-"CMakeFiles/project_1_main.dir/Lexer/LeftParenAutomaton.cpp.o" \
-"CMakeFiles/project_1_main.dir/Lexer/RightParenAutomaton.cpp.o" \
-"CMakeFiles/project_1_main.dir/Lexer/MultiplyAutomaton.cpp.o" \
-"CMakeFiles/project_1_main.dir/Lexer/AddAutomaton.cpp.o" \
-"CMakeFiles/project_1_main.dir/Lexer/SchemesAutomaton.cpp.o" \
-"CMakeFiles/project_1_main.dir/Lexer/RulesAutomaton.cpp.o" \
-"CMakeFiles/project_1_main.dir/Lexer/QueriesAutomaton.cpp.o" \
-"CMakeFiles/project_1_main.dir/Lexer/IDAutomaton.cpp.o" \
-"CMakeFiles/project_1_main.dir/Lexer/StringAutomaton.cpp.o" \
-"CMakeFiles/project_1_main.dir/Lexer/CommentAutomaton.cpp.o" \
-"CMakeFiles/project_1_main.dir/Lexer/FactsAutomaton.cpp.o" \
-"CMakeFiles/project_1_main.dir/Parser/Parser.cpp.o"
+"CMakeFiles/project_1_main.dir/ColonAutomaton.cpp.o" \
+"CMakeFiles/project_1_main.dir/ColonDashAutomaton.cpp.o" \
+"CMakeFiles/project_1_main.dir/Lexer.cpp.o" \
+"CMakeFiles/project_1_main.dir/Token.cpp.o" \
+"CMakeFiles/project_1_main.dir/CommaAutomaton.cpp.o" \
+"CMakeFiles/project_1_main.dir/PeriodAutomaton.cpp.o" \
+"CMakeFiles/project_1_main.dir/QuestionMarkAutomaton.cpp.o" \
+"CMakeFiles/project_1_main.dir/WhitespaceAutomaton.cpp.o" \
+"CMakeFiles/project_1_main.dir/LeftParenAutomaton.cpp.o" \
+"CMakeFiles/project_1_main.dir/RightParenAutomaton.cpp.o" \
+"CMakeFiles/project_1_main.dir/MultiplyAutomaton.cpp.o" \
+"CMakeFiles/project_1_main.dir/AddAutomaton.cpp.o" \
+"CMakeFiles/project_1_main.dir/SchemesAutomaton.cpp.o" \
+"CMakeFiles/project_1_main.dir/RulesAutomaton.cpp.o" \
+"CMakeFiles/project_1_main.dir/QueriesAutomaton.cpp.o" \
+"CMakeFiles/project_1_main.dir/IDAutomaton.cpp.o" \
+"CMakeFiles/project_1_main.dir/StringAutomaton.cpp.o" \
+"CMakeFiles/project_1_main.dir/CommentAutomaton.cpp.o" \
+"CMakeFiles/project_1_main.dir/FactsAutomaton.cpp.o" \
+"CMakeFiles/project_1_main.dir/Parser.cpp.o" \
+"CMakeFiles/project_1_main.dir/DatalogProgram.cpp.o"
 
 # External object files for target project_1_main
 project_1_main_EXTERNAL_OBJECTS =
 
 project_1_main: CMakeFiles/project_1_main.dir/main.cpp.o
-project_1_main: CMakeFiles/project_1_main.dir/Lexer/ColonAutomaton.cpp.o
-project_1_main: CMakeFiles/project_1_main.dir/Lexer/ColonDashAutomaton.cpp.o
-project_1_main: CMakeFiles/project_1_main.dir/Lexer/Lexer.cpp.o
-project_1_main: CMakeFiles/project_1_main.dir/Lexer/Token.cpp.o
-project_1_main: CMakeFiles/project_1_main.dir/Lexer/CommaAutomaton.cpp.o
-project_1_main: CMakeFiles/project_1_main.dir/Lexer/PeriodAutomaton.cpp.o
-project_1_main: CMakeFiles/project_1_main.dir/Lexer/QuestionMarkAutomaton.cpp.o
-project_1_main: CMakeFiles/project_1_main.dir/Lexer/WhitespaceAutomaton.cpp.o
-project_1_main: CMakeFiles/project_1_main.dir/Lexer/LeftParenAutomaton.cpp.o
-project_1_main: CMakeFiles/project_1_main.dir/Lexer/RightParenAutomaton.cpp.o
-project_1_main: CMakeFiles/project_1_main.dir/Lexer/MultiplyAutomaton.cpp.o
-project_1_main: CMakeFiles/project_1_main.dir/Lexer/AddAutomaton.cpp.o
-project_1_main: CMakeFiles/project_1_main.dir/Lexer/SchemesAutomaton.cpp.o
-project_1_main: CMakeFiles/project_1_main.dir/Lexer/RulesAutomaton.cpp.o
-project_1_main: CMakeFiles/project_1_main.dir/Lexer/QueriesAutomaton.cpp.o
-project_1_main: CMakeFiles/project_1_main.dir/Lexer/IDAutomaton.cpp.o
-project_1_main: CMakeFiles/project_1_main.dir/Lexer/StringAutomaton.cpp.o
-project_1_main: CMakeFiles/project_1_main.dir/Lexer/CommentAutomaton.cpp.o
-project_1_main: CMakeFiles/project_1_main.dir/Lexer/FactsAutomaton.cpp.o
-project_1_main: CMakeFiles/project_1_main.dir/Parser/Parser.cpp.o
+project_1_main: CMakeFiles/project_1_main.dir/ColonAutomaton.cpp.o
+project_1_main: CMakeFiles/project_1_main.dir/ColonDashAutomaton.cpp.o
+project_1_main: CMakeFiles/project_1_main.dir/Lexer.cpp.o
+project_1_main: CMakeFiles/project_1_main.dir/Token.cpp.o
+project_1_main: CMakeFiles/project_1_main.dir/CommaAutomaton.cpp.o
+project_1_main: CMakeFiles/project_1_main.dir/PeriodAutomaton.cpp.o
+project_1_main: CMakeFiles/project_1_main.dir/QuestionMarkAutomaton.cpp.o
+project_1_main: CMakeFiles/project_1_main.dir/WhitespaceAutomaton.cpp.o
+project_1_main: CMakeFiles/project_1_main.dir/LeftParenAutomaton.cpp.o
+project_1_main: CMakeFiles/project_1_main.dir/RightParenAutomaton.cpp.o
+project_1_main: CMakeFiles/project_1_main.dir/MultiplyAutomaton.cpp.o
+project_1_main: CMakeFiles/project_1_main.dir/AddAutomaton.cpp.o
+project_1_main: CMakeFiles/project_1_main.dir/SchemesAutomaton.cpp.o
+project_1_main: CMakeFiles/project_1_main.dir/RulesAutomaton.cpp.o
+project_1_main: CMakeFiles/project_1_main.dir/QueriesAutomaton.cpp.o
+project_1_main: CMakeFiles/project_1_main.dir/IDAutomaton.cpp.o
+project_1_main: CMakeFiles/project_1_main.dir/StringAutomaton.cpp.o
+project_1_main: CMakeFiles/project_1_main.dir/CommentAutomaton.cpp.o
+project_1_main: CMakeFiles/project_1_main.dir/FactsAutomaton.cpp.o
+project_1_main: CMakeFiles/project_1_main.dir/Parser.cpp.o
+project_1_main: CMakeFiles/project_1_main.dir/DatalogProgram.cpp.o
 project_1_main: CMakeFiles/project_1_main.dir/build.make
 project_1_main: CMakeFiles/project_1_main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/carsoncall/CLionProjects/byucs/project-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable project_1_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/carsoncall/CLionProjects/byucs/project-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable project_1_main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/project_1_main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
