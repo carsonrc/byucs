@@ -127,54 +127,47 @@ Predicate Parser::QueryParser(std::vector<Token *> tokens) {
 //type list parsers=====================================================================================================
 std::vector<Predicate> Parser::SchemeListParser(std::vector<Token*> tokens) {
     std::vector<Predicate> schemeList;
+    if (tokens[index]->GetType() != TokenType::ID && tokens[index]->GetType() != TokenType::FACTS) {throw index;}
     if (tokens[index]->GetType() == TokenType::ID) {
         schemeList.push_back(SchemeParser(tokens));
         std::vector<Predicate> tempVector = SchemeListParser(tokens);
         schemeList.insert(schemeList.end(),tempVector.begin(),tempVector.end());
     }
-    else if (tokens[index]->GetType() == TokenType::FACTS) {
-        return schemeList; //lambda do nothing
-    }
-    else {throw index; } //dummy return
+
+    return schemeList; //lambda do nothing
 }
 
 std::vector<Predicate> Parser::FactListParser(std::vector<Token *> tokens) {
     std::vector<Predicate> factList;
+    if (tokens[index]->GetType() != TokenType::ID && tokens[index]->GetType() != TokenType::RULES) {throw index;}
     if (tokens[index]->GetType() == TokenType::ID) {
         factList.push_back(FactParser(tokens));
         std::vector<Predicate> tempVector = FactListParser(tokens);
         factList.insert(factList.end(),tempVector.begin(),tempVector.end());
     }
-    else if (tokens[index]->GetType() == TokenType::RULES){
         return factList; //lambda do nothing
-    }
-    else { throw index; }
 }
 
 std::vector<Rule> Parser::RuleListParser(std::vector<Token *> tokens) {
     std::vector<Rule> ruleList;
+    if (tokens[index]->GetType() != TokenType::ID && tokens[index]->GetType() != TokenType::QUERIES) {throw index;}
     if (tokens[index]->GetType() == TokenType::ID) {
         ruleList.push_back(RuleParser(tokens));
         std::vector<Rule> tempVector = RuleListParser(tokens);
         ruleList.insert(ruleList.end(),tempVector.begin(),tempVector.end());
     }
-    else if (tokens[index]->GetType() == TokenType::QUERIES) {
         return ruleList; //lambda do nothing
-    }
-    else { throw index; }
 }
 
 std::vector<Predicate> Parser::QueryListParser(std::vector<Token *> tokens) {
     std::vector<Predicate> queryList;
+    if (tokens[index]->GetType() != TokenType::ID && tokens[index]->GetType() != TokenType::END_OF_FILE) {throw index;}
     if (tokens[index]->GetType() == TokenType::ID) {
         queryList.push_back(QueryParser(tokens));
         std::vector<Predicate> tempVector = QueryListParser(tokens);
         queryList.insert(queryList.end(),tempVector.begin(),tempVector.end());
     }
-    else if (tokens[index]->GetType() == TokenType::END_OF_FILE) {
         return queryList; // lambda do nothing
-    }
-    else { throw index; }
 }
 
 //predicate parsers=====================================================================================================
@@ -224,7 +217,7 @@ Predicate Parser::PredicateParser(std::vector<Token *> tokens) {
 std::vector<Predicate> Parser::PredicateListParser(std::vector<Token *> tokens) {
 
     std::vector<Predicate> predicateList;
-
+    if (tokens[index]->GetType() != TokenType::COMMA && tokens[index]->GetType() != TokenType::PERIOD) {throw index;}
     if (tokens[index]->GetType() == TokenType::COMMA) {
         index++;
         predicateList.push_back(PredicateParser(tokens));
@@ -232,26 +225,21 @@ std::vector<Predicate> Parser::PredicateListParser(std::vector<Token *> tokens) 
         tempVector = PredicateListParser(tokens);
         predicateList.insert(predicateList.end(),tempVector.begin(),tempVector.end());
     }
-    else if (tokens[index]->GetType() == TokenType::PERIOD) { // continue recursion?
-        return predicateList; //nope
-    }
-    else { throw index; }
+        return predicateList;
+
 }
 
 std::vector<Parameter *> Parser::ParameterListParser(std::vector<Token *> tokens) {
 
     std::vector<Parameter*> parameterList;
-
+    if (tokens[index]->GetType() != TokenType::COMMA && tokens[index]->GetType() != TokenType::RIGHT_PAREN) {throw index;}
     if (tokens[index]->GetType() == TokenType::COMMA) {
         index++;
         parameterList.push_back(ParameterParser(tokens));
         std::vector<Parameter *> tempVector = ParameterListParser(tokens);
         parameterList.insert(parameterList.end(),tempVector.begin(),tempVector.end());
     }
-    else if (tokens[index]->GetType() == TokenType::RIGHT_PAREN) { // continue recursion?
         return parameterList; // nope
-    }
-    else { throw index; }
 }
 
 std::vector<Parameter*> Parser::IdListParser(std::vector<Token*> tokens) {
@@ -268,7 +256,7 @@ std::vector<Parameter*> Parser::IdListParser(std::vector<Token*> tokens) {
         std::vector<Parameter*> tempVector = IdListParser(tokens);
         idList.insert(idList.end(),tempVector.begin(),tempVector.end());
     }
-    else { return idList; } //lambda do nothing
+    return idList;  //lambda do nothing
 }
 
 std::vector<Parameter*> Parser::StringListParser(std::vector<Token *> tokens) {
@@ -285,7 +273,7 @@ std::vector<Parameter*> Parser::StringListParser(std::vector<Token *> tokens) {
         std::vector<Parameter*> tempVector = StringListParser(tokens);
         stringList.insert(stringList.end(),tempVector.begin(),tempVector.end());
     }
-    else { return stringList; } //do nothing
+    return stringList;//do nothing
 }
 
 Parameter* Parser::ParameterParser(std::vector<Token *> tokens) {

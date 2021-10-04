@@ -6,24 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/carsoncall/CLionProjects/byucs/project-main/Automaton.h
-Token.h
-/home/carsoncall/CLionProjects/byucs/project-main/Token.h
-
-/home/carsoncall/CLionProjects/byucs/project-main/ColonAutomaton.h
-Automaton.h
-/home/carsoncall/CLionProjects/byucs/project-main/Automaton.h
-
-/home/carsoncall/CLionProjects/byucs/project-main/ColonDashAutomaton.h
-Automaton.h
-/home/carsoncall/CLionProjects/byucs/project-main/Automaton.h
-
-/home/carsoncall/CLionProjects/byucs/project-main/DatalogProgram.cpp
-DatalogProgram.h
-/home/carsoncall/CLionProjects/byucs/project-main/DatalogProgram.h
-iostream
--
-
 /home/carsoncall/CLionProjects/byucs/project-main/DatalogProgram.h
 vector
 -
@@ -35,18 +17,6 @@ Parameter.h
 /home/carsoncall/CLionProjects/byucs/project-main/Parameter.h
 Rule.h
 /home/carsoncall/CLionProjects/byucs/project-main/Rule.h
-
-/home/carsoncall/CLionProjects/byucs/project-main/Lexer.h
-vector
--
-Automaton.h
-/home/carsoncall/CLionProjects/byucs/project-main/Automaton.h
-ColonAutomaton.h
-/home/carsoncall/CLionProjects/byucs/project-main/ColonAutomaton.h
-ColonDashAutomaton.h
-/home/carsoncall/CLionProjects/byucs/project-main/ColonDashAutomaton.h
-Token.h
-/home/carsoncall/CLionProjects/byucs/project-main/Token.h
 
 /home/carsoncall/CLionProjects/byucs/project-main/Parameter.h
 
@@ -87,20 +57,4 @@ string
 -
 ostream
 -
-
-/home/carsoncall/CLionProjects/byucs/project-main/main.cpp
-iostream
--
-fstream
--
-sstream
--
-cctype
--
-Lexer.h
-/home/carsoncall/CLionProjects/byucs/project-main/Lexer.h
-Parser.h
-/home/carsoncall/CLionProjects/byucs/project-main/Parser.h
-DatalogProgram.h
-/home/carsoncall/CLionProjects/byucs/project-main/DatalogProgram.h
 
