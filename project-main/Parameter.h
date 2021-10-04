@@ -10,8 +10,15 @@ class Parameter {
 
 private:
     std::string param;
+    bool isString;
 
 public:
+
+    explicit Parameter(std::string param, bool isString) {
+        this-> param = param;
+        this->isString = isString;
+    }
+
     void setParam(std::string parameter) {
         this->param = parameter;
     }

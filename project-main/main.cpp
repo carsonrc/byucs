@@ -8,6 +8,7 @@ using namespace std;
 
 #include "Lexer.h"
 #include "Parser.h"
+#include "DatalogProgram.h"
 
 int main(int argc, char* argv[]) {
 
@@ -33,10 +34,12 @@ int main(int argc, char* argv[]) {
     vector<Token*> tokens = lexer->ReturnTokens();
 
     auto parser = new Parser();
+
     try {
-        parser->DatalogParser(tokens);
+         parser->ParserRun(tokens);
     } catch (const size_t& e) {
 /*
+
           cout << "AntePenPrevious Token: " << *tokens[e-3] << endl;
           cout << "AntePrevious Token: " << *tokens[e-2] << endl;
           cout << "Previous Token: " << *tokens[e-1] << endl;
@@ -44,10 +47,13 @@ int main(int argc, char* argv[]) {
           cout << "Next Token: " << *tokens[e+1] << endl;
 */
 
+
          cout << "Failure!\n" << *tokens[e] << endl;
          return 0;
     }
     cout << "Success!" << endl;
+
+    parser->GetDaddy().toCout();
 
 
     delete lexer;

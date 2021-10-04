@@ -5,6 +5,7 @@
 #ifndef PROJECT_1_MAIN_DATALOGPROGRAM_H
 #define PROJECT_1_MAIN_DATALOGPROGRAM_H
 #include <vector>
+#include <set>
 
 #include "Predicate.h"
 #include "Parameter.h"
@@ -17,8 +18,34 @@ private:
     std::vector<Predicate> queries;
     std::vector<Rule> rules;
 
+    std::set<std::string> domain;
+
 public:
-    void toString();
+
+    void addScheme(Predicate scheme) {
+        schemes.push_back(scheme);
+    }
+    void addSchemes(std::vector<Predicate> schemeList) {
+        schemes.insert(schemes.end(),schemeList.begin(),schemeList.end());
+    }
+    void addFacts(std::vector<Predicate> factList) {
+        facts.insert(facts.end(),factList.begin(),factList.end());
+    }
+    void addQuery(Predicate query) {
+        queries.push_back(query);
+    }
+    void addQueries(std::vector<Predicate> queryList) {
+        queries.insert(queries.end(),queryList.begin(),queryList.end());
+    }
+    void addRules(std::vector<Rule> ruleList) {
+        rules.insert(rules.end(),ruleList.begin(),ruleList.end());
+    }
+
+    void setDomain();
+
+    void domainToString();
+
+    void toCout();
 };
 
 

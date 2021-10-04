@@ -75,8 +75,12 @@ CMakeFiles/project_1_main.dir/MultiplyAutomaton.cpp.o: \
  ../MultiplyAutomaton.h \
  ../Token.h
 CMakeFiles/project_1_main.dir/Parser.cpp.o: \
+ ../DatalogProgram.h \
+ ../Parameter.h \
  ../Parser.cpp \
  ../Parser.h \
+ ../Predicate.h \
+ ../Rule.h \
  ../Token.h
 CMakeFiles/project_1_main.dir/PeriodAutomaton.cpp.o: \
  ../Automaton.h \
@@ -125,7 +129,11 @@ CMakeFiles/project_1_main.dir/main.cpp.o: \
  ../Automaton.h \
  ../ColonAutomaton.h \
  ../ColonDashAutomaton.h \
+ ../DatalogProgram.h \
  ../Lexer.h \
+ ../Parameter.h \
  ../Parser.h \
+ ../Predicate.h \
+ ../Rule.h \
  ../Token.h \
  ../main.cpp

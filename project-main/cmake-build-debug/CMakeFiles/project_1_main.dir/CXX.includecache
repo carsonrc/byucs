@@ -21,9 +21,13 @@ Automaton.h
 /home/carsoncall/CLionProjects/byucs/project-main/DatalogProgram.cpp
 DatalogProgram.h
 /home/carsoncall/CLionProjects/byucs/project-main/DatalogProgram.h
+iostream
+-
 
 /home/carsoncall/CLionProjects/byucs/project-main/DatalogProgram.h
 vector
+-
+set
 -
 Predicate.h
 /home/carsoncall/CLionProjects/byucs/project-main/Predicate.h
@@ -46,6 +50,12 @@ Token.h
 
 /home/carsoncall/CLionProjects/byucs/project-main/Parameter.h
 
+/home/carsoncall/CLionProjects/byucs/project-main/Parser.cpp
+Parser.h
+/home/carsoncall/CLionProjects/byucs/project-main/Parser.h
+DatalogProgram.h
+/home/carsoncall/CLionProjects/byucs/project-main/DatalogProgram.h
+
 /home/carsoncall/CLionProjects/byucs/project-main/Parser.h
 vector
 -
@@ -57,6 +67,8 @@ algorithm
 -
 Token.h
 /home/carsoncall/CLionProjects/byucs/project-main/Token.h
+DatalogProgram.h
+/home/carsoncall/CLionProjects/byucs/project-main/DatalogProgram.h
 
 /home/carsoncall/CLionProjects/byucs/project-main/Predicate.h
 string
@@ -89,4 +101,6 @@ Lexer.h
 /home/carsoncall/CLionProjects/byucs/project-main/Lexer.h
 Parser.h
 /home/carsoncall/CLionProjects/byucs/project-main/Parser.h
+DatalogProgram.h
+/home/carsoncall/CLionProjects/byucs/project-main/DatalogProgram.h
 

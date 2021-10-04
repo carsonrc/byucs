@@ -17,8 +17,16 @@ private:
 
 public:
 
-    void SetID(std::string& id) {
+    void SetID(std::string id) {
         this->id = id;
+    }
+
+    void AddParameter(Parameter* param) {
+        parameters.push_back(param);
+    }
+
+    void AddParameters(std::vector<Parameter*> params) {
+        parameters.insert(parameters.end(),params.begin(),params.end());
     }
 
     void SetParameters(std::vector<Parameter*>& parameters) {
@@ -36,6 +44,9 @@ public:
         theString.pop_back();
         theString = theString + ')';
         return theString;
+    }
+    std::vector<Parameter*> getParametersForDomain() {
+        return parameters;
     }
 };
 

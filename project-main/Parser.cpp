@@ -5,6 +5,13 @@
 #include "Parser.h"
 #include "DatalogProgram.h"
 
+void Parser::ParserRun(std::vector<Token*> tokens) {
+    this->bigDaddy = DatalogParser(tokens);
+}
+
+DatalogProgram Parser::GetDaddy() {
+    return bigDaddy;
+}
 
 DatalogProgram Parser::DatalogParser(std::vector<Token*> tokens) {
 
@@ -12,164 +19,285 @@ DatalogProgram Parser::DatalogParser(std::vector<Token*> tokens) {
 
     if (tokens[index]->GetType() == TokenType::SCHEMES){ index++;} else throw index;
     if (tokens[index]->GetType() == TokenType::COLON  ){ index++;} else throw index;
-    SchemeParser(tokens);
-    SchemeListParser(tokens);
+    bigDaddy.addScheme(SchemeParser(tokens));
+    bigDaddy.addSchemes(SchemeListParser(tokens));
 
     if (tokens[index]->GetType() == TokenType::FACTS  ){ index++;} else throw index;
     if (tokens[index]->GetType() == TokenType::COLON  ){ index++;} else throw index;
-    FactListParser(tokens);
+    bigDaddy.addFacts(FactListParser(tokens));
 
     if (tokens[index]->GetType() == TokenType::RULES  ){ index++;} else throw index;
     if (tokens[index]->GetType() == TokenType::COLON  ){ index++;} else throw index;
-    RuleListParser(tokens);
+    bigDaddy.addRules(RuleListParser(tokens));
 
     if (tokens[index]->GetType() == TokenType::QUERIES){ index++;} else throw index;
     if (tokens[index]->GetType() == TokenType::COLON  ){ index++;} else throw index;
-    QueryParser(tokens);
-    QueryListParser(tokens);
+    bigDaddy.addQuery(QueryParser(tokens));
+    bigDaddy.addQueries(QueryListParser(tokens));
 
     return bigDaddy;
 }
 
 // type parsers=========================================================================================================
-void Parser::SchemeParser(std::vector<Token *> tokens) {
-    if (tokens[index]->GetType() == TokenType::ID)         { index++;} else throw index;
+Predicate Parser::SchemeParser(std::vector<Token *> tokens) {
+
+    Predicate scheme;
+    std::vector<Parameter*> idList;
+
+    if (tokens[index]->GetType() == TokenType::ID) {
+        scheme.SetID(tokens[index]->GetDescription());
+        index++;
+    } else throw index;
+
     if (tokens[index]->GetType() == TokenType::LEFT_PAREN) { index++;} else throw index;
-    if (tokens[index]->GetType() == TokenType::ID)         { index++;} else throw index;
-    IdListParser(tokens);
+
+    if (tokens[index]->GetType() == TokenType::ID) {
+        auto param = new Parameter(tokens[index]->GetDescription(), false);
+        scheme.AddParameter(param);
+        index++;
+    } else throw index;
+
+    idList = IdListParser(tokens);
+    scheme.AddParameters(idList);
+
     if (tokens[index]->GetType() == TokenType::RIGHT_PAREN){ index++;} else throw index;
+
+    return scheme;
 }
 
-void Parser::FactParser(std::vector<Token *> tokens) {
-    if (tokens[index]->GetType() == TokenType::ID)         { index++;} else throw index;
+Predicate Parser::FactParser(std::vector<Token *> tokens) {
+
+    Predicate fact;
+    std::vector<Parameter*> stringList;
+
+    if (tokens[index]->GetType() == TokenType::ID) {
+        fact.SetID(tokens[index]->GetDescription());
+        index++;
+    } else throw index;
+
     if (tokens[index]->GetType() == TokenType::LEFT_PAREN) { index++;} else throw index;
-    if (tokens[index]->GetType() == TokenType::STRING)     { index++;} else throw index;
-    StringListParser(tokens);
+
+    if (tokens[index]->GetType() == TokenType::STRING)     {
+        auto param = new Parameter(tokens[index]->GetDescription(), true);
+        fact.AddParameter(param);
+        index++;
+    } else throw index;
+
+    stringList = StringListParser(tokens);
+    fact.AddParameters(stringList);
+
     if (tokens[index]->GetType() == TokenType::RIGHT_PAREN){ index++;} else throw index;
     if (tokens[index]->GetType() == TokenType::PERIOD)     { index++;} else throw index;
+
+    return fact;
 }
 
-void Parser::RuleParser(std::vector<Token *> tokens) {
-    HeadPredicateParser(tokens);
+Rule Parser::RuleParser(std::vector<Token *> tokens) {
+
+    Rule rule;
+    std::vector<Predicate> predHolder;
+
+    rule.setHeadPredicate(HeadPredicateParser(tokens));
+
     if (tokens[index]->GetType() == TokenType::COLON_DASH) { index++;} else throw index;
-    PredicateParser(tokens);
-    PredicateListParser(tokens);
+    predHolder.push_back(PredicateParser(tokens));
+
+    std::vector<Predicate> tempVector;
+    tempVector = PredicateListParser(tokens);
+    predHolder.insert(predHolder.end(),tempVector.begin(),tempVector.end());
+
+    rule.setBodyPredicates(predHolder);
+
     if (tokens[index]->GetType() == TokenType::PERIOD)     { index++;} else throw index;
+
+    return rule;
+
 }
 
-void Parser::QueryParser(std::vector<Token *> tokens) {
-    PredicateParser(tokens);
-if (tokens[index]->GetType() == TokenType::QUESTION_MARK)  { index++;} else throw index;
+Predicate Parser::QueryParser(std::vector<Token *> tokens) {
+    Predicate query;
+    query = PredicateParser(tokens);
+
+    if (tokens[index]->GetType() == TokenType::QUESTION_MARK)  { index++;} else throw index;
+
+    return query;
 
 }
 
 //type list parsers=====================================================================================================
-void Parser::SchemeListParser(std::vector<Token*> tokens) {
+std::vector<Predicate> Parser::SchemeListParser(std::vector<Token*> tokens) {
+    std::vector<Predicate> schemeList;
     if (tokens[index]->GetType() == TokenType::ID) {
-        SchemeParser(tokens);
-        SchemeListParser(tokens);
+        schemeList.push_back(SchemeParser(tokens));
+        std::vector<Predicate> tempVector = SchemeListParser(tokens);
+        schemeList.insert(schemeList.end(),tempVector.begin(),tempVector.end());
     }
     else if (tokens[index]->GetType() == TokenType::FACTS) {
-        return; //lambda do nothing
+        return schemeList; //lambda do nothing
     }
-    else {throw index; }
+    else {throw index; } //dummy return
 }
 
-void Parser::FactListParser(std::vector<Token *> tokens) {
+std::vector<Predicate> Parser::FactListParser(std::vector<Token *> tokens) {
+    std::vector<Predicate> factList;
     if (tokens[index]->GetType() == TokenType::ID) {
-        FactParser(tokens);
-        FactListParser(tokens);
+        factList.push_back(FactParser(tokens));
+        std::vector<Predicate> tempVector = FactListParser(tokens);
+        factList.insert(factList.end(),tempVector.begin(),tempVector.end());
     }
     else if (tokens[index]->GetType() == TokenType::RULES){
-        return; //lambda do nothing
+        return factList; //lambda do nothing
     }
     else { throw index; }
 }
 
-void Parser::RuleListParser(std::vector<Token *> tokens) {
+std::vector<Rule> Parser::RuleListParser(std::vector<Token *> tokens) {
+    std::vector<Rule> ruleList;
     if (tokens[index]->GetType() == TokenType::ID) {
-        RuleParser(tokens);
-        RuleListParser(tokens);
+        ruleList.push_back(RuleParser(tokens));
+        std::vector<Rule> tempVector = RuleListParser(tokens);
+        ruleList.insert(ruleList.end(),tempVector.begin(),tempVector.end());
     }
     else if (tokens[index]->GetType() == TokenType::QUERIES) {
-        return; //lambda do nothing
+        return ruleList; //lambda do nothing
     }
     else { throw index; }
 }
 
-void Parser::QueryListParser(std::vector<Token *> tokens) {
+std::vector<Predicate> Parser::QueryListParser(std::vector<Token *> tokens) {
+    std::vector<Predicate> queryList;
     if (tokens[index]->GetType() == TokenType::ID) {
-        QueryParser(tokens);
-        QueryListParser(tokens);
+        queryList.push_back(QueryParser(tokens));
+        std::vector<Predicate> tempVector = QueryListParser(tokens);
+        queryList.insert(queryList.end(),tempVector.begin(),tempVector.end());
     }
     else if (tokens[index]->GetType() == TokenType::END_OF_FILE) {
-        return; // lambda do nothing
+        return queryList; // lambda do nothing
     }
     else { throw index; }
 }
 
 //predicate parsers=====================================================================================================
-void Parser::HeadPredicateParser(std::vector<Token *> tokens) {
-    if (tokens[index]->GetType() == TokenType::ID)         { index++; } else throw index;
+Predicate Parser::HeadPredicateParser(std::vector<Token *> tokens) {
+
+    Predicate theHeadPred;
+
+    if (tokens[index]->GetType() == TokenType::ID)         {
+        theHeadPred.SetID(tokens[index]->GetDescription());
+        index++;
+    }
+    else throw index;
+
     if (tokens[index]->GetType() == TokenType::LEFT_PAREN) { index++; } else throw index;
-    if (tokens[index]->GetType() == TokenType::ID)         { index++; } else throw index;
-    IdListParser(tokens);
+    if (tokens[index]->GetType() == TokenType::ID)         {
+        auto* firstParam = new Parameter(tokens[index]->GetDescription(), false);
+        theHeadPred.AddParameter(firstParam);
+        index++;
+    }
+    else throw index;
+
+    theHeadPred.AddParameters(IdListParser(tokens));
+
     if (tokens[index]->GetType() == TokenType::RIGHT_PAREN){ index++; } else throw index;
+
+    return theHeadPred;
+
 }
-void Parser::PredicateParser(std::vector<Token *> tokens) {
-    if (tokens[index]->GetType() == TokenType::ID)         { index++; } else throw index;
+
+Predicate Parser::PredicateParser(std::vector<Token *> tokens) {
+    Predicate thePred;
+    if (tokens[index]->GetType() == TokenType::ID)         {
+        thePred.SetID(tokens[index]->GetDescription());
+        index++;
+    }
+    else throw index;
+
     if (tokens[index]->GetType() == TokenType::LEFT_PAREN) { index++; } else throw index;
-    ParameterParser(tokens);
-    ParameterListParser(tokens);
+
+    thePred.AddParameter(ParameterParser(tokens));
+    thePred.AddParameters(ParameterListParser(tokens));
     if (tokens[index]->GetType() == TokenType::RIGHT_PAREN){ index++;} else throw index;
+    return thePred;
 }
 
 //string or id list parsers=============================================================================================
-void Parser::PredicateListParser(std::vector<Token *> tokens) {
+std::vector<Predicate> Parser::PredicateListParser(std::vector<Token *> tokens) {
+
+    std::vector<Predicate> predicateList;
+
     if (tokens[index]->GetType() == TokenType::COMMA) {
         index++;
-        PredicateParser(tokens);
-        PredicateListParser(tokens);
+        predicateList.push_back(PredicateParser(tokens));
+        std::vector<Predicate> tempVector;
+        tempVector = PredicateListParser(tokens);
+        predicateList.insert(predicateList.end(),tempVector.begin(),tempVector.end());
     }
     else if (tokens[index]->GetType() == TokenType::PERIOD) { // continue recursion?
-        return; //nope
+        return predicateList; //nope
     }
     else { throw index; }
 }
 
-void Parser::ParameterListParser(std::vector<Token *> tokens) {
+std::vector<Parameter *> Parser::ParameterListParser(std::vector<Token *> tokens) {
+
+    std::vector<Parameter*> parameterList;
+
     if (tokens[index]->GetType() == TokenType::COMMA) {
         index++;
-        ParameterParser(tokens);
-        ParameterListParser(tokens);
+        parameterList.push_back(ParameterParser(tokens));
+        std::vector<Parameter *> tempVector = ParameterListParser(tokens);
+        parameterList.insert(parameterList.end(),tempVector.begin(),tempVector.end());
     }
     else if (tokens[index]->GetType() == TokenType::RIGHT_PAREN) { // continue recursion?
-        return; // nope
+        return parameterList; // nope
     }
     else { throw index; }
 }
 
-void Parser::IdListParser(std::vector<Token*> tokens) {
+std::vector<Parameter*> Parser::IdListParser(std::vector<Token*> tokens) {
+    std::vector<Parameter*> idList;
+
     if (tokens[index]->GetType() == TokenType::COMMA)  { index++; }
-    if (tokens[index]->GetType() == TokenType::ID)     { index++; }
+    if (tokens[index]->GetType() == TokenType::ID)     {
+        auto param = new Parameter(tokens[index]->GetDescription(),false);
+        idList.push_back(param);
+        index++;
+    }
 
     if (tokens[index]->GetType() == TokenType::COMMA) { // continue recursion?
-        IdListParser(tokens);
+        std::vector<Parameter*> tempVector = IdListParser(tokens);
+        idList.insert(idList.end(),tempVector.begin(),tempVector.end());
     }
-    else { return; } //lambda do nothing
+    else { return idList; } //lambda do nothing
 }
 
-void Parser::StringListParser(std::vector<Token *> tokens) {
+std::vector<Parameter*> Parser::StringListParser(std::vector<Token *> tokens) {
+    std::vector<Parameter*> stringList;
+
     if (tokens[index]->GetType() == TokenType::COMMA)  { index++; }
-    if (tokens[index]->GetType() == TokenType::STRING)  { index++; }
+    if (tokens[index]->GetType() == TokenType::STRING)  {
+        auto param = new Parameter(tokens[index]->GetDescription(), true);
+        stringList.push_back(param);
+        index++;
+    }
 
     if (tokens[index]->GetType() == TokenType::COMMA)  { // continue recursion?
-        StringListParser(tokens);
-    } else { return; } //do nothing
+        std::vector<Parameter*> tempVector = StringListParser(tokens);
+        stringList.insert(stringList.end(),tempVector.begin(),tempVector.end());
+    }
+    else { return stringList; } //do nothing
 }
 
-void Parser::ParameterParser(std::vector<Token *> tokens) {
-    if (tokens[index]->GetType() == TokenType::STRING) { index++; } // production 1
-    else if (tokens[index]->GetType() == TokenType::ID) { index++; } // production 2
+Parameter* Parser::ParameterParser(std::vector<Token *> tokens) {
+    if (tokens[index]->GetType() == TokenType::STRING) {
+        auto* stringParam = new Parameter(tokens[index]->GetDescription(), true);
+        index++;
+        return stringParam;
+    } // production 1
+    else if (tokens[index]->GetType() == TokenType::ID) {
+        auto* idParam = new Parameter(tokens[index]->GetDescription(), false);
+        index++;
+        return idParam;
+    } // production 2
     else { throw index; }
 }

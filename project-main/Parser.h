@@ -10,12 +10,14 @@
 #include <unordered_map>
 #include <algorithm>
 #include "Token.h"
+#include "DatalogProgram.h"
 
 class Parser {
 
 private:
     //add all the data structures produced
     size_t index = 0;
+    DatalogProgram bigDaddy;
 /*
     bool contains(std::vector<Token*> const& tokens, std::string nonterminal, size_t index);
 
@@ -33,35 +35,37 @@ private:
 public:
     //functions for all nonterminals
 
-
+    void ParserRun(std::vector<Token*> tokens);
 
     DatalogProgram DatalogParser(std::vector<Token*> tokens);
 
-    void SchemeParser(std::vector<Token*> tokens);
-    void SchemeListParser(std::vector<Token *> tokens);
+    Predicate SchemeParser(std::vector<Token*> tokens);
+    std::vector<Predicate> SchemeListParser(std::vector<Token *> tokens);
 
-    void FactParser(std::vector<Token *> tokens);
-    void FactListParser(std::vector<Token *> tokens);
+    Predicate FactParser(std::vector<Token *> tokens);
+    std::vector<Predicate> FactListParser(std::vector<Token *> tokens);
 
-    void RuleParser(std::vector<Token *> tokens);
-    void RuleListParser(std::vector<Token *> tokens);
+    Rule RuleParser(std::vector<Token *> tokens);
+    std::vector<Rule> RuleListParser(std::vector<Token *> tokens);
 
-    void QueryParser(std::vector<Token *> tokens);
-    void QueryListParser(std::vector<Token *> tokens);
+    Predicate QueryParser(std::vector<Token *> tokens);
+    std::vector<Predicate> QueryListParser(std::vector<Token *> tokens);
 
-    void HeadPredicateParser(std::vector<Token *> tokens);
+    Predicate HeadPredicateParser(std::vector<Token *> tokens);
 
-    void IdListParser(std::vector<Token *> tokens);
+    std::vector<Parameter *> IdListParser(std::vector<Token *> tokens);
 
-    void StringListParser(std::vector<Token *> tokens);
+    std::vector<Parameter *> StringListParser(std::vector<Token *> tokens);
 
-    void PredicateParser(std::vector<Token *> tokens);
+    Predicate PredicateParser(std::vector<Token *> tokens);
 
-    void PredicateListParser(std::vector<Token *> tokens);
+    std::vector<Predicate> PredicateListParser(std::vector<Token *> tokens);
 
-    void ParameterListParser(std::vector<Token *> tokens);
+    std::vector<Parameter *> ParameterListParser(std::vector<Token *> tokens);
 
-    void ParameterParser(std::vector<Token *> tokens);
+    Parameter * ParameterParser(std::vector<Token *> tokens);
+
+    DatalogProgram GetDaddy();
 };
 
 

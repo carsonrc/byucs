@@ -44,4 +44,9 @@ add_executable(project_1_main main.cpp
         FactsAutomaton.h
 
         Parser.cpp
-        Parser.h DatalogProgram.cpp DatalogProgram.h Rule.h Predicate.h Parameter.h)
+        Parser.h
+        DatalogProgram.cpp
+        DatalogProgram.h
+        Rule.h
+        Predicate.h
+        Parameter.h)

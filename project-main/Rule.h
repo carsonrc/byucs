@@ -10,25 +10,28 @@
 class Rule {
 
 private:
-    Predicate* headPredicate;
-    std::vector<Predicate*> bodyPredicates;
+    Predicate headPredicate;
+    std::vector<Predicate> bodyPredicates;
 
 public:
-    void setHeadPredicate(Predicate* headPredicate) {
+    void setHeadPredicate(Predicate headPredicate) {
         this->headPredicate = headPredicate;
     }
 
-    void setBodyPredicates(std::vector<Predicate*> bodyPredicates) {
+    void setBodyPredicates(std::vector<Predicate> bodyPredicates) {
         this->bodyPredicates = bodyPredicates;
     }
 
     std::string toString() {
         std::string theString;
-        theString = headPredicate->ToString() + " :- ";
+        theString = headPredicate.ToString() + " :- ";
 
         for (auto i : bodyPredicates) {
-            theString = theString + i->ToString();
+            theString = theString + i.ToString() + ',';
         }
+        theString.pop_back();
+
+        return theString;
     }
 
 };
