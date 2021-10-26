@@ -29,9 +29,12 @@ CMakeFiles/project_1_main.dir/CommentAutomaton.cpp.o: \
 CMakeFiles/project_1_main.dir/DatalogProgram.cpp.o: \
  ../DatalogProgram.cpp \
  ../DatalogProgram.h \
+ ../Header.h \
  ../Parameter.h \
  ../Predicate.h \
- ../Rule.h
+ ../Relation.h \
+ ../Rule.h \
+ ../Tuple.h
 CMakeFiles/project_1_main.dir/FactsAutomaton.cpp.o: \
  ../Automaton.h \
  ../FactsAutomaton.cpp \
@@ -76,12 +79,15 @@ CMakeFiles/project_1_main.dir/MultiplyAutomaton.cpp.o: \
  ../Token.h
 CMakeFiles/project_1_main.dir/Parser.cpp.o: \
  ../DatalogProgram.h \
+ ../Header.h \
  ../Parameter.h \
  ../Parser.cpp \
  ../Parser.h \
  ../Predicate.h \
+ ../Relation.h \
  ../Rule.h \
- ../Token.h
+ ../Token.h \
+ ../Tuple.h
 CMakeFiles/project_1_main.dir/PeriodAutomaton.cpp.o: \
  ../Automaton.h \
  ../PeriodAutomaton.cpp \
@@ -130,10 +136,13 @@ CMakeFiles/project_1_main.dir/main.cpp.o: \
  ../ColonAutomaton.h \
  ../ColonDashAutomaton.h \
  ../DatalogProgram.h \
+ ../Header.h \
  ../Lexer.h \
  ../Parameter.h \
  ../Parser.h \
  ../Predicate.h \
+ ../Relation.h \
  ../Rule.h \
  ../Token.h \
+ ../Tuple.h \
  ../main.cpp

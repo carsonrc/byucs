@@ -6,10 +6,18 @@
 
 #IncludeRegexTransform: 
 
+/home/carsoncall/CLionProjects/byucs/project-main/DatalogProgram.cpp
+DatalogProgram.h
+/home/carsoncall/CLionProjects/byucs/project-main/DatalogProgram.h
+iostream
+-
+
 /home/carsoncall/CLionProjects/byucs/project-main/DatalogProgram.h
 vector
 -
 set
+-
+map
 -
 Predicate.h
 /home/carsoncall/CLionProjects/byucs/project-main/Predicate.h
@@ -17,28 +25,22 @@ Parameter.h
 /home/carsoncall/CLionProjects/byucs/project-main/Parameter.h
 Rule.h
 /home/carsoncall/CLionProjects/byucs/project-main/Rule.h
+Tuple.h
+/home/carsoncall/CLionProjects/byucs/project-main/Tuple.h
+Relation.h
+/home/carsoncall/CLionProjects/byucs/project-main/Relation.h
+Header.h
+/home/carsoncall/CLionProjects/byucs/project-main/Header.h
 
-/home/carsoncall/CLionProjects/byucs/project-main/Parameter.h
-
-/home/carsoncall/CLionProjects/byucs/project-main/Parser.cpp
-Parser.h
-/home/carsoncall/CLionProjects/byucs/project-main/Parser.h
-DatalogProgram.h
-/home/carsoncall/CLionProjects/byucs/project-main/DatalogProgram.h
-
-/home/carsoncall/CLionProjects/byucs/project-main/Parser.h
+/home/carsoncall/CLionProjects/byucs/project-main/Header.h
 vector
 -
 string
 -
-unordered_map
--
-algorithm
--
-Token.h
-/home/carsoncall/CLionProjects/byucs/project-main/Token.h
-DatalogProgram.h
-/home/carsoncall/CLionProjects/byucs/project-main/DatalogProgram.h
+Parameter.h
+/home/carsoncall/CLionProjects/byucs/project-main/Parameter.h
+
+/home/carsoncall/CLionProjects/byucs/project-main/Parameter.h
 
 /home/carsoncall/CLionProjects/byucs/project-main/Predicate.h
 string
@@ -48,13 +50,27 @@ vector
 Parameter.h
 /home/carsoncall/CLionProjects/byucs/project-main/Parameter.h
 
+/home/carsoncall/CLionProjects/byucs/project-main/Relation.h
+string
+-
+set
+-
+vector
+-
+Tuple.h
+/home/carsoncall/CLionProjects/byucs/project-main/Tuple.h
+Header.h
+/home/carsoncall/CLionProjects/byucs/project-main/Header.h
+
 /home/carsoncall/CLionProjects/byucs/project-main/Rule.h
 Predicate.h
 /home/carsoncall/CLionProjects/byucs/project-main/Predicate.h
 
-/home/carsoncall/CLionProjects/byucs/project-main/Token.h
+/home/carsoncall/CLionProjects/byucs/project-main/Tuple.h
+vector
+-
 string
 -
-ostream
--
+Parameter.h
+/home/carsoncall/CLionProjects/byucs/project-main/Parameter.h
 

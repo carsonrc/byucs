@@ -122,6 +122,9 @@
 		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/FactsAutomaton.h">
 			<Option target="project_1_main"/>
 		</Unit>
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Header.h">
+			<Option target="project_1_main"/>
+		</Unit>
 		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/IDAutomaton.cpp">
 			<Option target="project_1_main"/>
 		</Unit>
@@ -176,6 +179,9 @@
 		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/QuestionMarkAutomaton.h">
 			<Option target="project_1_main"/>
 		</Unit>
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Relation.h">
+			<Option target="project_1_main"/>
+		</Unit>
 		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/RightParenAutomaton.cpp">
 			<Option target="project_1_main"/>
 		</Unit>
@@ -207,6 +213,9 @@
 			<Option target="project_1_main"/>
 		</Unit>
 		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Token.h">
+			<Option target="project_1_main"/>
+		</Unit>
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Tuple.h">
 			<Option target="project_1_main"/>
 		</Unit>
 		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/WhitespaceAutomaton.cpp">

@@ -6,10 +6,17 @@
 #define PROJECT_1_MAIN_DATALOGPROGRAM_H
 #include <vector>
 #include <set>
+#include <map>
 
 #include "Predicate.h"
 #include "Parameter.h"
 #include "Rule.h"
+
+//testing
+#include "Tuple.h"
+#include "Relation.h"
+#include "Header.h"
+
 
 class DatalogProgram {
 private:
@@ -17,6 +24,9 @@ private:
     std::vector<Predicate> facts;
     std::vector<Predicate> queries;
     std::vector<Rule> rules;
+
+    //project 3
+   // std::map<std::string,std::vector<Relation>> relations;
 
     std::set<std::string> domain;
 
@@ -42,8 +52,6 @@ public:
     }
 
     void setDomain();
-
-    void domainToString();
 
     void toCout();
 };

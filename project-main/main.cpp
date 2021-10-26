@@ -10,6 +10,9 @@ using namespace std;
 #include "Parser.h"
 #include "DatalogProgram.h"
 
+//testing
+#include "Tuple.h"
+
 int main(int argc, char* argv[]) {
 
     //opens input file
@@ -54,6 +57,9 @@ int main(int argc, char* argv[]) {
     cout << "Success!" << endl;
 
     parser->GetDaddy().toCout();
+
+//day one notes:
+// classes are made, relation operators need to be finished, Relation toString works the test header is a segfault
 
 
     delete lexer;

@@ -49,4 +49,4 @@ add_executable(project_1_main main.cpp
         DatalogProgram.h
         Rule.h
         Predicate.h
-        Parameter.h)
+        Parameter.h Tuple.h Relation.h Header.h)

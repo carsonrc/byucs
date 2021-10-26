@@ -45,7 +45,7 @@ public:
         theString = theString + ')';
         return theString;
     }
-    std::vector<Parameter*> getParametersForDomain() {
+    std::vector<Parameter*> getParameters() {
         return parameters;
     }
 };

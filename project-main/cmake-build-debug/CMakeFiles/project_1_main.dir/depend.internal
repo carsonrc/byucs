@@ -29,9 +29,12 @@ CMakeFiles/project_1_main.dir/CommentAutomaton.cpp.o
 CMakeFiles/project_1_main.dir/DatalogProgram.cpp.o
  /home/carsoncall/CLionProjects/byucs/project-main/DatalogProgram.cpp
  /home/carsoncall/CLionProjects/byucs/project-main/DatalogProgram.h
+ /home/carsoncall/CLionProjects/byucs/project-main/Header.h
  /home/carsoncall/CLionProjects/byucs/project-main/Parameter.h
  /home/carsoncall/CLionProjects/byucs/project-main/Predicate.h
+ /home/carsoncall/CLionProjects/byucs/project-main/Relation.h
  /home/carsoncall/CLionProjects/byucs/project-main/Rule.h
+ /home/carsoncall/CLionProjects/byucs/project-main/Tuple.h
 CMakeFiles/project_1_main.dir/FactsAutomaton.cpp.o
  /home/carsoncall/CLionProjects/byucs/project-main/Automaton.h
  /home/carsoncall/CLionProjects/byucs/project-main/FactsAutomaton.cpp
@@ -76,12 +79,15 @@ CMakeFiles/project_1_main.dir/MultiplyAutomaton.cpp.o
  /home/carsoncall/CLionProjects/byucs/project-main/Token.h
 CMakeFiles/project_1_main.dir/Parser.cpp.o
  /home/carsoncall/CLionProjects/byucs/project-main/DatalogProgram.h
+ /home/carsoncall/CLionProjects/byucs/project-main/Header.h
  /home/carsoncall/CLionProjects/byucs/project-main/Parameter.h
  /home/carsoncall/CLionProjects/byucs/project-main/Parser.cpp
  /home/carsoncall/CLionProjects/byucs/project-main/Parser.h
  /home/carsoncall/CLionProjects/byucs/project-main/Predicate.h
+ /home/carsoncall/CLionProjects/byucs/project-main/Relation.h
  /home/carsoncall/CLionProjects/byucs/project-main/Rule.h
  /home/carsoncall/CLionProjects/byucs/project-main/Token.h
+ /home/carsoncall/CLionProjects/byucs/project-main/Tuple.h
 CMakeFiles/project_1_main.dir/PeriodAutomaton.cpp.o
  /home/carsoncall/CLionProjects/byucs/project-main/Automaton.h
  /home/carsoncall/CLionProjects/byucs/project-main/PeriodAutomaton.cpp
@@ -130,10 +136,13 @@ CMakeFiles/project_1_main.dir/main.cpp.o
  /home/carsoncall/CLionProjects/byucs/project-main/ColonAutomaton.h
  /home/carsoncall/CLionProjects/byucs/project-main/ColonDashAutomaton.h
  /home/carsoncall/CLionProjects/byucs/project-main/DatalogProgram.h
+ /home/carsoncall/CLionProjects/byucs/project-main/Header.h
  /home/carsoncall/CLionProjects/byucs/project-main/Lexer.h
  /home/carsoncall/CLionProjects/byucs/project-main/Parameter.h
  /home/carsoncall/CLionProjects/byucs/project-main/Parser.h
  /home/carsoncall/CLionProjects/byucs/project-main/Predicate.h
+ /home/carsoncall/CLionProjects/byucs/project-main/Relation.h
  /home/carsoncall/CLionProjects/byucs/project-main/Rule.h
  /home/carsoncall/CLionProjects/byucs/project-main/Token.h
+ /home/carsoncall/CLionProjects/byucs/project-main/Tuple.h
  /home/carsoncall/CLionProjects/byucs/project-main/main.cpp
