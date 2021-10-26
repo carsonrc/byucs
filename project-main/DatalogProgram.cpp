@@ -7,30 +7,12 @@
 #include <iostream>
 
 void DatalogProgram::setDomain() {
-
-    //TODO: testing Relation class
-    Header testHeader = Header(schemes.at(0).getParameters());
-    Relation testRelation = Relation("fuck", testHeader);
-
     for (auto i : facts) {
-        std::vector<Parameter*> parameterList = i.getParameters();
-
-        //TODO: testing Tuple class
-        Tuple testTuple = Tuple(parameterList);
-        std::cout << testTuple.ToString() << std::endl;
-        // end test
-
-        //TODO: testing Relation Class
-        testRelation.AddTuple(testTuple);
-        //end test
-
-
+        std::vector<Parameter*> parameterList = i.GetParameters();
         for (auto j : parameterList) {
-            domain.insert( j->getParam());
+            domain.insert( j->GetParam());
         }
     }
-    //TODO: testing Relation class
-    std::cout << testRelation.ToString();
 }
 
 void DatalogProgram::toCout() {
@@ -62,3 +44,14 @@ void DatalogProgram::toCout() {
         std::cout << "  " << i << std::endl;
     }
 }
+
+std::vector<Predicate> DatalogProgram::GetSchemes() {
+    return schemes;
+}
+std::vector<Predicate> DatalogProgram::GetFacts() {
+    return facts;
+}
+std::vector<Predicate> DatalogProgram::GetQueries() {
+    return queries;
+}
+

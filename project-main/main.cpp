@@ -1,17 +1,12 @@
 #include <iostream>
 #include <fstream>
 #include <sstream>
-#include <cctype>
-
 
 using namespace std;
 
 #include "Lexer.h"
 #include "Parser.h"
-#include "DatalogProgram.h"
-
-//testing
-#include "Tuple.h"
+#include "Interpreter.h"
 
 int main(int argc, char* argv[]) {
 
@@ -41,16 +36,6 @@ int main(int argc, char* argv[]) {
     try {
          parser->ParserRun(tokens);
     } catch (const size_t& e) {
-/*
-
-          cout << "AntePenPrevious Token: " << *tokens[e-3] << endl;
-          cout << "AntePrevious Token: " << *tokens[e-2] << endl;
-          cout << "Previous Token: " << *tokens[e-1] << endl;
-          cout << "Failure!\n" << *tokens[e] << endl;
-          cout << "Next Token: " << *tokens[e+1] << endl;
-*/
-
-
          cout << "Failure!\n" << *tokens[e] << endl;
          return 0;
     }
@@ -58,8 +43,9 @@ int main(int argc, char* argv[]) {
 
     parser->GetDaddy().toCout();
 
-//day one notes:
-// classes are made, relation operators need to be finished, Relation toString works the test header is a segfault
+    auto intepreter = new Interpreter(parser->GetDaddy());
+    intepreter->GenerateDatabase();
+    intepreter->ToCout();
 
 
     delete lexer;

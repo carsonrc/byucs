@@ -26,6 +26,13 @@ CMakeFiles/project_1_main.dir/CommentAutomaton.cpp.o
  /home/carsoncall/CLionProjects/byucs/project-main/CommentAutomaton.cpp
  /home/carsoncall/CLionProjects/byucs/project-main/CommentAutomaton.h
  /home/carsoncall/CLionProjects/byucs/project-main/Token.h
+CMakeFiles/project_1_main.dir/Database.cpp.o
+ /home/carsoncall/CLionProjects/byucs/project-main/Database.cpp
+ /home/carsoncall/CLionProjects/byucs/project-main/Database.h
+ /home/carsoncall/CLionProjects/byucs/project-main/Header.h
+ /home/carsoncall/CLionProjects/byucs/project-main/Parameter.h
+ /home/carsoncall/CLionProjects/byucs/project-main/Relation.h
+ /home/carsoncall/CLionProjects/byucs/project-main/Tuple.h
 CMakeFiles/project_1_main.dir/DatalogProgram.cpp.o
  /home/carsoncall/CLionProjects/byucs/project-main/DatalogProgram.cpp
  /home/carsoncall/CLionProjects/byucs/project-main/DatalogProgram.h
@@ -45,6 +52,17 @@ CMakeFiles/project_1_main.dir/IDAutomaton.cpp.o
  /home/carsoncall/CLionProjects/byucs/project-main/IDAutomaton.cpp
  /home/carsoncall/CLionProjects/byucs/project-main/IDAutomaton.h
  /home/carsoncall/CLionProjects/byucs/project-main/Token.h
+CMakeFiles/project_1_main.dir/Interpreter.cpp.o
+ /home/carsoncall/CLionProjects/byucs/project-main/Database.h
+ /home/carsoncall/CLionProjects/byucs/project-main/DatalogProgram.h
+ /home/carsoncall/CLionProjects/byucs/project-main/Header.h
+ /home/carsoncall/CLionProjects/byucs/project-main/Interpreter.cpp
+ /home/carsoncall/CLionProjects/byucs/project-main/Interpreter.h
+ /home/carsoncall/CLionProjects/byucs/project-main/Parameter.h
+ /home/carsoncall/CLionProjects/byucs/project-main/Predicate.h
+ /home/carsoncall/CLionProjects/byucs/project-main/Relation.h
+ /home/carsoncall/CLionProjects/byucs/project-main/Rule.h
+ /home/carsoncall/CLionProjects/byucs/project-main/Tuple.h
 CMakeFiles/project_1_main.dir/LeftParenAutomaton.cpp.o
  /home/carsoncall/CLionProjects/byucs/project-main/Automaton.h
  /home/carsoncall/CLionProjects/byucs/project-main/LeftParenAutomaton.cpp
@@ -135,8 +153,10 @@ CMakeFiles/project_1_main.dir/main.cpp.o
  /home/carsoncall/CLionProjects/byucs/project-main/Automaton.h
  /home/carsoncall/CLionProjects/byucs/project-main/ColonAutomaton.h
  /home/carsoncall/CLionProjects/byucs/project-main/ColonDashAutomaton.h
+ /home/carsoncall/CLionProjects/byucs/project-main/Database.h
  /home/carsoncall/CLionProjects/byucs/project-main/DatalogProgram.h
  /home/carsoncall/CLionProjects/byucs/project-main/Header.h
+ /home/carsoncall/CLionProjects/byucs/project-main/Interpreter.h
  /home/carsoncall/CLionProjects/byucs/project-main/Lexer.h
  /home/carsoncall/CLionProjects/byucs/project-main/Parameter.h
  /home/carsoncall/CLionProjects/byucs/project-main/Parser.h

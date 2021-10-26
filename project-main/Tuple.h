@@ -17,10 +17,9 @@ private:
 public:
 
     //TODO: constructor?
-    explicit Tuple(const std::vector<Parameter *>& parameters) {
-        for (auto i : parameters) {
-            tupleContents.push_back(i->getParam());
-        }
+    //takes the vector from the Predicate class and converts it into a vector of strings
+    explicit Tuple(const std::vector<std::string>& parameters) {
+        tupleContents = parameters;
     }
 
     bool operator< (const Tuple &rhs) const {

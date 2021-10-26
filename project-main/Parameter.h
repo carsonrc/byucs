@@ -23,7 +23,7 @@ public:
         this->param = parameter;
     }
 
-    std::string getParam() {
+    std::string GetParam() {
         return param;
     }
 };

@@ -20,6 +20,7 @@ private:
 
 public:
 
+    Relation()= default;;
     //note: made from Schemes; schemes are predicates, so predicate.id = name and header is made from getPredicates
     Relation(std::string name, Header header) {
         this->name = name;
@@ -41,6 +42,19 @@ public:
             theString += '\n';
         }
         return theString;
+    }
+
+    std::string GetName() {
+        return name;
+    }
+
+    // relational operators
+    Relation Select(size_t row, std::string value) {
+
+    }
+
+    Relation Select(size_t row1, size_t row2) {
+
     }
 
 

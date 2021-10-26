@@ -17,18 +17,17 @@ private:
 
 public:
 
-    Header() {};
+    Header()= default;;
 
-    Header(const std::vector<Parameter *>& parameters) {
-        for (auto i : parameters) {
-            headerContents.push_back(i->getParam());
-        }
+    explicit Header(const std::vector<std::string>& parameters) {
+        headerContents = parameters;
     }
 
     std::string at(size_t index) {
         return headerContents.at(index);
     }
 
+    //necessary for for loops
     size_t size() {
         return headerContents.size();
     }

@@ -249,6 +249,30 @@ CommentAutomaton.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/CommentAutomaton.cpp.s
 .PHONY : CommentAutomaton.cpp.s
 
+Database.o: Database.cpp.o
+.PHONY : Database.o
+
+# target to build an object file
+Database.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Database.cpp.o
+.PHONY : Database.cpp.o
+
+Database.i: Database.cpp.i
+.PHONY : Database.i
+
+# target to preprocess a source file
+Database.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Database.cpp.i
+.PHONY : Database.cpp.i
+
+Database.s: Database.cpp.s
+.PHONY : Database.s
+
+# target to generate assembly for a file
+Database.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Database.cpp.s
+.PHONY : Database.cpp.s
+
 DatalogProgram.o: DatalogProgram.cpp.o
 .PHONY : DatalogProgram.o
 
@@ -320,6 +344,30 @@ IDAutomaton.s: IDAutomaton.cpp.s
 IDAutomaton.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/IDAutomaton.cpp.s
 .PHONY : IDAutomaton.cpp.s
+
+Interpreter.o: Interpreter.cpp.o
+.PHONY : Interpreter.o
+
+# target to build an object file
+Interpreter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Interpreter.cpp.o
+.PHONY : Interpreter.cpp.o
+
+Interpreter.i: Interpreter.cpp.i
+.PHONY : Interpreter.i
+
+# target to preprocess a source file
+Interpreter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Interpreter.cpp.i
+.PHONY : Interpreter.cpp.i
+
+Interpreter.s: Interpreter.cpp.s
+.PHONY : Interpreter.s
+
+# target to generate assembly for a file
+Interpreter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_1_main.dir/build.make CMakeFiles/project_1_main.dir/Interpreter.cpp.s
+.PHONY : Interpreter.cpp.s
 
 LeftParenAutomaton.o: LeftParenAutomaton.cpp.o
 .PHONY : LeftParenAutomaton.o
@@ -681,6 +729,9 @@ help:
 	@echo "... CommentAutomaton.o"
 	@echo "... CommentAutomaton.i"
 	@echo "... CommentAutomaton.s"
+	@echo "... Database.o"
+	@echo "... Database.i"
+	@echo "... Database.s"
 	@echo "... DatalogProgram.o"
 	@echo "... DatalogProgram.i"
 	@echo "... DatalogProgram.s"
@@ -690,6 +741,9 @@ help:
 	@echo "... IDAutomaton.o"
 	@echo "... IDAutomaton.i"
 	@echo "... IDAutomaton.s"
+	@echo "... Interpreter.o"
+	@echo "... Interpreter.i"
+	@echo "... Interpreter.s"
 	@echo "... LeftParenAutomaton.o"
 	@echo "... LeftParenAutomaton.i"
 	@echo "... LeftParenAutomaton.s"

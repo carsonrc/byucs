@@ -38,15 +38,28 @@ public:
         theString = id + "(";
 
         for (auto i : parameters) {
-            theString = theString + i->getParam() + ',';
+            theString = theString + i->GetParam() + ',';
         }
 
         theString.pop_back();
         theString = theString + ')';
         return theString;
     }
-    std::vector<Parameter*> getParameters() {
+
+    //project 3
+    std::vector<Parameter*> GetParameters() {
         return parameters;
+    }
+
+    std::string GetID() {
+        return id;
+    }
+    std::vector<std::string> GetStrings() {
+        std::vector<std::string> strings;
+        for (auto i : parameters) {
+            strings.push_back(i->GetParam());
+        }
+        return strings;
     }
 };
 

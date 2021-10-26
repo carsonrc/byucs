@@ -25,9 +25,6 @@ private:
     std::vector<Predicate> queries;
     std::vector<Rule> rules;
 
-    //project 3
-   // std::map<std::string,std::vector<Relation>> relations;
-
     std::set<std::string> domain;
 
 public:
@@ -54,6 +51,10 @@ public:
     void setDomain();
 
     void toCout();
+
+    std::vector<Predicate> GetSchemes();
+    std::vector<Predicate> GetFacts();
+    std::vector<Predicate> GetQueries();
 };
 
 

@@ -110,6 +110,12 @@
 		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/CommentAutomaton.h">
 			<Option target="project_1_main"/>
 		</Unit>
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Database.cpp">
+			<Option target="project_1_main"/>
+		</Unit>
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Database.h">
+			<Option target="project_1_main"/>
+		</Unit>
 		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/DatalogProgram.cpp">
 			<Option target="project_1_main"/>
 		</Unit>
@@ -129,6 +135,12 @@
 			<Option target="project_1_main"/>
 		</Unit>
 		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/IDAutomaton.h">
+			<Option target="project_1_main"/>
+		</Unit>
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Interpreter.cpp">
+			<Option target="project_1_main"/>
+		</Unit>
+		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/Interpreter.h">
 			<Option target="project_1_main"/>
 		</Unit>
 		<Unit filename="/home/carsoncall/CLionProjects/byucs/project-main/LeftParenAutomaton.cpp">
