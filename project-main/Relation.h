@@ -48,15 +48,45 @@ public:
         return name;
     }
 
-    // relational operators
-    Relation Select(size_t row, std::string value) {
-
+    //select that finds all tuples that have a certain value in a certain column. Position is column.
+    //returns a new relation with the same name and header
+    Relation select(size_t position, std::string value) {
+        Relation result = Relation(this->name,this->header); // same name and header
+        for (auto i : relationTuples) {
+            if (i.at(position) == value) {
+                result.AddTuple(i);
+            }
+        }
+        return result;
     }
 
-    Relation Select(size_t row1, size_t row2) {
-
+    //select that finds all tuples that are equal, given two columns (positions)
+    //returns a new relation with the same name and header
+    Relation select(size_t position1, size_t position2) {
+        Relation result = Relation(this->name, this->header);
+        for (auto i : relationTuples) {
+            if (i.at(position1) == i.at(position2)) {
+                result.AddTuple(i);
+            }
+        }
+        return result;
     }
 
+    //takes a vector of columns (by position) and makes a new relation with those columns, in the order
+    // they are given.
+    Relation project(std::vector<size_t> positionList) {
+        Relation result = Relation(this->name, this->header.projectHeader(positionList));
+        for (auto i : relationTuples) {
+            std::vector<std::string> newTupleContents;
+            for (auto j : positionList) {
+                newTupleContents.push_back(i.at(j));
+            }
+            Tuple newTuple = Tuple(newTupleContents);
+            result.AddTuple(newTuple);
+        }
+
+        return result;
+    }
 
 
 };

@@ -23,12 +23,16 @@ private:
     Database theDatabase;
 
 public:
-    Interpreter(DatalogProgram data);
+    explicit Interpreter(DatalogProgram data);
 
     void GenerateDatabase();
 
     void ToCout();
+
+    Relation evaluatePredicate(Predicate);
+
 };
+
 
 
 #endif //PROJECT_1_MAIN_INTERPRETER_H

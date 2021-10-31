@@ -31,6 +31,15 @@ public:
     size_t size() {
         return headerContents.size();
     }
+
+    Header projectHeader(const std::vector<size_t> positions) {
+        std::vector<std::string> newHeaderContents;
+        for (auto i : positions) {
+            newHeaderContents.push_back(headerContents.at(i));
+        }
+        Header newHeader = Header(newHeaderContents);
+        return newHeader;
+    }
 };
 
 

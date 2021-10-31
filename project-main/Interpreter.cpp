@@ -21,6 +21,10 @@ void Interpreter::GenerateDatabase() {
         }
         theDatabase.AddRelation(temp);
     }
+
+    for (auto i : theData.GetQueries()) {
+
+    }
 }
 
 void Interpreter::ToCout() {

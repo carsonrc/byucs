@@ -1,52 +1,60 @@
-cmake_minimum_required(VERSION 3.19)
-project(project_1_main)
+cmake_minimum_required(VERSION 3.16)
+project(project_main)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(project_1_main main.cpp
+add_executable(project_main
+        main.cpp
+        AddAutomaton.cpp
+        AddAutomaton.h
         ColonAutomaton.cpp
         ColonAutomaton.h
         ColonDashAutomaton.cpp
         ColonDashAutomaton.h
-        Lexer.cpp
-        Lexer.h
-        Token.cpp
-        Token.h
         CommaAutomaton.cpp
         CommaAutomaton.h
-        PeriodAutomaton.cpp
-        PeriodAutomaton.h
-        QuestionMarkAutomaton.cpp
-        QuestionMarkAutomaton.h
-        WhitespaceAutomaton.cpp
-        WhitespaceAutomaton.h
-        LeftParenAutomaton.cpp
-        LeftParenAutomaton.h
-        RightParenAutomaton.cpp
-        RightParenAutomaton.h
-        MultiplyAutomaton.cpp
-        MultiplyAutomaton.h
-        AddAutomaton.cpp
-        AddAutomaton.h
-        SchemesAutomaton.cpp
-        SchemesAutomaton.h
-        RulesAutomaton.cpp
-        RulesAutomaton.h
-        QueriesAutomaton.cpp
-        QueriesAutomaton.h
-        IDAutomaton.cpp
-        IDAutomaton.h
-        StringAutomaton.cpp
-        StringAutomaton.h
         CommentAutomaton.cpp
         CommentAutomaton.h
-        FactsAutomaton.cpp
-        FactsAutomaton.h
-
-        Parser.cpp
-        Parser.h
+        Database.cpp
+        Database.h
         DatalogProgram.cpp
         DatalogProgram.h
-        Rule.h
+        FactsAutomaton.cpp
+        FactsAutomaton.h
+        Header.h
+        IDAutomaton.cpp
+        IDAutomaton.h
+        Interpreter.cpp
+        Interpreter.h
+        LeftParenAutomaton.cpp
+        LeftParenAutomaton.h
+        Lexer.cpp
+        Lexer.h
+        MultiplyAutomaton.cpp
+        MultiplyAutomaton.h
+        Parameter.h
+        Parser.cpp
+        Parser.h
+        PeriodAutomaton.cpp
+        PeriodAutomaton.h
         Predicate.h
-        Parameter.h Tuple.h Relation.h Header.h Database.cpp Database.h Interpreter.cpp Interpreter.h)
+        QueriesAutomaton.cpp
+        QueriesAutomaton.h
+        QuestionMarkAutomaton.cpp
+        QuestionMarkAutomaton.h
+        Relation.h
+        RightParenAutomaton.cpp
+        RightParenAutomaton.h
+        Rule.h
+        RulesAutomaton.cpp
+        RulesAutomaton.h
+        SchemesAutomaton.cpp
+        SchemesAutomaton.h
+        StringAutomaton.cpp
+        StringAutomaton.h
+        Token.cpp
+        Token.h
+        Tuple.h
+        WhitespaceAutomaton.cpp
+        WhitespaceAutomaton.h
+        )
