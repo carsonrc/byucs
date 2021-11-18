@@ -26,6 +26,10 @@ public:
     std::string GetParam() {
         return param;
     }
+
+    bool checkIsString(){
+            return isString;
+    };
 };
 
 

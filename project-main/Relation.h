@@ -34,12 +34,14 @@ public:
     std::string ToString() {
         std::string theString;
         for (auto i : relationTuples) {
-            for (int j = 0; j < header.size(); j++) {
-                theString += header.at(j) + '=' + i.at(j) + ", ";
+            for (size_t j = 0; j < header.size(); j++) {
+                theString += "  " + header.at(j) + '=' + i.at(j) + ",";
             }
-            theString.pop_back();
-            theString.pop_back();
-            theString += '\n';
+            if (!(theString.empty())) {
+                theString.pop_back();
+                //theString.pop_back();
+                theString += '\n';
+            }
         }
         return theString;
     }
@@ -47,6 +49,86 @@ public:
     std::string GetName() {
         return name;
     }
+
+
+    Header CombineHeaders(Header head1, Header head2) {
+        std::vector<std::string> newHeaderContents;
+        std::vector<std::string> holder;
+        holder = head1.getVector();
+        holder.insert(newHeaderContents.end(),head2.getVector().begin(), head2.getVector().end());
+
+        std::sort(holder.begin(),holder.end());
+        std::unique(holder.begin(),holder.end());
+
+        for (int i = 0; i < head1.size(); i++) {
+            for (int j = 0; j < holder.size(); j++) {
+                if (head1.at(i) == holder.at(j)) {
+                    newHeaderContents.push_back(head1.at(i));
+                }
+            }
+        }
+
+        for (int i = 0; i < head2.size(); i++) {
+            for (int j = 0; j < holder.size(); j++) {
+                if (head1.at(i) == holder.at(j)) {
+                    newHeaderContents.push_back(head2.at(i));
+                }
+            }
+        }
+
+        return Header(newHeaderContents);
+    }
+
+    bool IsJoinable(Tuple tup1, Tuple tup2, std::vector<int> overlap1, std::vector<int> overlap2) {
+        for (int i = 0; i < overlap1.size(); i++) {
+            if (tup1.at(overlap1.at(i)) != tup2.at(overlap2.at(i))) {
+                return false;
+            }
+            else {
+                return true;
+            }
+        }
+
+    }
+
+    Tuple CombineTuples(Tuple tup1, Tuple tup2, std::vector<int> overlap1, std::vector<int> overlap2) {
+        std::vector<std::string> result = tup1.GetTupleContents();
+        std::vector<std::string> tup2UniqueElements = tup2.GetTupleContents();
+        for (int i = 0; i < overlap2.size(); i++) {
+            tup2UniqueElements.erase(tup2UniqueElements.begin() + overlap2.at(i));
+        }
+
+        result.insert(result.end(), tup2UniqueElements.begin(), tup2UniqueElements.end());
+        return Tuple(result);
+    }
+
+    Relation Join(std::string name, Relation rel1, Relation rel2) {
+        std::vector<int> overlap1;
+        std::vector<int> overlap2;
+
+        for (int i = 0; i < rel1.header.size(); i++) {
+            for (int j = 0; j < rel2.header.size(); i++) {
+                if (rel1.header.at(i) == rel2.header.at(j)) {
+                    overlap1.push_back(i);
+                    overlap2.push_back(j);
+                }
+            }
+        }
+
+
+        Relation result = Relation(name,CombineHeaders(rel1.header, rel2.header));
+
+        for (auto i : rel1.relationTuples) {
+            for (auto j : rel2.relationTuples) {
+                if (IsJoinable(i, j, overlap1, overlap2)) {
+                    CombineTuples(i,j,overlap1,overlap2);
+                }
+            }
+        }
+    }
+
+
+
 
     //select that finds all tuples that have a certain value in a certain column. Position is column.
     //returns a new relation with the same name and header
@@ -86,6 +168,22 @@ public:
         }
 
         return result;
+    }
+
+    void ChangeHeader(std::vector<std::string> newNames) {
+        this->header = Header(newNames);
+    }
+
+    Header GetHeader() {
+        return header;
+    }
+
+    bool IsNotEmpty() {
+        return !(relationTuples.empty());
+    }
+
+    size_t Size() {
+        return relationTuples.size();
     }
 
 

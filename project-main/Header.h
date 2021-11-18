@@ -7,6 +7,7 @@
 
 #include <vector>
 #include <string>
+#include<algorithm>
 
 #include "Parameter.h"
 
@@ -30,6 +31,10 @@ public:
     //necessary for for loops
     size_t size() {
         return headerContents.size();
+    }
+
+    std::vector<std::string> getVector() {
+        return headerContents;
     }
 
     Header projectHeader(const std::vector<size_t> positions) {

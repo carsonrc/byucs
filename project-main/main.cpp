@@ -39,13 +39,13 @@ int main(int argc, char* argv[]) {
          cout << "Failure!\n" << *tokens[e] << endl;
          return 0;
     }
-    cout << "Success!" << endl;
+    //cout << "Success!" << endl;
 
-    parser->GetDaddy().toCout();
+    //parser->GetDaddy().toCout();
 
-    auto intepreter = new Interpreter(parser->GetDaddy());
-    intepreter->GenerateDatabase();
-    intepreter->ToCout();
+    auto interpreter = new Interpreter(parser->GetDaddy());
+    interpreter->GenerateDatabase();
+    interpreter->EvaluateAllPredicates();
 
 
     delete lexer;

@@ -29,7 +29,9 @@ public:
 
     void ToCout();
 
-    Relation evaluatePredicate(Predicate);
+    Relation EvaluatePredicate(Predicate);
+
+    void EvaluateAllPredicates();
 
 };
 

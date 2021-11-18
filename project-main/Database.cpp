@@ -18,5 +18,11 @@ void Database::ToCout() {
         std::cout << "Relation " << i.first << ':' << std::endl;
         std::cout << i.second.ToString();
     }
+
+    std::cout << theRelations.begin()->second.ToString();
+    std::cout << theRelations.end()->second.ToString();
+
+    std::cout << Join
+
 }
 
