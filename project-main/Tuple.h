@@ -44,6 +44,36 @@ public:
         return theString;
     }
 
+    //
+    bool isJoinable(Tuple tup,std::vector<std::pair<size_t,size_t>> overlap) {
+        for (auto i : overlap) {
+            if(this->at(i.first) != tup.at(i.second)) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    // this function copies the caller tuple and argument tuple, deletes the tuple elements that are contained in the
+    //seconds
+    Tuple CombineTuples(Tuple tup, std::vector<std::pair<size_t,size_t>> overlap) {
+        std::vector<std::string> newTuple;
+        newTuple = this->tupleContents;
+        std::vector<std::string> modifiedArgTuple = tup.tupleContents;
+
+        // deletes all the tuple elements that are duplicates as contained in the vector of pairs's second
+        // note: this assumes that a prior check has been made to check that they are combinable
+        for (auto i : overlap) {
+            modifiedArgTuple.erase(modifiedArgTuple.begin()+i.second);
+        }
+
+        // concatenate modifiedArgTuple to end of the first tuple
+        newTuple.insert(newTuple.end(),modifiedArgTuple.begin(),modifiedArgTuple.end());
+
+        //return the new tuple
+        return Tuple(newTuple);
+    }
+
 };
 
 

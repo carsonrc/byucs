@@ -50,47 +50,6 @@ public:
         return name;
     }
 
-
-    Header CombineHeaders(Header head1, Header head2) {
-        std::vector<std::string> newHeaderContents;
-        std::vector<std::string> holder;
-        holder = head1.getVector();
-        holder.insert(newHeaderContents.end(),head2.getVector().begin(), head2.getVector().end());
-
-        std::sort(holder.begin(),holder.end());
-        std::unique(holder.begin(),holder.end());
-
-        for (int i = 0; i < head1.size(); i++) {
-            for (int j = 0; j < holder.size(); j++) {
-                if (head1.at(i) == holder.at(j)) {
-                    newHeaderContents.push_back(head1.at(i));
-                }
-            }
-        }
-
-        for (int i = 0; i < head2.size(); i++) {
-            for (int j = 0; j < holder.size(); j++) {
-                if (head1.at(i) == holder.at(j)) {
-                    newHeaderContents.push_back(head2.at(i));
-                }
-            }
-        }
-
-        return Header(newHeaderContents);
-    }
-
-    bool IsJoinable(Tuple tup1, Tuple tup2, std::vector<int> overlap1, std::vector<int> overlap2) {
-        for (int i = 0; i < overlap1.size(); i++) {
-            if (tup1.at(overlap1.at(i)) != tup2.at(overlap2.at(i))) {
-                return false;
-            }
-            else {
-                return true;
-            }
-        }
-
-    }
-
     Tuple CombineTuples(Tuple tup1, Tuple tup2, std::vector<int> overlap1, std::vector<int> overlap2) {
         std::vector<std::string> result = tup1.GetTupleContents();
         std::vector<std::string> tup2UniqueElements = tup2.GetTupleContents();
@@ -102,32 +61,27 @@ public:
         return Tuple(result);
     }
 
-    Relation Join(std::string name, Relation rel1, Relation rel2) {
-        std::vector<int> overlap1;
-        std::vector<int> overlap2;
+    //requires a name for the result relation and a second relation to join with
+    Relation Join(std::string name, Relation rel) {
 
-        for (int i = 0; i < rel1.header.size(); i++) {
-            for (int j = 0; j < rel2.header.size(); i++) {
-                if (rel1.header.at(i) == rel2.header.at(j)) {
-                    overlap1.push_back(i);
-                    overlap2.push_back(j);
+        //required to be able to return overlapping header entries
+        std::vector<std::pair<size_t,size_t>> overlap;
+
+        //returns the new header and populates the overlap vector of pairs
+        Header newHeader = this->header.CombineHeaders(rel.GetHeader(),overlap);
+
+        //initializes result relation
+        Relation result = Relation(name, newHeader);
+
+        for (auto i : this->relationTuples) {
+            for (auto j : rel.relationTuples) {
+                if (i.isJoinable(j,overlap)) {
+                    result.AddTuple(i.CombineTuples(j,overlap));
                 }
             }
         }
-
-
-        Relation result = Relation(name,CombineHeaders(rel1.header, rel2.header));
-
-        for (auto i : rel1.relationTuples) {
-            for (auto j : rel2.relationTuples) {
-                if (IsJoinable(i, j, overlap1, overlap2)) {
-                    CombineTuples(i,j,overlap1,overlap2);
-                }
-            }
-        }
+        return result;
     }
-
-
 
 
     //select that finds all tuples that have a certain value in a certain column. Position is column.

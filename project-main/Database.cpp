@@ -22,7 +22,6 @@ void Database::ToCout() {
     std::cout << theRelations.begin()->second.ToString();
     std::cout << theRelations.end()->second.ToString();
 
-    std::cout << Join
 
 }
 
