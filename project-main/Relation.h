@@ -8,6 +8,7 @@
 #include <string>
 #include <set>
 #include <vector>
+#include <iostream>
 
 #include "Tuple.h"
 #include "Header.h"
@@ -53,7 +54,7 @@ public:
     Tuple CombineTuples(Tuple tup1, Tuple tup2, std::vector<int> overlap1, std::vector<int> overlap2) {
         std::vector<std::string> result = tup1.GetTupleContents();
         std::vector<std::string> tup2UniqueElements = tup2.GetTupleContents();
-        for (int i = 0; i < overlap2.size(); i++) {
+        for (size_t i = 0; i < overlap2.size(); i++) {
             tup2UniqueElements.erase(tup2UniqueElements.begin() + overlap2.at(i));
         }
 
@@ -83,6 +84,29 @@ public:
         return result;
     }
 
+    //adds the tuples of two relations that have equal headers. should be called "union"
+    //note: call this on the DATABASE relation, not the JOIN resulting relation
+    bool unite(Relation rel) {
+        bool result = false;
+        std::string theString;
+        for (auto i : rel.relationTuples) {
+            if (this->relationTuples.insert(i).second) {
+                result = true;
+                for (size_t j = 0; j < header.size(); j++) {
+                    theString += "  " + header.at(j) + '=' + i.at(j) + ",";
+                }
+                if (!(theString.empty())) {
+                    theString.pop_back();
+                    //theString.pop_back();
+                    theString += '\n';
+                }
+            }
+            std::cout << theString;
+            theString = "";
+        }
+        return result;
+    }
+
 
     //select that finds all tuples that have a certain value in a certain column. Position is column.
     //returns a new relation with the same name and header
@@ -108,8 +132,8 @@ public:
         return result;
     }
 
-    //takes a vector of columns (by position) and makes a new relation with those columns, in the order
-    // they are given.
+    //takes a vector of columns (by position in this->relation) and makes a new relation with those columns,
+    // in the order they are given.
     Relation project(std::vector<size_t> positionList) {
         Relation result = Relation(this->name, this->header.projectHeader(positionList));
         for (auto i : relationTuples) {

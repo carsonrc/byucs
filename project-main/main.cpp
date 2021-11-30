@@ -7,6 +7,7 @@ using namespace std;
 #include "Lexer.h"
 #include "Parser.h"
 #include "Interpreter.h"
+#include "Database.h"
 
 int main(int argc, char* argv[]) {
 
@@ -46,6 +47,8 @@ int main(int argc, char* argv[]) {
     auto interpreter = new Interpreter(parser->GetDaddy());
     interpreter->GenerateDatabase();
     interpreter->EvaluateAllPredicates();
+
+    //interpreter->DatabaseCout();
 
 
     delete lexer;

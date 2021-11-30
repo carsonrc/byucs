@@ -34,6 +34,15 @@ public:
         return theString;
     }
 
+    Predicate GetHeadPredicate() {
+        return this->headPredicate;
+    }
+
+    //TODO: optimize by writing an at function instead of copying entire vect
+    std::vector<Predicate> GetBodyPredicates() {
+        return this->bodyPredicates;
+    }
+
 };
 
 

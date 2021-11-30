@@ -54,4 +54,6 @@ std::vector<Predicate> DatalogProgram::GetFacts() {
 std::vector<Predicate> DatalogProgram::GetQueries() {
     return queries;
 }
-
+std::vector<Rule> DatalogProgram::GetRules() {
+    return rules;
+}

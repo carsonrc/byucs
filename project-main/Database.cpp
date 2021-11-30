@@ -14,14 +14,10 @@ void Database::AddRelation(Relation newRelation) {
 }
 
 void Database::ToCout() {
-    for (auto i : theRelations) {
+    for (auto i: theRelations) {
         std::cout << "Relation " << i.first << ':' << std::endl;
         std::cout << i.second.ToString();
     }
 
-    std::cout << theRelations.begin()->second.ToString();
-    std::cout << theRelations.end()->second.ToString();
-
-
+    std::cout << "Weird Relation: " << '\n' << theRelations["snap"].Join("weird",theRelations["csg"]).ToString();
 }
-

@@ -7,6 +7,7 @@
 
 #include <vector>
 #include <string>
+#include <algorithm>
 
 #include "Parameter.h"
 
@@ -62,9 +63,19 @@ public:
         std::vector<std::string> modifiedArgTuple = tup.tupleContents;
 
         // deletes all the tuple elements that are duplicates as contained in the vector of pairs's second
+        // by first finding their values, storing them, then deleting them. This is to avoid the situation of shifting
+        //indices.
         // note: this assumes that a prior check has been made to check that they are combinable
+        std::vector<std::string> valuesToDelete;
         for (auto i : overlap) {
-            modifiedArgTuple.erase(modifiedArgTuple.begin()+i.second);
+            valuesToDelete.push_back(modifiedArgTuple.at(i.second));
+            //modifiedArgTuple.erase(modifiedArgTuple.begin()+i.second);
+        }
+
+        //now we delete the values in the modifiedArgTuple that are the duplicates.
+        for (auto i : valuesToDelete) {
+            auto pos = std::find(modifiedArgTuple.begin(),modifiedArgTuple.end(),i);
+            modifiedArgTuple.erase(pos);
         }
 
         // concatenate modifiedArgTuple to end of the first tuple

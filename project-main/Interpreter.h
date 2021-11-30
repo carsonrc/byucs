@@ -33,6 +33,10 @@ public:
 
     void EvaluateAllPredicates();
 
+    void DatabaseCout() {
+        theDatabase.ToCout();
+    }
+
 };
 
 
